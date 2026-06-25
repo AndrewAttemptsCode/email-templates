@@ -1,0 +1,32 @@
+<mjml>
+  <mj-body background-color="#f4f4f4">
+    <mj-wrapper background-color="#ffffff" border-top="40px solid #f4f4f4"  border-bottom="40px solid #f4f4f4" padding="0">
+      
+      <mj-section padding="10px">
+        <mj-column>
+          <mj-text font-size="25px" padding="0">
+            Logo
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text align="center" font-size="32px">
+            Welcome
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-button href="#">
+            Get started
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
