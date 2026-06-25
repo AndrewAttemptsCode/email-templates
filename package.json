@@ -1,0 +1,23 @@
+{
+  "name": "email-templates",
+  "version": "1.0.0",
+  "description": "Email Developing with MJML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewAttemptsCode/email-templates.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewAttemptsCode/email-templates/issues"
+  },
+  "homepage": "https://github.com/AndrewAttemptsCode/email-templates#readme",
+  "dependencies": {
+    "mjml": "^5.3.0"
+  }
+}
