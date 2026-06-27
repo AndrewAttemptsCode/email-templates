@@ -1,0 +1,168 @@
+<mjml>
+  <mj-body background-color="#8d8d8d">
+    <!-- Company Header -->
+    <mj-section background-color="#f0f0f0">
+      <mj-column>
+        <mj-text align="center" font-size="20px" font-style="italic" color="#626262">
+          My Company
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Image Header -->
+    <mj-section
+      background-url="https://1.bp.blogspot.com/-TPrfhxbYpDY/Uh3Refzk02I/AAAAAAAALw8/5sUJ0UUGYuw/s1600/New+York+in+The+1960's+-+70's+(2).jpg"
+      background-size="cover"
+      background-repeat="no-repeat"
+    >
+      <mj-column>
+        <mj-text
+          align="center"
+          color="#fff"
+          font-size="40px"
+          font-family="Helvetica Neue"
+          font-weight="bold"
+          padding="50px"
+        >
+          Slogan here
+        </mj-text>
+        <mj-button
+          background-color="#F63A4D"
+          href="#"
+          inner-padding="18px 32px"
+          font-weight="bold"
+        >
+          Promotion
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Introduction Text -->
+    <mj-section background-color="#fafafa">
+      <mj-column width="400px">
+        <mj-text
+          font-size="20px"
+          font-style="italic"
+          font-family="Helvetica Neue"
+          font-weight="bold"
+          color="#626262"
+        >
+          My Awesome Text
+        </mj-text>
+
+        <mj-text color="#525252" line-height="1.5">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim
+          eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras
+          id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh.
+          Proin nec commodo purus. Sed eget nulla elit. Nulla aliquet mollis
+          faucibus.
+        </mj-text>
+
+        <mj-button
+          background-color="#F45E43"
+          href="#"
+          inner-padding="18px 32px"
+          font-weight="bold"
+        >
+          Learn more
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- 2 columns section -->
+    <mj-section background-color="white">
+      <mj-column>
+        <mj-image
+          width="200px"
+          border-radius="2%"
+          src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg" 
+        />
+      </mj-column>
+
+      <mj-column>
+        <mj-text
+          font-style="italic"
+          font-size="20px"
+          font-family="Helvetica Neue"
+          font-weight="bold"
+          color="#626262"
+        >
+          Find amazing places
+        </mj-text>
+
+        <mj-text line-height="1.5">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim
+          eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras
+          id dui lectus. Vestibulum sed finibus lectus.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Icons -->
+    <mj-section background-color="#fbfbfb">
+      <mj-column>
+        <mj-image
+          src="https://plus.unsplash.com/premium_photo-1775383495792-0d93e0c5fe30"
+          width="100px"
+          height="100px"
+          padding="10px"
+          border-radius="50%"
+        />
+      </mj-column>
+      <mj-column>
+        <mj-image
+          src="https://images.unsplash.com/photo-1781768526842-20d1c17fde68"
+          width="100px"
+          height="100px"
+          padding="10px"
+          border-radius="50%"
+        />
+      </mj-column>
+      <mj-column>
+        <mj-image
+          src="https://images.unsplash.com/photo-1781795485048-3d98b53632db"
+          width="100px"
+          height="100px"
+          padding="10px"
+          border-radius="50%"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- Social icons -->
+    <mj-section background-color="#f0f0f0">
+      <mj-column>
+        <mj-social>
+          <mj-social-element
+            name="facebook"
+            href="facebook.com"
+            icon-size="32px"
+            padding="0 10px"
+            border-radius="25%"
+          />
+          <mj-social-element
+            name="twitter"
+            href="twitter.com"
+            icon-size="32px"
+            padding="0 10px"
+            border-radius="25%"
+          />
+          <mj-social-element 
+            name="youtube"
+            href="youtube.com"
+            icon-size="32px"
+            padding="0 10px"
+            border-radius="25%"
+          />
+          <mj-social-element 
+            name="instagram"
+            href="instagram.com"
+            icon-size="32px"
+            padding="0 10px"
+            border-radius="25%"
+          />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+  </mj-body>  
+</mjml>
