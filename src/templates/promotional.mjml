@@ -1,11 +1,54 @@
 <mjml>
   <mj-body>
-    <mj-section background-color="#684700" padding="5px 0">
+    <!-- Logo -->
+    <mj-section background-color="#eeebd4" padding="5px 0">
       <mj-column>
         <mj-image
           src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/logos/milky_logo.png"
           width="120px"
         />
+      </mj-column>
+    </mj-section>
+    <!-- info CTA -->
+    <mj-section background-color="#000000">
+      <mj-column width="570px">
+        <mj-text
+          align="center"
+          color="#eeebd4"
+          font-weight="bold"
+          font-size="16px"
+          font-family="monospace"
+          letter-spacing="2px"
+        >
+          NOW AVAILABLE AT OUR BAKERIES:
+        </mj-text>
+        <mj-text
+          align="center"
+          color="#eeebd4"
+          font-weight="bold"
+          font-size="78px"
+        >
+          COOKIES </br> & CREAM
+        </mj-text>
+        <mj-text
+          align="center"
+          color="#eeebd4"
+          font-size="18px"
+          line-height="1.5"
+        >
+          Everyone knows the best part of a black-and-white sandwich cookie is the middle - the twist, the scrape, the part you eat first.
+          </br></br>
+          That same nostalgia goodness is now at our bakeries as dreamy vanilla creme soft serve, finished with the chocolate cookie crumbs. Get it piled high as as sundae, or blended into a milkshake or milkquake, for a limited time.  
+        </mj-text>
+        <mj-button
+          color="#eeebd4"
+          font-weight="bold"
+          font-size="20px"
+          background-color="#e90090"
+          border-radius="25px"
+        >
+          FIND A BAKERY
+        </mj-button>
       </mj-column>
     </mj-section>
   </mj-body>  
