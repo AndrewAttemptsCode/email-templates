@@ -122,7 +122,7 @@
       <mj-column>
         <mj-text
           align="center"
-          color="#eeedb4"
+          color="#eeebd4"
           line-height="1.5"
         >
           &copy;2026 Milky Corp, All Rights Reserved.
@@ -138,10 +138,10 @@
       <mj-column>
         <mj-text
           align="center"
-          color="#eeedb4"
+          color="#eeebd4"
         >
           No longer want to receive these emails?
-          <a href="#" style="color:#eeedb4">Unsubscribe</a>
+          <a href="#" style="color:#eeebd4">Unsubscribe</a>
         </mj-text>
       </mj-column>
     </mj-section>
