@@ -52,6 +52,15 @@
         </mj-button>
       </mj-column>
     </mj-section>
+    <!-- Hero product image -->
+    <mj-section background-color="#000000">
+      <mj-column>
+        <mj-image
+          padding="0"
+          src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/4641fe5bd2013c1a84f1a73de33a1411cf5c1b9f/src/assets/images/oreo_sundae.png"
+        />
+      </mj-column>
+    </mj-section>
   </mj-body>  
 </mjml>
 
