@@ -46,6 +46,7 @@
           font-size="20px"
           background-color="#e90090"
           border-radius="25px"
+          href="#"
         >
           FIND A BAKERY
         </mj-button>
