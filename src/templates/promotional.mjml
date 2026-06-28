@@ -53,12 +53,96 @@
       </mj-column>
     </mj-section>
     <!-- Hero product image -->
-    <mj-section background-color="#000000">
+    <mj-section background-color="#000000" padding="0">
       <mj-column>
         <mj-image
           padding="0"
           src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/4641fe5bd2013c1a84f1a73de33a1411cf5c1b9f/src/assets/images/oreo_sundae.png"
         />
+      </mj-column>
+    </mj-section>
+    <!-- Footer section -->
+    <!-- Parent logo -->
+    <mj-section background-color="#000000" padding-bottom="0">
+      <mj-column>
+        <mj-button
+          align="center"
+          font-weight="bold"
+          font-size="20px"
+          background-color="#eeebd4"
+          color="#000000"
+        >
+          Milky Co.
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- Internal links -->
+    <mj-section background-color="#000000" padding="0">
+      <mj-column>
+        <mj-text
+          align="center"
+          color="#eeebd4"
+          font-weight="bold"
+        >
+          <a href="#" style="color:#eeebd4; font-weight:bold;">SHOP ONLINE</a>
+          |
+          <a href="#" style="color:#eeebd4; font-weight:bold;">FAQ</a>
+          |
+          <a href="#" style="color:#eeebd4; font-weight:bold;">LOCATIONS</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Social icons -->
+    <mj-section background-color="#000000" padding="0">
+      <mj-column>
+        <mj-social align="center" icon-size="32px">
+          <mj-social-element
+            name="instagram"
+            href="instagram.com/milkyco"
+            padding="0 5px"
+            background-color="transparent"
+          />
+          <mj-social-element
+            name="youtube"
+            href="youtube.com/milkco"
+            padding="0 5px"
+            background-color="transparent"
+          />
+          <mj-social-element
+            name="facebook"
+            href="facebook.com/milkyco"
+            padding="0 5px"
+            background-color="transparent"
+          />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- HQ Address -->
+    <mj-section background-color="#000000" padding="0">
+      <mj-column>
+        <mj-text
+          align="center"
+          color="#eeedb4"
+          line-height="1.5"
+        >
+          &copy;2026 Milky Corp, All Rights Reserved.
+          </br>
+          32 Cunnery Rd
+          </br>
+          Manchester, M60 1TN
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Unsubscribe section -->
+    <mj-section background-color="#000000">
+      <mj-column>
+        <mj-text
+          align="center"
+          color="#eeedb4"
+        >
+          No longer want to receive these emails?
+          <a href="#" style="color:#eeedb4">Unsubscribe</a>
+        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>  
