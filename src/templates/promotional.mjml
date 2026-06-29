@@ -1,7 +1,17 @@
 <mjml>
+  <mj-head>
+    <mj-style>
+     @media only screen and (max-width:400px) {
+       .hero-title div {
+         font-size: 54px !important;
+       }
+     }
+    </mj-style>  
+  </mj-head>
+
   <mj-body>
     <!-- Logo -->
-    <mj-section background-color="#eeebd4" padding="5px 0">
+    <mj-section background-color="#c5ba9c" padding="5px 0">
       <mj-column>
         <mj-image
           src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/logos/milky_logo.png"
@@ -14,7 +24,7 @@
       <mj-column width="570px">
         <mj-text
           align="center"
-          color="#eeebd4"
+          color="#c5ba9c"
           font-weight="bold"
           font-size="16px"
           font-family="monospace"
@@ -24,15 +34,16 @@
         </mj-text>
         <mj-text
           align="center"
-          color="#eeebd4"
+          color="#c5ba9c"
           font-weight="bold"
           font-size="78px"
+          css-class="hero-title"
         >
           COOKIES <br /> & CREAM
         </mj-text>
         <mj-text
           align="center"
-          color="#eeebd4"
+          color="#c5ba9c"
           font-size="18px"
           line-height="1.5"
         >
@@ -41,7 +52,7 @@
           That same nostalgia goodness is now at our bakeries as dreamy vanilla creme soft serve, finished with the chocolate cookie crumbs. Get it piled high as as sundae, or blended into a milkshake or milkquake, for a limited time.  
         </mj-text>
         <mj-button
-          color="#eeebd4"
+          color="#c5ba9c"
           font-weight="bold"
           font-size="20px"
           background-color="#e90090"
@@ -69,7 +80,7 @@
           align="center"
           font-weight="bold"
           font-size="20px"
-          background-color="#eeebd4"
+          background-color="#c5ba9c"
           color="#000000"
         >
           Milky Co.
@@ -81,14 +92,14 @@
       <mj-column>
         <mj-text
           align="center"
-          color="#eeebd4"
+          color="#c5ba9c"
           font-weight="bold"
         >
-          <a href="#" style="color:#eeebd4; font-weight:bold;">SHOP ONLINE</a>
+          <a href="#" style="color:#c5ba9c; font-weight:bold;">SHOP ONLINE</a>
           |
-          <a href="#" style="color:#eeebd4; font-weight:bold;">FAQ</a>
+          <a href="#" style="color:#c5ba9c; font-weight:bold;">FAQ</a>
           |
-          <a href="#" style="color:#eeebd4; font-weight:bold;">LOCATIONS</a>
+          <a href="#" style="color:#c5ba9c; font-weight:bold;">LOCATIONS</a>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -122,7 +133,7 @@
       <mj-column>
         <mj-text
           align="center"
-          color="#eeebd4"
+          color="#c5ba9c"
           line-height="1.5"
         >
           &copy;2026 Milky Corp, All Rights Reserved.
@@ -138,10 +149,10 @@
       <mj-column>
         <mj-text
           align="center"
-          color="#eeebd4"
+          color="#c5ba9c"
         >
           No longer want to receive these emails?
-          <a href="#" style="color:#eeebd4">Unsubscribe</a>
+          <a href="#" style="color:#c5ba9c">Unsubscribe</a>
         </mj-text>
       </mj-column>
     </mj-section>
