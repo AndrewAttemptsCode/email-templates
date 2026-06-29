@@ -28,7 +28,7 @@
           font-weight="bold"
           font-size="78px"
         >
-          COOKIES </br> & CREAM
+          COOKIES <br /> & CREAM
         </mj-text>
         <mj-text
           align="center"
@@ -37,7 +37,7 @@
           line-height="1.5"
         >
           Everyone knows the best part of a black-and-white sandwich cookie is the middle - the twist, the scrape, the part you eat first.
-          </br></br>
+          <br /><br />
           That same nostalgia goodness is now at our bakeries as dreamy vanilla creme soft serve, finished with the chocolate cookie crumbs. Get it piled high as as sundae, or blended into a milkshake or milkquake, for a limited time.  
         </mj-text>
         <mj-button
