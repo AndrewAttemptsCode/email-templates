@@ -6,7 +6,7 @@
          font-size: 54px !important;
        }
      }
-    </mj-style>  
+    </mj-style> 
   </mj-head>
 
   <mj-body>
@@ -16,6 +16,7 @@
         <mj-image
           src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/logos/milky_logo.png"
           width="120px"
+          padding="0"
         />
       </mj-column>
     </mj-section>
@@ -109,21 +110,21 @@
         <mj-social align="center" icon-size="32px">
           <mj-social-element
             name="instagram"
-            href="instagram.com/milkyco"
+            href="https://instagram.com/milkyco"
             padding="0 5px"
-            background-color="transparent"
+            border-radius="5%"
           />
           <mj-social-element
             name="youtube"
-            href="youtube.com/milkco"
+            href="https://youtube.com/milkco"
             padding="0 5px"
-            background-color="transparent"
+            border-radius="5%"
           />
           <mj-social-element
             name="facebook"
-            href="facebook.com/milkyco"
+            href="https://facebook.com/milkyco"
             padding="0 5px"
-            background-color="transparent"
+            border-radius="5%"
           />
         </mj-social>
       </mj-column>
@@ -152,7 +153,7 @@
           color="#c5ba9c"
         >
           No longer want to receive these emails?
-          <a href="#" style="color:#c5ba9c">Unsubscribe</a>
+          <a href="#" style="color:#c5ba9c; text-decoration:underline;">Unsubscribe</a>
         </mj-text>
       </mj-column>
     </mj-section>
