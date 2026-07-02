@@ -15,7 +15,7 @@
         text-transform="uppercase"
       >
         <a
-          href="#"
+          href="https://elixir-restaurant.com"
           style="
             display: inline-block;
             color: #ffffff;
@@ -56,7 +56,7 @@
           inner-padding="12px 24px"
           font-weight="bold"
           font-size="14px"
-          href="#"
+          href="https://elixir-restaurant.com/update-booking"
         >
           Update Booking
         </mj-button>
@@ -89,10 +89,30 @@
         </mj-text>
         <!-- Social icons -->
         <mj-social align="left" icon-size="32px">
-          <mj-social-element name="facebook" href="#" background-color="#9F1B32" color="#FFFFFF"/>
-          <mj-social-element name="x" href="#" background-color="#9F1B32" color="#FFFFFF"/>
-          <mj-social-element name="instagram" href="#" background-color="#9F1B32" color="#FFFFFF"/>
-          <mj-social-element name="web" href="#" background-color="#9F1B32" color="#FFFFFF"/>
+          <mj-social-element
+            name="facebook-noshare"
+            href="https://facebook.com/elixir-restaurant"
+            background-color="#9F1B32"
+            color="#FFFFFF"
+          />
+          <mj-social-element
+            name="x-noshare"
+            href="https://x.com/elixir-restaurant"
+            background-color="#9F1B32"
+            color="#FFFFFF"
+          />
+          <mj-social-element
+            name="instagram-noshare"
+            href="https://instagram.com/elixir-restaurant"
+            background-color="#9F1B32"
+            color="#FFFFFF"
+          />
+          <mj-social-element
+            name="web-noshare"
+            href="https://elixir-restaurant.com"
+            background-color="#9F1B32"
+            color="#FFFFFF"
+          />
         </mj-social>
       </mj-column>
       <!-- Map location -->
