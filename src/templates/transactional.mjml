@@ -97,7 +97,7 @@
       </mj-column>
       <!-- Map location -->
       <mj-column>
-        <mj-image src="https://img.createsend1.com/resize/ei/y/22/2C1/DCE/csimport/11-marketing.jpg" alt="" />
+        <mj-image href="#" src="https://img.createsend1.com/resize/ei/y/22/2C1/DCE/csimport/11-marketing.jpg" alt="" />
       </mj-column>
     </mj-section>
   </mj-body>
