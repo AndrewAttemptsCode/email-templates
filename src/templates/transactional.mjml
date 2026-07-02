@@ -62,6 +62,35 @@
         </mj-button>
       </mj-column>
     </mj-section>
+    <!-- Company info section -->
+    <mj-section>
+      <mj-column>
+        <mj-text
+          font-size="14px"
+          font-weight="bold"
+          letter-spacing="1px"
+          color="#A3A3A3"
+        >
+          FIND US
+        </mj-text>
+        <!-- Contact info -->
+        <mj-text font-size="14px" color="#5D5D5D" padding-bottom="0">
+          <span style="font-weight: bold; color: #5D5D5D">Book online:</span> restaurant.com
+        </mj-text>
+        <mj-text font-size="14px" color="#5D5D5D" padding-bottom="0">
+          <span style="font-weight: bold;">Phone:</span> (415) 555-1234
+        </mj-text>
+        <mj-text font-size="14px" color="#5D5D5D" padding-bottom="0">
+          <span style="font-weight: bold;">Email:</span> bookings@restaurant.com
+        </mj-text>  
+        <mj-text font-size="14px" color="#5D5D5D">
+          <span style="font-weight: bold;">Address:</span> 1 Main Street
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
 
