@@ -64,7 +64,7 @@
     </mj-section>
     <!-- Company info section -->
     <mj-section>
-      <mj-column>
+      <mj-column vertical-align="bottom">
         <mj-text
           font-size="14px"
           font-weight="bold"
@@ -94,8 +94,9 @@
           <mj-social-element name="web" href="#" background-color="#9F1B32" color="#FFFFFF"/>
         </mj-social>
       </mj-column>
+      <!-- Map location -->
       <mj-column>
-        
+        <mj-image src="https://img.createsend1.com/resize/ei/y/22/2C1/DCE/csimport/11-marketing.jpg" alt="" />
       </mj-column>
     </mj-section>
   </mj-body>
