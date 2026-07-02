@@ -75,7 +75,7 @@
         </mj-text>
         <!-- Contact info -->
         <mj-text font-size="14px" color="#5D5D5D" padding-bottom="0">
-          <span style="font-weight: bold; color: #5D5D5D">Book online:</span> restaurant.com
+          <span style="font-weight: bold;">Book online:</span> restaurant.com
         </mj-text>
         <mj-text font-size="14px" color="#5D5D5D" padding-bottom="0">
           <span style="font-weight: bold;">Phone:</span> (415) 555-1234
@@ -86,6 +86,13 @@
         <mj-text font-size="14px" color="#5D5D5D">
           <span style="font-weight: bold;">Address:</span> 1 Main Street
         </mj-text>
+        <!-- Social icons -->
+        <mj-social align="left" icon-size="32px">
+          <mj-social-element name="facebook" href="#" background-color="#9F1B32" color="#FFFFFF"/>
+          <mj-social-element name="x" href="#" background-color="#9F1B32" color="#FFFFFF"/>
+          <mj-social-element name="instagram" href="#" background-color="#9F1B32" color="#FFFFFF"/>
+          <mj-social-element name="web" href="#" background-color="#9F1B32" color="#FFFFFF"/>
+        </mj-social>
       </mj-column>
       <mj-column>
         
