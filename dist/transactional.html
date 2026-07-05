@@ -158,7 +158,7 @@
                       </td>
                     </tr>
                     <tr>
-                      <td align="center" style="font-size:0px;padding:10px;word-break:break-word;">
+                      <td align="center" style="font-size:0px;padding:0 10px;word-break:break-word;">
                         <p style="border-top:solid 2px #9F1B32;font-size:1px;margin:0px auto;width:100%;">
                         </p>
                         <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 2px #9F1B32;font-size:1px;margin:0px auto;width:580px;" role="presentation" width="580px" ><tr><td style="height:0;line-height:0;"> &nbsp;
@@ -167,17 +167,7 @@
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:left;color:#5D5D5D;">Hi [guest_name],</div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="left" style="font-size:0px;padding:10px;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:left;color:#5D5D5D;">We look forward to welcoming you on [day] at [time]. Your reservation is for [booking_amount] people.</div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="left" style="font-size:0px;padding:10px;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:left;color:#5D5D5D;">If you have any questions or special requests please feel free to contact us. To cancel or update your booking simply click the button below.</div>
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:left;color:#5D5D5D;">Hi {{guestName}}, <br /><br /> We look forward to welcoming you on {{bookingDay}} at {{bookingTime}}. Your reservation is for {{bookingSeats}} people. <br /><br /> If you have any questions or special requests please feel free to contact us. To cancel or update your booking simply click the button below. <br /></div>
                       </td>
                     </tr>
                     <tr>
@@ -186,7 +176,7 @@
                           <tbody>
                             <tr>
                               <td align="center" bgcolor="#9F1B32" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:12px 24px;background:#9F1B32;" valign="middle">
-                                <a href="https://elixir-restaurant.com/update-booking" style="display:inline-block;background:#9F1B32;color:#FFFFFF;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:12px 24px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> Update Booking </a>
+                                <a href="{{updateBookingUrl}}" style="display:inline-block;background:#9F1B32;color:#FFFFFF;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:12px 24px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> Update Booking </a>
                               </td>
                             </tr>
                           </tbody>
