@@ -40,15 +40,11 @@
         >
           YOUR UPCOMING RESERVATION
         </mj-text>
-        <mj-divider padding="10px" border-width="2px" border-color="#9F1B32" padding="0 25px" />
+        <mj-divider border-width="2px" border-color="#9F1B32" padding="0 10px" />
         <mj-text padding="10px" font-size="16px" line-height="1.5" color="#5D5D5D">
-          Hi [guest_name],
-        </mj-text>
-        <mj-text padding="10px" font-size="16px" line-height="1.5" color="#5D5D5D">
-          We look forward to welcoming you on [day] at [time]. Your reservation is for [booking_amount] people.
-        </mj-text>
-        <mj-text padding="10px" font-size="16px" line-height="1.5" color="#5D5D5D">
-          If you have any questions or special requests please feel free to contact us. To cancel or update your booking simply click the button below.
+          Hi {{guestName}}, <br /><br />
+          We look forward to welcoming you on {{bookingDay}} at {{bookingTime}}. Your reservation is for {{bookingSeats}} people. <br /><br />
+          If you have any questions or special requests please feel free to contact us. To cancel or update your booking simply click the button below. <br />
         </mj-text>
         <mj-button
           align="left"
@@ -58,7 +54,7 @@
           inner-padding="12px 24px"
           font-weight="bold"
           font-size="14px"
-          href="https://elixir-restaurant.com/update-booking"
+          href="{{updateBookingUrl}}"
         >
           Update Booking
         </mj-button>
