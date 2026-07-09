@@ -1,2 +1,24 @@
+<mjml>
+  <mj-body>
+    <mj-hero
+      mode="fixed-height"
+      background-url="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/backgrounds/account_activation_header_bg.png"
+      background-color="#008566"
+      height="230px"
+      background-height="230px"
+      background-width="600px"
+    >
+      <mj-text
+        color="#ffffff"
+        font-weight="bold"
+        font-size="100px"
+        padding="90px 25px 0"
+      >
+        Welcome
+      </mj-text>
+    </mj-hero>
+  </mj-body>
+</mjml>
+
 
 <!-- Reference: https://pro-really-good-emails.s3.eu-west-1.amazonaws.com/emails/please-confirm-your-subscription-community-trust.png -->
