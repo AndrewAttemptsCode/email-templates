@@ -59,6 +59,14 @@
         </mj-button>
       </mj-column>
     </mj-section>
+    <!-- Decorative devider image -->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image
+          padding="0"
+          src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/spacers/account_activation_spacer_decoration.png" />
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
 
