@@ -9,7 +9,7 @@
   <mj-body>
     <mj-hero
       mode="fixed-height"
-      background-url="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/backgrounds/account_activation_header_bg.png"
+      background-url="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/0102b7ab257c05d1110f28129034ca3e4f0be724/src/assets/images/backgrounds/account_activation_header_bg.png"
       background-color="#008566"
       height="230px"
       background-height="230px"
