@@ -48,6 +48,8 @@
           If you have any concerns or questions please do not hesitate to <a href="{{ contactForm }}" style="color: #d3cb3b;">contact us</a>.
         </mj-text>
         <mj-button
+          padding-top="40px"
+          inner-padding="12px 25px"
           color="#008566"
           background-color="#ffffff"
           font-weight="bold"
