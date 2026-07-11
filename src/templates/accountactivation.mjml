@@ -2,11 +2,14 @@
   <mj-head>
     <mj-font name="Young Serif"
       href="https://fonts.googleapis.com/css2?family=Young+Serif" />
+    <mj-attributes>
+      <mj-text line-height="1.5" />
+    </mj-attributes>
   </mj-head>
   <mj-body>
     <mj-hero
       mode="fixed-height"
-      background-url="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/backgrounds/account_activation_header_bg.png"
+      background-url="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/backgrounds/account_activation_header_bg.png"
       background-color="#008566"
       height="230px"
       background-height="230px"
@@ -22,6 +25,40 @@
         Welcome
       </mj-text>
     </mj-hero>
+    <!-- Main section -->
+    <mj-section
+      background-color="#008566"
+      padding-top="0"
+    >
+      <mj-column>
+        <mj-text
+          color="#ffffff"
+          font-weight="bold"
+          font-size="24px"
+          padding-bottom="24px"
+        >
+          News & Updates From The Trust
+        </mj-text>
+        <mj-text
+          color="#ffffff"
+          font-size="16px"
+        >
+          Dear New Subscriber,<br/><br/>
+          Thank you for signing up for news from The Old York Community Trust. Please confirm your subscription below and add us to your contact list to ensure you receive the emails you have requested.<br/><br/>
+          If you have any concerns or questions please do not hesitate to <a href="{{ contactForm }}" style="color: #d3cb3b;">contact us</a>.
+        </mj-text>
+        <mj-button
+          color="#008566"
+          background-color="#ffffff"
+          font-weight="bold"
+          font-weight="16px"
+          border-radius="20px"
+          href="{{ confirmEmail }}"
+        >
+          Confirm Your Email
+        </mj-button>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
 
