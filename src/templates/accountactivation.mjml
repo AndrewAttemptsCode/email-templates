@@ -26,23 +26,25 @@
   <mj-body>
     <!-- Header section -->
     <mj-section padding="10px">
-      <mj-column>
-        <mj-image
-          align="left"
-          width="150px"
-          padding="0"
-          src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/logos/account_activation_logo.png"
-        />
-      </mj-column>
-      <mj-column>
-        <mj-text
-          align="right"
-          font-size="16px"
-          padding="10px 0"
-        >
-          {{ currentDate }}
-        </mj-text>
-      </mj-column>
+      <mj-group>
+        <mj-column>
+          <mj-image
+            align="left"
+            width="150px"
+            padding="0"
+            src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/logos/account_activation_logo.png"
+          />
+        </mj-column>
+        <mj-column>
+          <mj-text
+            align="right"
+            font-size="16px"
+            padding="10px 0"
+          >
+            {{ currentDate }}
+          </mj-text>
+        </mj-column>
+      </mj-group>
     </mj-section>
     <mj-hero
       mode="fixed-height"
