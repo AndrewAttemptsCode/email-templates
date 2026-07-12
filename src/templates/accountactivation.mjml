@@ -5,6 +5,23 @@
     <mj-attributes>
       <mj-text line-height="1.5" />
     </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 599px) {
+        .hero-heading div {
+          font-size: 80px !important;
+        }
+      }
+      @media only screen and (max-width: 410px) {
+        .hero-heading div {
+          font-size: 70px !important;
+        }
+      }
+      @media only screen and (max-width: 374px) {
+        .hero-heading div {
+          font-size: 58px !important;
+        }
+      }
+    </mj-style>
   </mj-head>
   <mj-body>
     <!-- Header section -->
@@ -41,6 +58,7 @@
         font-weight="bold"
         font-size="100px"
         padding="90px 25px 0"
+        css-class="hero-heading"
       >
         Welcome
       </mj-text>
