@@ -8,15 +8,15 @@
     <mj-style>
       @media only screen and (max-width: 599px) {
         .hero-heading div {
-          font-size: 80px !important;
+          font-size: 72px !important;
         }
       }
       @media only screen and (max-width: 410px) {
         .hero-heading div {
-          font-size: 70px !important;
+          font-size: 64px !important;
         }
       }
-      @media only screen and (max-width: 374px) {
+      @media only screen and (max-width: 380px) {
         .hero-heading div {
           font-size: 58px !important;
         }
