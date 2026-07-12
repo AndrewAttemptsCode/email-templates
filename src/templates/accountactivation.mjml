@@ -119,6 +119,22 @@
         </mj-text>
       </mj-column>
     </mj-section>
+    <!-- Footer section -->
+    <mj-section>
+      <mj-column>
+        <mj-text
+          padding="0 5px"
+          color="#8a8a8a"
+        >
+          <a href="{{ managePreferences }}">Manage</a> your preferences | <a href="{{ optOut }}">Opt out</a> using TrueRemove &trade;<br/>
+          Got this as a forward? <a href="{{ emailSignup }}">Sign up</a> to receive our future emails.<br/>
+          View this email <a href="{{ viewOnline }}">online</a>.<br/><br/>
+          100 Third Avenue, 10th Floor | Old York, OY 10000 US<br/><br/>
+          This email was sent to <a href="mailto: {{ userEmail }}" style="color: #8a8a8a; text-decoration: none;">{{ userEmail }}</a><br/>
+          To continue receiving our emails, add us to your address book.
+        </mj-text>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
 
