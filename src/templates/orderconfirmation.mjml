@@ -1,8 +1,18 @@
 <mjml>
   <mj-body>
-    
+    <!-- Logo section -->
+    <mj-section background-color="#f0eeeb">
+      <mj-column>
+        <mj-image
+          width="286px"
+          src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/logos/orderconfirmation_logo.png"
+          href="https://www.totallynotsquatch.com"
+        />
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
 
 
 <!-- Reference https://pro-really-good-emails.s3.eu-west-1.amazonaws.com/emails/your-dr-squatch-order-65005000-has-been-placed.png -->
+<!-- bg color #f0eeeb -->
