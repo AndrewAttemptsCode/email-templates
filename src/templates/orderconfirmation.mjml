@@ -35,7 +35,22 @@
           Hey {{ firstName }} {{ lastName }},<br/><br/>
           We've received your order and have a team surprisingly nimble Sasquatches working to put it together now. In the meantime, feel free to get dirty and rugged — Dr. Squatch is on the way.
           If you have any questions about your order, feel free to reply to this email directly! <br/><br/>
-          <strong>Please note that we can only update or cancel orders within 30minutes of when you originally placed the order.</strong>
+          <strong>Please note that we can only update or cancel orders within 30 minutes of when you originally placed the order.</strong>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Order details section -->
+    <!-- Order tracking -->
+    <mj-section>
+      <mj-column>
+        <mj-divider
+          padding="8px 0 10px"
+          border-width="1px"
+          border-color="#E5E5E5"
+        />
+        <mj-text align="center" font-weight="bold">
+          <span style="font-size: 26px; color: #223521;">ORDER NO. #{{ orderNumber }}</span>
+          <span style="display: block; font-size: 16px; color: #e6a800">{{ orderDate }}</span>
         </mj-text>
       </mj-column>
     </mj-section>
