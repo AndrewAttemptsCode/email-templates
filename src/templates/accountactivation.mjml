@@ -1,31 +1,12 @@
 <mjml>
   <mj-head>
-    <mj-font name="Young Serif"
-      href="https://fonts.googleapis.com/css2?family=Young+Serif" />
     <mj-attributes>
       <mj-text line-height="1.5" />
     </mj-attributes>
-    <mj-style>
-      @media only screen and (max-width: 599px) {
-        .hero-heading div {
-          font-size: 72px !important;
-        }
-      }
-      @media only screen and (max-width: 410px) {
-        .hero-heading div {
-          font-size: 64px !important;
-        }
-      }
-      @media only screen and (max-width: 380px) {
-        .hero-heading div {
-          font-size: 58px !important;
-        }
-      }
-    </mj-style>
   </mj-head>
   <mj-body>
     <!-- Header section -->
-    <mj-section padding="10px">
+    <mj-section padding="10px" background-color="#ffffff">
       <mj-group>
         <mj-column>
           <mj-image
@@ -46,25 +27,16 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-hero
-      mode="fixed-height"
-      background-url="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/0102b7ab257c05d1110f28129034ca3e4f0be724/src/assets/images/backgrounds/account_activation_header_bg.png"
-      background-color="#008566"
-      height="230px"
-      background-height="230px"
-      background-width="600px"
-    >
-      <mj-text
-        color="#ffffff"
-        font-family="Young Serif, Arial"
-        font-weight="bold"
-        font-size="100px"
-        padding="90px 25px 0"
-        css-class="hero-heading"
-      >
-        Welcome
-      </mj-text>
-    </mj-hero>
+    <!-- Hero header -->
+    <mj-section padding="0" background-color="#008566">
+      <mj-column>
+        <mj-image
+          src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/hero/account_activation_header.png"
+          alt="Welcome to The Old York Community Trust"
+          padding="0"
+        />
+      </mj-column>
+    </mj-section>
     <!-- Main section -->
     <mj-section
       background-color="#008566"
@@ -102,7 +74,7 @@
       </mj-column>
     </mj-section>
     <!-- Decorative devider image -->
-    <mj-section padding="0">
+    <mj-section padding="0" background-color="#008566">
       <mj-column>
         <mj-image
           padding="0"
@@ -140,7 +112,7 @@
       </mj-column>
     </mj-section>
     <!-- Footer section -->
-    <mj-section>
+    <mj-section background-color="#ffffff">
       <mj-column>
         <mj-text
           padding="0 5px"
