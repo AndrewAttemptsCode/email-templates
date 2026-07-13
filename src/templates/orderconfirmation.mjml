@@ -1,4 +1,9 @@
 <mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text line-height="1.5" />
+    </mj-attributes>
+  </mj-head>
   <mj-body>
     <!-- Logo section -->
     <mj-section background-color="#f0eeeb">
@@ -10,9 +15,35 @@
         />
       </mj-column>
     </mj-section>
+    <!-- Order confirmation section -->
+    <mj-section>
+      <mj-column>
+        <mj-text
+          font-weight="bold"
+          font-size="32px"
+          color="#223521"
+          align="center"
+        >
+          ORDER CONFIRMATION
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          color="#5a3714"
+          align="center"
+          padding-top="30px"
+        >
+          Hey {{ firstName }} {{ lastName }},<br/><br/>
+          We've received your order and have a team surprisingly nimble Sasquatches working to put it together now. In the meantime, feel free to get dirty and rugged — Dr. Squatch is on the way.
+          If you have any questions about your order, feel free to reply to this email directly! <br/><br/>
+          <strong>Please note that we can only update or cancel orders within 30minutes of when you originally placed the order.</strong>
+        </mj-text>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
 
 
 <!-- Reference https://pro-really-good-emails.s3.eu-west-1.amazonaws.com/emails/your-dr-squatch-order-65005000-has-been-placed.png -->
 <!-- bg color #f0eeeb -->
+<!-- green accent #223521 -->
+<!-- brown accent #5a3714 -->
