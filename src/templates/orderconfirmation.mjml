@@ -143,6 +143,24 @@
         />
       </mj-column>
     </mj-section>
+    <!-- Payment info type -->
+    <mj-section padding="0 0 20px">
+      <mj-column>
+        <mj-table padding="0">
+          <td width="50">
+            <img
+              width="50"
+              style="display: block; border: 0; width: 50px;"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/960px-Mastercard-logo.svg.png" alt="mastercard payment type"
+            />
+          </td>
+          <td style="padding-left: 10px; font-size: 16px; color: #5a3714; font-weight: 500;">
+            Mastercard <span style="color: #e6a800;">(**** **** **** 1234)</span>
+          </td>
+          <td align="right" style="font-size: 16px; color: #5a3714; font-weight: 500;">£43.08</td>
+        </mj-table>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
 
