@@ -88,11 +88,11 @@
               </a>
             </td>
             <td style="text-align: left;">
-              <span style="color: #5a3714; font-size: 16px;">Refresh Hair Care Kit</span>
+              <span style="color: #5a3714; font-size: 16px; font-weight: 500;">Refresh Hair Care Kit</span>
               <span style="display: block; color: #e6a800; font-size: 16px;">Hair Care / One-Time</span>
             </td>
-            <td style="text-align: right; font-size: 16px; color: #5a3714;">x 1</td>
-            <td style="text-align: right; font-size: 16px; color: #5a3714;">£30.40</td>
+            <td style="text-align: right; font-size: 16px; color: #5a3714; font-weight: 500;">x 1</td>
+            <td style="text-align: right; font-size: 16px; color: #5a3714; font-weight: 500;">£30.40</td>
           </tr>
         </mj-table>
         <mj-divider
