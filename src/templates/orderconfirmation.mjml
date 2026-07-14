@@ -161,6 +161,38 @@
         </mj-table>
       </mj-column>
     </mj-section>
+    <!-- Shipping and billing info section -->
+    <mj-section padding="20px 0">
+      <mj-column>
+        <mj-text padding="0" color="#5a3714" font-size="16px">
+          <span style="color: #223521; font-weight: bold; font-size: 18px;">SHIPPING ADDRESS</span><br />
+          {{ firstName }} {{ lastName }}<br />
+          {{ streetAddress }}<br />
+          {{ cityAddress }}, {{ postCode }}<br />
+          {{ countryAddress }}<br />
+          Tel. {{ contactNumber }}
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text padding="0" align="right" color="#5a3714" font-size="16px">
+          <span style="color: #223521; font-weight: bold; font-size: 18px;">CUSTOMER</span><br />
+          {{ firstName }} {{ lastName }}<br />
+          {{ streetAddress }}<br />
+          {{ cityAddress }}, {{ postCode }}<br />
+          {{ countryAddress }}<br />
+          <span style="color: #e6a800">{{ userEmail }}</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-divider
+          padding="20px 0"
+          border-width="1px"
+          border-color="#E5E5E5"
+        />
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
 
