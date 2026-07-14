@@ -125,6 +125,24 @@
         </mj-table>
       </mj-column>
     </mj-section>
+    <!-- Payment info section -->
+    <mj-section>
+      <mj-column>
+        <mj-text
+          color="#223521"
+          font-weight="bold"
+          font-size="18px"
+          padding="10px 0 0"
+        >
+          PAYMENT INFO
+        </mj-text>
+        <mj-divider
+          padding="0"
+          border-width="1px"
+          border-color="#E5E5E5"
+        />
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
 
