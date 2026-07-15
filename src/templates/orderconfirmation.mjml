@@ -3,6 +3,11 @@
     <mj-attributes>
       <mj-text line-height="1.5" />
     </mj-attributes>
+    <mj-style>
+      .full-width-link a {
+        width: 100% !important;
+      }
+    </mj-style>
   </mj-head>
   <mj-body>
     <!-- Logo section -->
@@ -217,6 +222,60 @@
         >
           VIEW ORDER STATUS <span style="padding-left: 5px;">&#9654;</span>
         </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- SMS promo section -->
+    <mj-section padding="25px 0">
+      <mj-column padding="20px 25px" background-color="#223521" border-radius="25px">
+        <mj-text
+          color="#ffffff"
+          align="center"
+          font-size="40px"
+          font-weight="bold"
+          line-height="1.1"
+        >
+          SQUATCH <br/>
+          MESSAGING SQUAD
+        </mj-text>
+        <mj-text
+          align="center"
+          font-size="18px"
+          font-weight="500"
+          color="#ffffff"
+        >
+          Sign-up for SMS and be the first to know about product launches, promotions and more!
+        </mj-text>
+        <mj-button
+          width="100%"
+          inner-padding="15px 0"
+          background-color="#cc6328"
+          color="#ffffff"
+          font-weight="bold"
+          font-size="20px"
+          href="{{ smsSignup }}"
+          css-class="full-width-link"
+        >
+          SIGN UP
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 0 25px">
+      <mj-column>
+        <mj-text
+          align="center"
+          color="#223521"
+        >
+          I agree to receive recurring automated marketing text messages (e.g. cart reminders) at the phone number provided.
+          Consent is not a condition to purchase. Msg and data rates may apply. Msg frequency varies. Reply HELP for help and STOP to cancel.<br/>
+          View our <a style="color: #e6a800; text-decoration: none;" href="{{ termsOfService }}">Terms of Service</a> and <a style="color: #e6a800; text-decoration: none;" href="{{ privacyPolicy }}">Privacy Policy</a>.
+        </mj-text>
+        <mj-text
+          align="center"
+          color="#5a3714"
+          font-size="16px"
+        >
+          If you have any questions, please reply to this email and the Squatch Care Squad will be able to help!
+        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
