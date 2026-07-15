@@ -193,6 +193,32 @@
         />
       </mj-column>
     </mj-section>
+    <!-- Order status -->
+    <mj-section padding="20px 0 0">
+      <mj-column>
+        <mj-text
+          align="center"
+          color="#5a3714"
+          font-size="16px"
+          padding="0"
+        >
+          You can follow the status of your order by clicking the button below:
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-button
+          inner-padding="15px 25px"
+          background-color="#cc6328"
+          color="#ffffff"
+          font-weight="bold"
+          href="{{ orderStatus }}"
+        >
+          VIEW ORDER STATUS <span style="padding-left: 5px;">&#9654;</span>
+        </mj-button>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
 
@@ -202,3 +228,4 @@
 <!-- green accent #223521 -->
 <!-- brown accent #5a3714 -->
 <!-- orange accent #e6a800 -->
+<!-- light brown accent #cc6328 -->
