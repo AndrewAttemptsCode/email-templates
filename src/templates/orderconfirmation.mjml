@@ -398,17 +398,20 @@
     <!-- Footer section -->
     <mj-section background-color="#352e2e">
       <mj-column>
+        <!-- Footer logo -->
         <mj-image
           align="center"
           width="125px"
           src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/logos/orderconfirmation_footer_logo.png"
         />
+        <!-- Questions section -->
         <mj-text
           align="center"
           color="#ffffff"
         >
           Questions? Contact <a href="{{ careSquadUrl }}" style="color: #e6a800; text-decoration: none">Squatch Care Squad</a>
         </mj-text>
+        <!-- Navigation section -->
         <mj-navbar base-url="https://squatch">
           <mj-navbar-link
             color="#ffffff"
@@ -439,6 +442,7 @@
             SUBSCRIPTION
           </mj-navbar-link>
         </mj-navbar>
+        <!-- Socials Section -->
         <mj-social icon-size="32px">
           <mj-social-element
             name="facebook-noshare"
