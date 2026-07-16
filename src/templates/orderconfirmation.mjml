@@ -280,6 +280,121 @@
         </mj-text>
       </mj-column>
     </mj-section>
+    <!-- Favourite products section -->
+    <!-- Favourites title section -->
+    <mj-section padding-bottom="0">
+      <mj-column>
+        <mj-text
+          align="center"
+          font-size="34px"
+          font-weight="bold"
+          color="#223521"
+          line-height="1.1"
+        >
+          OTHER SQUATCH FAVOURITES:
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- First row -->
+    <mj-section>
+      <mj-column
+        width="48%"
+        background-color="#f6f6f6"
+      >
+        <mj-image src="https://cdn.shopify.com/s/files/1/0555/4431/5957/files/oldnight-Toothpaste-01-Product-Card-Tenh_3ad94aa3-f908-452e-87dc-753eed60af04.png" alt="" />
+        <mj-text
+          align="center"
+          padding="0"
+          color="#223521"
+          font-size="16px"
+        >
+          Toothpaste Kit
+        </mj-text>
+        <mj-button
+          background-color="transparent"
+          color="#cc6328"
+          font-size="16px"
+          padding-top="0"
+          href="{{ favouriteItem1Url }}"
+        >
+          SHOP NOW <span style="padding-left: 5px;">&#9654;</span>
+        </mj-button>
+      </mj-column>
+      <mj-column width="4%" />
+      <mj-column
+        width="48%"
+        background-color="#f6f6f6"
+      >
+        <mj-image src="https://cdn.shopify.com/s/files/1/0555/4431/5957/files/Bay-Rum-Bar-Soap-01-Product-Card-01-llsl_335cb394-352a-4b11-8ac5-51c7c270dc03.png" alt="" />
+        <mj-text
+          align="center"
+          padding="0"
+          color="#223521"
+          font-size="16px"
+        >
+          Bay Rum
+        </mj-text>
+        <mj-button
+          background-color="transparent"
+          color="#cc6328"
+          font-size="16px"
+          padding-top="0"
+          href="{{ favouriteItem1Url }}"
+        >
+          SHOP NOW <span style="padding-left: 5px;">&#9654;</span>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- Second row -->
+    <mj-section padding-top="4px">
+      <mj-column
+        width="48%"
+        background-color="#f6f6f6"
+      >
+        <mj-image src="https://cdn.shopify.com/s/files/1/0555/4431/5957/files/Coconut-Castaway-Hair-Care-Duo-01-Product-Card-YQaW_6b709126-3529-48b5-a321-7e0ea5abf2c7.png" alt="" />
+        <mj-text
+          align="center"
+          padding="0"
+          color="#223521"
+          font-size="16px"
+        >
+          Refreshing Hair Care Kit
+        </mj-text>
+        <mj-button
+          background-color="transparent"
+          color="#cc6328"
+          font-size="16px"
+          padding-top="0"
+          href="{{ favouriteItem1Url }}"
+        >
+          SHOP NOW <span style="padding-left: 5px;">&#9654;</span>
+        </mj-button>
+      </mj-column>
+      <mj-column width="4%" />
+      <mj-column
+        width="48%"
+        background-color="#f6f6f6"
+      >
+        <mj-image src="https://cdn.shopify.com/s/files/1/0555/4431/5957/files/Pine-Tar-Deo-01-Product-Card-bnWH_1b0d5168-926f-4293-8971-6588849f733e.png" alt="" />
+        <mj-text
+          align="center"
+          padding="0"
+          color="#223521"
+          font-size="16px"
+        >
+          Pine Tar Deodorant
+        </mj-text>
+        <mj-button
+          background-color="transparent"
+          color="#cc6328"
+          font-size="16px"
+          padding-top="0"
+          href="{{ favouriteItem1Url }}"
+        >
+          SHOP NOW <span style="padding-left: 5px;">&#9654;</span>
+        </mj-button>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
 
@@ -290,3 +405,4 @@
 <!-- brown accent #5a3714 -->
 <!-- orange accent #e6a800 -->
 <!-- light brown accent #cc6328 -->
+<!-- gray bg #f6f6f6 -->
