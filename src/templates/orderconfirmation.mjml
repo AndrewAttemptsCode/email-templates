@@ -403,6 +403,72 @@
           width="125px"
           src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/logos/orderconfirmation_footer_logo.png"
         />
+        <mj-text
+          align="center"
+          color="#ffffff"
+        >
+          Questions? Contact <a href="{{ careSquadUrl }}" style="color: #e6a800; text-decoration: none">Squatch Care Squad</a>
+        </mj-text>
+        <mj-navbar base-url="https://squatch">
+          <mj-navbar-link
+            color="#ffffff"
+            font-size="15px"
+            href="/product/soap"
+          >
+            SOAP
+          </mj-navbar-link>
+          <mj-navbar-link
+            color="#ffffff"
+            font-size="15px"
+            href="/product/bundles"
+          >
+            BUNDLES
+          </mj-navbar-link>
+          <mj-navbar-link
+            color="#ffffff"
+            font-size="15px"
+            href="/product/deodorant"
+          >
+            DEODORANT
+          </mj-navbar-link>
+          <mj-navbar-link
+            color="#ffffff"
+            font-size="15px"
+            href="/subscription"
+          >
+            SUBSCRIPTION
+          </mj-navbar-link>
+        </mj-navbar>
+        <mj-social icon-size="32px">
+          <mj-social-element
+            name="facebook-noshare"
+            padding="10px"
+            icon-padding="5px"
+            border-radius="25px"
+            href="{{ socialFacebook }}"
+          />
+          <mj-social-element
+            name="twitter-noshare"
+            padding="10px"
+            icon-padding="5px"
+            border-radius="25px"
+            href="{{ socialTwitter }}"
+          />
+          <mj-social-element
+            name="instagram-noshare"
+            padding="10px"
+            icon-padding="5px"
+            border-radius="25px"
+            href="{{ socialInstagram }}"
+          />
+          <mj-social-element
+            name="youtube-noshare"
+            padding="10px"
+            icon-padding="5px"
+            border-radius="25px"
+            href="{{ socialYoutube }}"
+          />
+        </mj-social>
       </mj-column>
     </mj-section>
   </mj-body>
