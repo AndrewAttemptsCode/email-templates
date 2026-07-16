@@ -395,6 +395,16 @@
         </mj-button>
       </mj-column>
     </mj-section>
+    <!-- Footer section -->
+    <mj-section background-color="#352e2e">
+      <mj-column>
+        <mj-image
+          align="center"
+          width="125px"
+          src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/logos/orderconfirmation_footer_logo.png"
+        />
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
 
@@ -406,3 +416,4 @@
 <!-- orange accent #e6a800 -->
 <!-- light brown accent #cc6328 -->
 <!-- gray bg #f6f6f6 -->
+<!-- dark brown accent #352e2e -->
