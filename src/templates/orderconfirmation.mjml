@@ -339,7 +339,7 @@
           color="#cc6328"
           font-size="16px"
           padding-top="0"
-          href="{{ favouriteItem1Url }}"
+          href="{{ favouriteItem2Url }}"
         >
           SHOP NOW <span style="padding-left: 5px;">&#9654;</span>
         </mj-button>
@@ -365,7 +365,7 @@
           color="#cc6328"
           font-size="16px"
           padding-top="0"
-          href="{{ favouriteItem1Url }}"
+          href="{{ favouriteItem3Url }}"
         >
           SHOP NOW <span style="padding-left: 5px;">&#9654;</span>
         </mj-button>
@@ -389,7 +389,7 @@
           color="#cc6328"
           font-size="16px"
           padding-top="0"
-          href="{{ favouriteItem1Url }}"
+          href="{{ favouriteItem4Url }}"
         >
           SHOP NOW <span style="padding-left: 5px;">&#9654;</span>
         </mj-button>
