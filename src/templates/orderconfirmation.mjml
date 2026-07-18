@@ -239,7 +239,7 @@
     <!-- SMS promo section -->
     <mj-section padding="25px 0">
       <mj-column padding="20px 25px" background-color="#223521" border-radius="25px">
-        <mj-image width="100px" src="https://i.postimg.cc/rw5WqwWz/speech-bubble-talk-bubble-chat-bubble-icon-transparent-free-png.webp" alt="" />
+        <mj-image width="100px" src="https://i.postimg.cc/MKkzGPcH/speech-bubble-talk-bubble-chat-bubble-icon-transparent-free-png.png" alt="" />
         <mj-text
           color="#ffffff"
           align="center"
