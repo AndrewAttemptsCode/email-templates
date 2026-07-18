@@ -7,6 +7,12 @@
       .full-width-link a {
         width: 100% !important;
       }
+      @media only screen and (max-width: 480px) {
+        .mobile-left-align div {
+          text-align: left !important;
+          padding-top: 20px !important;
+        }
+      }
     </mj-style>
   </mj-head>
   <mj-body>
@@ -180,7 +186,7 @@
         </mj-text>
       </mj-column>
       <mj-column>
-        <mj-text padding="0" align="right" color="#5a3714" font-size="16px">
+        <mj-text padding="0" align="right" color="#5a3714" font-size="16px" css-class="mobile-left-align">
           <span style="color: #223521; font-weight: bold; font-size: 18px;">CUSTOMER</span><br />
           {{ firstName }} {{ lastName }}<br />
           {{ streetAddress }}<br />
