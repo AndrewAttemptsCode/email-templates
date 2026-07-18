@@ -22,6 +22,9 @@
         .mobile-sms-heading div {
           font-size: 34px !important;
         }
+        .mobile-order-heading {
+          font-size: 18px !important;
+        }
       }
     </mj-style>
   </mj-head>
@@ -71,7 +74,7 @@
           border-color="#E5E5E5"
         />
         <mj-text align="center">
-          <span style="font-weight: bold; font-size: 26px; color: #223521;">ORDER NO. #{{ orderNumber }}</span>
+          <span style="font-weight: bold; font-size: 26px; color: #223521;" class="mobile-order-heading">ORDER NO. #{{ orderNumber }}</span>
           <span style="display: block; font-size: 16px; color: #e6a800">{{ orderDate }}</span>
         </mj-text>
       </mj-column>
