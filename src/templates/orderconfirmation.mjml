@@ -436,7 +436,7 @@
           Questions? Contact <a href="{{ careSquadUrl }}" style="color: #e6a800; text-decoration: none">Squatch Care Squad</a>
         </mj-text>
         <!-- Navigation section -->
-        <mj-navbar base-url="https://squatch">
+        <mj-navbar base-url="https://www.totallynotsquatch.com">
           <mj-navbar-link
             color="#ffffff"
             font-size="15px"
