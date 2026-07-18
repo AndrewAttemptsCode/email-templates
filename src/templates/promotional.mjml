@@ -14,7 +14,7 @@
     <mj-section background-color="#c5ba9c" padding="5px 0">
       <mj-column>
         <mj-image
-          src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/logos/milky_logo.png"
+          src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/logos/milky_logo.png"
           width="120px"
           padding="0"
         />
