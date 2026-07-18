@@ -25,6 +25,9 @@
         .mobile-order-heading {
           font-size: 18px !important;
         }
+        .mobile-default-fontsize {
+          font-size: 14px !important;
+        }
       }
     </mj-style>
   </mj-head>
@@ -101,23 +104,22 @@
       <mj-column>
         <mj-table padding="0">
           <tr>
-            <td width="178">
+            <td width="100px">
               <a href="https://intl.drsquatch.com/products/refreshing-hair-care-kit?collection=hair-kits">
                 <img
-                  src="https://cdn.shopify.com/s/files/1/0555/4431/5957/files/Pine-Tar-Hair-Care-Duo-01-Product-Card_9aadffc3-97ff-4fe2-8e98-6b480973c453.png"
-                  width="178"
+                  src="https://i.postimg.cc/2jKJ6nvf/Pine-Tar-Hair-Care-Duo-01-Product-Card.png"
                   height="100"
                   alt="Refreshing hair care kit"
-                  style="display: block; border: 0; height: 100px; width: 178px;"
+                  style="display: block; border: 0; height: 100px;"
                 />
               </a>
             </td>
             <td style="text-align: left;">
-              <span style="color: #5a3714; font-size: 16px; font-weight: 500;">Refresh Hair Care Kit</span>
-              <span style="display: block; color: #e6a800; font-size: 16px;">Hair Care / One-Time</span>
+              <span style="color: #5a3714; font-size: 16px; font-weight: 500;" class="mobile-default-fontsize">Refresh Hair Care Kit</span>
+              <span style="display: block; color: #e6a800; font-size: 16px;" class="mobile-default-fontsize">Hair Care / One-Time</span>
             </td>
-            <td style="text-align: right; font-size: 16px; color: #5a3714; font-weight: 500;">x 1</td>
-            <td style="text-align: right; font-size: 16px; color: #5a3714; font-weight: 500;">£30.40</td>
+            <td style="text-align: right; font-size: 16px; color: #5a3714; font-weight: 500;" class="mobile-default-fontsize">x 1</td>
+            <td style="text-align: right; font-size: 16px; color: #5a3714; font-weight: 500;" class="mobile-default-fontsize">£30.40</td>
           </tr>
         </mj-table>
         <mj-divider
