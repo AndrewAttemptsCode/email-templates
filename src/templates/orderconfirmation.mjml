@@ -51,6 +51,7 @@
           font-size="32px"
           color="#223521"
           align="center"
+          line-height="1.1"
         >
           ORDER CONFIRMATION
         </mj-text>
