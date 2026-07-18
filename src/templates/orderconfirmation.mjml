@@ -19,6 +19,9 @@
         .mobile-height-spacer {
           height: 25px !important;
         }
+        .mobile-sms-heading div {
+          font-size: 34px !important;
+        }
       }
     </mj-style>
   </mj-head>
@@ -249,6 +252,7 @@
           font-size="40px"
           font-weight="bold"
           line-height="1.1"
+          css-class="mobile-sms-heading"
         >
           SQUATCH <br/>
           MESSAGING SQUAD
