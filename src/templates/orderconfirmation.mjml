@@ -11,11 +11,12 @@
   </mj-head>
   <mj-body>
     <!-- Logo section -->
-    <mj-section background-color="#f0eeeb">
+    <mj-section padding="0">
       <mj-column>
         <mj-image
-          width="286px"
-          src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/logos/orderconfirmation_logo.png"
+          padding="0"
+          src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/3e57c3dcc19542269dbe4128cfbbdf4e48d1c50e/src/assets/images/logos/orderconfirmation_logo.png"
+          alt="totally not squatch"
           href="https://www.totallynotsquatch.com"
         />
       </mj-column>
