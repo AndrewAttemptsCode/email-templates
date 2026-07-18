@@ -208,7 +208,7 @@
           {{ streetAddress }}<br />
           {{ cityAddress }}, {{ postCode }}<br />
           {{ countryAddress }}<br />
-          <span style="color: #e6a800">{{ userEmail }}</span>
+          <a href="mailto:{{ userEmail }}" style="color: #e6a800; text-decoration: none;">{{ userEmail }}</a>
         </mj-text>
       </mj-column>
     </mj-section>
