@@ -1,4 +1,9 @@
 <mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text line-height="1.5" font-size="16px" />
+    </mj-attributes>
+  </mj-head>
   <mj-body>
     <!-- Logo section -->
     <mj-section
@@ -20,6 +25,12 @@
     <mj-section padding="0">
       <mj-column>
         <mj-image padding="0" src="https://i.postimg.cc/4yWrjQjY/middle-manager.png" alt="" />
+        <!-- Main text -->
+        <mj-text padding-top="20px">
+          Modern management can be miserable. Executive roles are <u>becoming less attractive</u>, leadership <u>is lonelier</u>, managers are burned out, and AI is allegedly coming for everyone's job anyway.
+          In the latest issue of <u>Bloompoint Businessweek</u>, we take a look at who's at the <u>top of the corporate heap</u> - and <u>who isn't</u> to better understand what this portends for <u>all of our working lives</u>.<br/><br/>
+          If you missed our Live Q&A this week on how smart bosses are navigating AI, you can <u>listen to the recording here</u>.
+        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
