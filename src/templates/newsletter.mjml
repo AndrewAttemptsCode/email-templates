@@ -39,6 +39,25 @@
         <mj-divider padding="10px 0" border-width="1px" border-color="lightgray" />
       </mj-column>
     </mj-section>
+    <!-- Multi article section -->
+    <!-- First multi-article -->
+    <mj-section>
+      <mj-column width="180px">
+        <mj-image width="170px" padding="0" src="https://i.postimg.cc/7btvpnGF/article1.png" alt="" />
+      </mj-column>
+      <mj-column width="370px">
+        <mj-text padding="0 10px">
+          <a href="{{ article1 }}" style="color: #000000; font-weight: bold;">Why Companies Are Cutting Middle Managers In The AI Era</a>
+          <p>What if your boss's job disappears before yours does?</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <!-- Multi-article devider -->
+      <mj-column>
+        <mj-divider border-width="1px" border-color="lightgray" />
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
 
