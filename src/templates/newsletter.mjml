@@ -33,6 +33,12 @@
         </mj-text>
       </mj-column>
     </mj-section>
+    <!-- Section divider -->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-divider padding="10px 0" border-width="1px" border-color="lightgray" />
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
 
