@@ -1,8 +1,18 @@
 <mjml>
   <mj-body>
-    <mj-section>
+    <!-- Logo section -->
+    <mj-section
+      background-color="#000000"
+    >
       <mj-column>
-        
+        <mj-text font-size="34px">
+          <a 
+            style="color: #ffffff; font-weight: bold; text-decoration: none;"
+            href="https://www.bloompoint.com"
+          >
+            BloomPoint.com
+          </a>
+        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
