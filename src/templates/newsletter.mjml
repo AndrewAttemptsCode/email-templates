@@ -124,6 +124,25 @@
         </mj-text>
       </mj-column>
     </mj-section>
+    <!-- Additional articles -->
+    <mj-section padding="25px">
+      <mj-column padding="20px" border="1px solid lightgray" border-radius="10px">
+        <mj-text padding="0">
+          <h2 style="padding-left: 20px; margin-top: 0;">What else we're reading:</h2>
+          <ul style="margin-bottom: 0;">
+            <li style="padding-bottom: 16px;">
+              An investor who scored a 900% win in the 2008 crisis has a <u>new big short bet</u>
+            </li>
+            <li style="padding-bottom: 16px;">
+              The <u>savviest luxury shoppers</u> head straight for the airport  
+            </li>
+            <li>
+              How <u>Eli Lilly got huge</u> by making Americans thin
+            </li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
 
