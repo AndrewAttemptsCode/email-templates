@@ -6,13 +6,11 @@
   </mj-head>
   <mj-body>
     <!-- Logo section -->
-    <mj-section
-      background-color="#000000"
-    >
+    <mj-section background-color="#000000">
       <mj-column>
         <mj-text font-size="34px">
-          <a 
-            style="color: #ffffff; font-weight: bold; text-decoration: none;"
+          <a
+            style="color: #ffffff; font-weight: bold; text-decoration: none"
             href="https://www.bloompoint.com"
           >
             BloomPoint.com
@@ -24,30 +22,51 @@
     <!-- Main image -->
     <mj-section padding="0">
       <mj-column>
-        <mj-image padding="0" src="https://i.postimg.cc/4yWrjQjY/middle-manager.png" alt="" />
+        <mj-image
+          padding="0"
+          src="https://i.postimg.cc/4yWrjQjY/middle-manager.png"
+          alt=""
+        />
         <!-- Main text -->
         <mj-text padding-top="20px">
-          Modern management can be miserable. Executive roles are <u>becoming less attractive</u>, leadership <u>is lonelier</u>, managers are burned out, and AI is allegedly coming for everyone's job anyway.
-          In the latest issue of <u>Bloompoint Businessweek</u>, we take a look at who's at the <u>top of the corporate heap</u> - and <u>who isn't</u> to better understand what this portends for <u>all of our working lives</u>.<br/><br/>
-          If you missed our Live Q&A this week on how smart bosses are navigating AI, you can <u>listen to the recording here</u>.
+          Modern management can be miserable. Executive roles are
+          <u>becoming less attractive</u>, leadership <u>is lonelier</u>,
+          managers are burned out, and AI is allegedly coming for everyone's job
+          anyway. In the latest issue of <u>Bloompoint Businessweek</u>, we take
+          a look at who's at the <u>top of the corporate heap</u> - and
+          <u>who isn't</u> to better understand what this portends for
+          <u>all of our working lives</u>.<br /><br />
+          If you missed our Live Q&A this week on how smart bosses are
+          navigating AI, you can <u>listen to the recording here</u>.
         </mj-text>
       </mj-column>
     </mj-section>
     <!-- Section divider -->
     <mj-section padding="0">
       <mj-column>
-        <mj-divider padding="10px 0" border-width="1px" border-color="lightgray" />
+        <mj-divider
+          padding="10px 0"
+          border-width="1px"
+          border-color="#a2a2a2"
+        />
       </mj-column>
     </mj-section>
     <!-- Multi article section -->
     <!-- First multi-article -->
     <mj-section>
       <mj-column width="180px">
-        <mj-image width="170px" padding="0" src="https://i.postimg.cc/7btvpnGF/article1.png" alt="" />
+        <mj-image
+          width="170px"
+          padding="0"
+          src="https://i.postimg.cc/7btvpnGF/article1.png"
+          alt=""
+        />
       </mj-column>
       <mj-column width="370px">
         <mj-text padding="0 10px">
-          <a href="{{ article1 }}" style="color: #000000; font-weight: bold;">Why Companies Are Cutting Middle Managers In The AI Era</a>
+          <a href="{{ article1 }}" style="color: #000000; font-weight: bold"
+            >Why Companies Are Cutting Middle Managers In The AI Era</a
+          >
           <p>What if your boss's job disappears before yours does?</p>
         </mj-text>
       </mj-column>
@@ -55,95 +74,161 @@
     <!-- Multi-article devider -->
     <mj-section padding="0">
       <mj-column>
-        <mj-divider border-width="1px" border-color="lightgray" />
+        <mj-divider border-width="1px" border-color="#a2a2a2" />
       </mj-column>
     </mj-section>
     <!-- Second multi-article -->
     <mj-section>
       <mj-column width="180px">
-        <mj-image width="170px" padding="0" src="https://i.postimg.cc/yWpqwy3H/article2.png" alt="" />
+        <mj-image
+          width="170px"
+          padding="0"
+          src="https://i.postimg.cc/yWpqwy3H/article2.png"
+          alt=""
+        />
       </mj-column>
       <mj-column width="370px">
         <mj-text padding="0 10px">
-          <a href="{{ article2 }}" style="color: #000000; font-weight: bold;">Women Are Losing Ground In Corporate Leadership</a>
-          <p>The so-call ambition gap is really a support gap. This comic explains why.</p>
+          <a href="{{ article2 }}" style="color: #000000; font-weight: bold"
+            >Women Are Losing Ground In Corporate Leadership</a
+          >
+          <p>
+            The so-call ambition gap is really a support gap. This comic
+            explains why.
+          </p>
         </mj-text>
       </mj-column>
     </mj-section>
     <!-- Multi-article devider -->
     <mj-section padding="0">
       <mj-column>
-        <mj-divider border-width="1px" border-color="lightgray" />
+        <mj-divider border-width="1px" border-color="#a2a2a2" />
       </mj-column>
     </mj-section>
     <!-- Third multi-article -->
     <mj-section>
       <mj-column width="180px">
-        <mj-image width="170px" padding="0" src="https://i.postimg.cc/JtYw95HC/article3.png" alt="" />
+        <mj-image
+          width="170px"
+          padding="0"
+          src="https://i.postimg.cc/JtYw95HC/article3.png"
+          alt=""
+        />
       </mj-column>
       <mj-column width="370px">
         <mj-text padding="0 10px">
-          <a href="{{ article3 }}" style="color: #000000; font-weight: bold;">Being a CEO Today Stinks (Except for the Salary)</a>
-          <p>It's become a 24/7 endeavor at a time when trust in business and capitalism is creating.</p>
+          <a href="{{ article3 }}" style="color: #000000; font-weight: bold"
+            >Being a CEO Today Stinks (Except for the Salary)</a
+          >
+          <p>
+            It's become a 24/7 endeavor at a time when trust in business and
+            capitalism is creating.
+          </p>
         </mj-text>
       </mj-column>
     </mj-section>
     <!-- Multi-article devider -->
     <mj-section padding="0">
       <mj-column>
-        <mj-divider border-width="1px" border-color="lightgray" />
+        <mj-divider border-width="1px" border-color="#a2a2a2" />
       </mj-column>
     </mj-section>
     <!-- Fourth multi-article -->
     <mj-section>
       <mj-column width="180px">
-        <mj-image width="170px" padding="0" src="https://i.postimg.cc/YjDcJzLK/article4.png.png" alt="" />
+        <mj-image
+          width="170px"
+          padding="0"
+          src="https://i.postimg.cc/YjDcJzLK/article4.png.png"
+          alt=""
+        />
       </mj-column>
       <mj-column width="370px">
         <mj-text padding="0 10px">
-          <a href="{{ article4 }}" style="color: #000000; font-weight: bold;">AI Is Learning To Spot Toxic Bosses</a>
-          <p>Is sacrificing your own privacy worth it to stem your manager's worst tendencies?</p>
+          <a href="{{ article4 }}" style="color: #000000; font-weight: bold"
+            >AI Is Learning To Spot Toxic Bosses</a
+          >
+          <p>
+            Is sacrificing your own privacy worth it to stem your manager's
+            worst tendencies?
+          </p>
         </mj-text>
       </mj-column>
     </mj-section>
     <!-- Multi-article devider -->
     <mj-section padding="0">
       <mj-column>
-        <mj-divider border-width="1px" border-color="lightgray" />
+        <mj-divider border-width="1px" border-color="#a2a2a2" />
       </mj-column>
     </mj-section>
     <!-- First multi-article -->
     <mj-section>
       <mj-column width="180px">
-        <mj-image width="170px" padding="0" src="https://i.postimg.cc/t7v0LNnb/article5.png" alt="" />
+        <mj-image
+          width="170px"
+          padding="0"
+          src="https://i.postimg.cc/t7v0LNnb/article5.png"
+          alt=""
+        />
       </mj-column>
       <mj-column width="370px">
         <mj-text padding="0 10px">
-          <a href="{{ article5 }}" style="color: #000000; font-weight: bold;">Inside the Leadership Model Behind Successful Co-CEOs</a>
-          <p>Two-leader arrangements have a reputation for sometimes ending badly, but not for these execs.</p>
+          <a href="{{ article5 }}" style="color: #000000; font-weight: bold"
+            >Inside the Leadership Model Behind Successful Co-CEOs</a
+          >
+          <p>
+            Two-leader arrangements have a reputation for sometimes ending
+            badly, but not for these execs.
+          </p>
         </mj-text>
       </mj-column>
     </mj-section>
     <!-- Additional articles -->
     <mj-section padding="25px">
-      <mj-column padding="20px" border="1px solid lightgray" border-radius="10px">
+      <mj-column padding="20px" border="1px solid #a2a2a2" border-radius="10px">
         <mj-text padding="0">
-          <h2 style="padding-left: 20px; margin-top: 0;">What else we're reading:</h2>
-          <ul style="margin-bottom: 0;">
-            <li style="padding-bottom: 16px;">
-              An investor who scored a 900% win in the 2008 crisis has a <u>new big short bet</u>
+          <h2 style="padding-left: 20px; margin-top: 0">
+            What else we're reading:
+          </h2>
+          <ul style="margin-bottom: 0">
+            <li style="padding-bottom: 16px">
+              An investor who scored a 900% win in the 2008 crisis has a
+              <u>new big short bet</u>
             </li>
-            <li style="padding-bottom: 16px;">
-              The <u>savviest luxury shoppers</u> head straight for the airport  
+            <li style="padding-bottom: 16px">
+              The <u>savviest luxury shoppers</u> head straight for the airport
             </li>
-            <li>
-              How <u>Eli Lilly got huge</u> by making Americans thin
-            </li>
+            <li>How <u>Eli Lilly got huge</u> by making Americans thin</li>
           </ul>
         </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Daily signup cta -->
+    <mj-section padding="25px" background-color="#efefef">
+      <mj-column padding="20px" border="1px solid #a2a2a2" border-radius="10px">
+        <mj-text padding="0">
+          The Businessweek Daily newsletter is filled with fresh perspectives on
+          business, economics, politics and tech - plus the magazine's best
+          reporting, photography and illustrations.
+        </mj-text>
+        <mj-button
+          background-color="#000000"
+          color="#ffffff"
+          font-size="16px"
+          font-weight="bold"
+          align="left"
+          padding="20px 0 0"
+          inner-padding="14px 34px"
+          border-radius="5px"
+          href="{{ newsletterSignup }}"
+        >
+          Sign up
+        </mj-button>
       </mj-column>
     </mj-section>
   </mj-body>
 </mjml>
 
 <!-- Reference Image: https://pro-really-good-emails.s3.eu-west-1.amazonaws.com/emails/the-great-middle-management-purge.png -->
+<!-- Grey bg #efefef -->
+<!-- Grey border #a2a2a2 -->
