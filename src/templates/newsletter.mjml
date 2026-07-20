@@ -52,10 +52,76 @@
         </mj-text>
       </mj-column>
     </mj-section>
+    <!-- Multi-article devider -->
     <mj-section padding="0">
-      <!-- Multi-article devider -->
       <mj-column>
         <mj-divider border-width="1px" border-color="lightgray" />
+      </mj-column>
+    </mj-section>
+    <!-- Second multi-article -->
+    <mj-section>
+      <mj-column width="180px">
+        <mj-image width="170px" padding="0" src="https://i.postimg.cc/yWpqwy3H/article2.png" alt="" />
+      </mj-column>
+      <mj-column width="370px">
+        <mj-text padding="0 10px">
+          <a href="{{ article2 }}" style="color: #000000; font-weight: bold;">Women Are Losing Ground In Corporate Leadership</a>
+          <p>The so-call ambition gap is really a support gap. This comic explains why.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Multi-article devider -->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-divider border-width="1px" border-color="lightgray" />
+      </mj-column>
+    </mj-section>
+    <!-- Third multi-article -->
+    <mj-section>
+      <mj-column width="180px">
+        <mj-image width="170px" padding="0" src="https://i.postimg.cc/JtYw95HC/article3.png" alt="" />
+      </mj-column>
+      <mj-column width="370px">
+        <mj-text padding="0 10px">
+          <a href="{{ article3 }}" style="color: #000000; font-weight: bold;">Being a CEO Today Stinks (Except for the Salary)</a>
+          <p>It's become a 24/7 endeavor at a time when trust in business and capitalism is creating.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Multi-article devider -->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-divider border-width="1px" border-color="lightgray" />
+      </mj-column>
+    </mj-section>
+    <!-- Fourth multi-article -->
+    <mj-section>
+      <mj-column width="180px">
+        <mj-image width="170px" padding="0" src="https://i.postimg.cc/YjDcJzLK/article4.png.png" alt="" />
+      </mj-column>
+      <mj-column width="370px">
+        <mj-text padding="0 10px">
+          <a href="{{ article4 }}" style="color: #000000; font-weight: bold;">AI Is Learning To Spot Toxic Bosses</a>
+          <p>Is sacrificing your own privacy worth it to stem your manager's worst tendencies?</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Multi-article devider -->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-divider border-width="1px" border-color="lightgray" />
+      </mj-column>
+    </mj-section>
+    <!-- First multi-article -->
+    <mj-section>
+      <mj-column width="180px">
+        <mj-image width="170px" padding="0" src="https://i.postimg.cc/t7v0LNnb/article5.png" alt="" />
+      </mj-column>
+      <mj-column width="370px">
+        <mj-text padding="0 10px">
+          <a href="{{ article5 }}" style="color: #000000; font-weight: bold;">Inside the Leadership Model Behind Successful Co-CEOs</a>
+          <p>Two-leader arrangements have a reputation for sometimes ending badly, but not for these execs.</p>
+        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
