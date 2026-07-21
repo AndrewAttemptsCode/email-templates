@@ -341,7 +341,7 @@
             />
           </a>
         </mj-text>
-        <mj-text color="#ffffff" padding="25px">
+        <mj-text color="#ffffff" padding="25px 25px 0">
           <u>View in Browser</u><br/><br/>
           Pricing may vary based on applicable currency. Please do not reply to this message.
           It was sent from an unmonitored email address. If you receive this message in error, please contact us.<br/><br/>
@@ -358,7 +358,9 @@
           <a
             style="text-decoration: underline; color: #ffffff;"
             href="{{ emailUnsubscribe }}"
-          >Unsubscribe</a>
+          >Unsubscribe</a><br/><br/>
+          Copyright 2026 | <a style="text-decoration: underline; color: #ffffff;" href="{{ privacyPolicy }}">Privacy Policy</a><br/>
+          123 Roadsmith Avenue, Old York, OY 12345          
         </mj-text>
       </mj-column>
     </mj-section>
