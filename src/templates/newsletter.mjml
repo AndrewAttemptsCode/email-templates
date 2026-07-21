@@ -311,6 +311,7 @@
             href="{{ socialYoutube }}"
           />
         </mj-social>
+        <mj-divider border-color="#ffffff" border-width="1px" />
       </mj-column>
     </mj-section>
   </mj-body>
