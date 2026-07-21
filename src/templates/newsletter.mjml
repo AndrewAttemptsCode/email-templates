@@ -257,6 +257,62 @@
         </mj-text>
       </mj-column>
     </mj-section>
+    <!-- Footer section -->
+    <!-- Socials -->
+    <mj-section background-color="#000000">
+      <mj-column>
+        <mj-text
+          color="#ffffff"
+          font-size="18px"
+        >
+          Follow us:
+        </mj-text>
+        <mj-social icon-size="32px" align="left">
+          <mj-social-element
+            name="x-noshare"
+            padding="0 10px 0 0"
+            background-color="#000000"
+            color="#ffffff"
+            href="{{ socialX }}"
+          />
+          <mj-social-element
+            name="linkedin-noshare"
+            padding="0 10px"
+            background-color="#000000"
+            color="#ffffff"
+            href="{{ socialLinkedin }}"
+          />
+          <mj-social-element
+            name="instagram-noshare"
+            padding="0 10px"
+            background-color="#000000"
+            color="#ffffff"
+            href="{{ socialInstagram }}"
+          />
+          <mj-social-element
+            name="medium-noshare"
+            padding="0 10px"
+            background-color="#000000"
+            color="#ffffff"
+            href="{{ socialMedium }}"
+          />
+          <mj-social-element
+            name="facebook-noshare"
+            padding="0 10px"
+            background-color="#000000"
+            color="#ffffff"
+            href="{{ socialFacebook }}"
+          />
+          <mj-social-element
+            name="youtube-noshare"
+            padding="0 0 0 10px"
+            background-color="#000000"
+            color="#ffffff"
+            href="{{ socialYoutube }}"
+          />
+        </mj-social>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
 
