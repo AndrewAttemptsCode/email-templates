@@ -226,6 +226,37 @@
         </mj-button>
       </mj-column>
     </mj-section>
+    <!-- Subscription ad -->
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <h2 style="margin-top: 0;">
+            Read these stories and more. Take more than 50% off your first year.
+          </h2>
+          <p>
+            Unlock the full experience; enjoy unlimited reading on BloomPoint.com and the BloomPoint app. Subscribe today for a limited-time rate of <s>£399</s> £180/first year.
+          </p>
+        </mj-text>
+        <mj-button
+          background-color="#000000"
+          color="#ffffff"
+          font-size="16px"
+          font-weight="bold"
+          align="left"
+          inner-padding="14px 34px"
+          border-radius="5px"
+          href="{{ bloompointSubscribe }}"
+        >
+          Subscribe & Save
+        </mj-button>
+        <mj-text
+          color="#a2a2a2"
+          font-style="italic"
+        >
+          Interested in getting access for your team? Start a free team trial today with <u>BloomPoint.com corporate access</u>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
 
