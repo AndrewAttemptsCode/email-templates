@@ -85,21 +85,21 @@
       </mj-column>
     </mj-section>
     <!-- Second multi-article -->
-    <mj-section>
-      <mj-column width="180px">
+    <mj-section padding="20px">
+      <mj-column width="200px">
         <mj-image
-          width="170px"
+          fluid-on-mobile="true"
           padding="0"
           src="https://i.postimg.cc/yWpqwy3H/article2.png"
           alt=""
         />
       </mj-column>
-      <mj-column width="370px">
-        <mj-text padding="0 10px">
+      <mj-column width="360px">
+        <mj-text padding="0 0 0 15px" css-class="mobile-text-gap">
           <a href="{{ article2 }}" style="color: #000000; font-weight: bold"
             >Women Are Losing Ground In Corporate Leadership</a
           >
-          <p>
+          <p style="margin: 16px 0 0">
             The so-call ambition gap is really a support gap. This comic
             explains why.
           </p>
@@ -109,25 +109,25 @@
     <!-- Multi-article devider -->
     <mj-section padding="0">
       <mj-column>
-        <mj-divider border-width="1px" border-color="#a2a2a2" />
+        <mj-divider padding="10px 20px" border-width="1px" border-color="#a2a2a2" />
       </mj-column>
     </mj-section>
     <!-- Third multi-article -->
-    <mj-section>
-      <mj-column width="180px">
+    <mj-section padding="20px">
+      <mj-column width="200px">
         <mj-image
-          width="170px"
+          fluid-on-mobile="true"
           padding="0"
           src="https://i.postimg.cc/JtYw95HC/article3.png"
           alt=""
         />
       </mj-column>
-      <mj-column width="370px">
-        <mj-text padding="0 10px">
+      <mj-column width="360px">
+        <mj-text padding="0 0 0 15px" css-class="mobile-text-gap">
           <a href="{{ article3 }}" style="color: #000000; font-weight: bold"
             >Being a CEO Today Stinks (Except for the Salary)</a
           >
-          <p>
+          <p style="margin: 16px 0 0">
             It's become a 24/7 endeavor at a time when trust in business and
             capitalism is creating.
           </p>
@@ -137,25 +137,25 @@
     <!-- Multi-article devider -->
     <mj-section padding="0">
       <mj-column>
-        <mj-divider border-width="1px" border-color="#a2a2a2" />
+        <mj-divider padding="10px 20px" border-width="1px" border-color="#a2a2a2" />
       </mj-column>
     </mj-section>
     <!-- Fourth multi-article -->
-    <mj-section>
-      <mj-column width="180px">
+    <mj-section padding="20px">
+      <mj-column width="200px">
         <mj-image
-          width="170px"
+          fluid-on-mobile="true"
           padding="0"
           src="https://i.postimg.cc/YjDcJzLK/article4.png.png"
           alt=""
         />
       </mj-column>
-      <mj-column width="370px">
-        <mj-text padding="0 10px">
+      <mj-column width="360px">
+        <mj-text padding="0 0 0 15px" css-class="mobile-text-gap">
           <a href="{{ article4 }}" style="color: #000000; font-weight: bold"
             >AI Is Learning To Spot Toxic Bosses</a
           >
-          <p>
+          <p style="margin: 16px 0 0">
             Is sacrificing your own privacy worth it to stem your manager's
             worst tendencies?
           </p>
@@ -165,25 +165,25 @@
     <!-- Multi-article devider -->
     <mj-section padding="0">
       <mj-column>
-        <mj-divider border-width="1px" border-color="#a2a2a2" />
+        <mj-divider padding="10px 20px" border-width="1px" border-color="#a2a2a2" />
       </mj-column>
     </mj-section>
     <!-- Fifth multi-article -->
-    <mj-section>
-      <mj-column width="180px">
+    <mj-section padding="20px">
+      <mj-column width="200px">
         <mj-image
-          width="170px"
+          fluid-on-mobile="true"
           padding="0"
           src="https://i.postimg.cc/t7v0LNnb/article5.png"
           alt=""
         />
       </mj-column>
-      <mj-column width="370px">
-        <mj-text padding="0 10px">
+      <mj-column width="360px">
+        <mj-text padding="0 0 0 15px" css-class="mobile-text-gap">
           <a href="{{ article5 }}" style="color: #000000; font-weight: bold"
             >Inside the Leadership Model Behind Successful Co-CEOs</a
           >
-          <p>
+          <p style="margin: 16px 0 0">
             Two-leader arrangements have a reputation for sometimes ending
             badly, but not for these execs.
           </p>
