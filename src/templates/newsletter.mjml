@@ -8,6 +8,9 @@
         .mobile-text-gap {
           padding: 20px 0 0 !important;
         }
+        .mobile-heading {
+          font-size: 18px !important;
+        }
       }
     </mj-style>
   </mj-head>
@@ -191,13 +194,13 @@
       </mj-column>
     </mj-section>
     <!-- Additional articles -->
-    <mj-section padding="25px">
+    <mj-section padding="20px">
       <mj-column padding="20px" border="1px solid #a2a2a2" border-radius="10px">
         <mj-text padding="0">
-          <h2 style="padding-left: 20px; margin-top: 0">
+          <h2 style="margin-top: 0;" class="mobile-heading">
             What else we're reading:
           </h2>
-          <ul style="margin-bottom: 0">
+          <ul style="margin-bottom: 0; padding-left: 16px;">
             <li style="padding-bottom: 16px">
               An investor who scored a 900% win in the 2008 crisis has a
               <u>new big short bet</u>
