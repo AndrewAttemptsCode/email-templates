@@ -214,7 +214,7 @@
       </mj-column>
     </mj-section>
     <!-- Daily signup cta -->
-    <mj-section padding="25px" background-color="#efefef">
+    <mj-section padding="25px 20px" background-color="#efefef">
       <mj-column padding="20px" border="1px solid #a2a2a2" border-radius="10px">
         <mj-text padding="0">
           The Businessweek Daily newsletter is filled with fresh perspectives on
@@ -237,9 +237,9 @@
       </mj-column>
     </mj-section>
     <!-- Subscription ad -->
-    <mj-section>
+    <mj-section padding="20px">
       <mj-column>
-        <mj-text>
+        <mj-text padding="0">
           <h2 style="margin-top: 0;">
             Read these stories and more. Take more than 50% off your first year.
           </h2>
@@ -253,6 +253,7 @@
           font-size="16px"
           font-weight="bold"
           align="left"
+          padding="10px 0"
           inner-padding="14px 34px"
           border-radius="5px"
           href="{{ bloompointSubscribe }}"
@@ -260,6 +261,7 @@
           Subscribe & Save
         </mj-button>
         <mj-text
+          padding="0"
           color="#a2a2a2"
           font-style="italic"
         >
