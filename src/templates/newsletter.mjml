@@ -3,6 +3,13 @@
     <mj-attributes>
       <mj-text line-height="1.5" font-size="16px" />
     </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-text-gap {
+          padding: 20px 0 0 !important;
+        }
+      }
+    </mj-style>
   </mj-head>
   <mj-body>
     <!-- Logo section -->
@@ -53,28 +60,28 @@
     </mj-section>
     <!-- Multi article section -->
     <!-- First multi-article -->
-    <mj-section>
-      <mj-column width="180px">
+    <mj-section padding="20px">
+      <mj-column width="200px">
         <mj-image
-          width="170px"
+          fluid-on-mobile="true"
           padding="0"
           src="https://i.postimg.cc/7btvpnGF/article1.png"
           alt=""
         />
       </mj-column>
-      <mj-column width="370px">
-        <mj-text padding="0 10px">
+      <mj-column width="360px">
+        <mj-text padding="0 0 0 15px" css-class="mobile-text-gap">
           <a href="{{ article1 }}" style="color: #000000; font-weight: bold"
             >Why Companies Are Cutting Middle Managers In The AI Era</a
           >
-          <p>What if your boss's job disappears before yours does?</p>
+          <p style="margin: 16px 0 0">What if your boss's job disappears before yours does?</p>
         </mj-text>
       </mj-column>
     </mj-section>
     <!-- Multi-article devider -->
     <mj-section padding="0">
       <mj-column>
-        <mj-divider border-width="1px" border-color="#a2a2a2" />
+        <mj-divider padding="10px 20px" border-width="1px" border-color="#a2a2a2" />
       </mj-column>
     </mj-section>
     <!-- Second multi-article -->
@@ -161,7 +168,7 @@
         <mj-divider border-width="1px" border-color="#a2a2a2" />
       </mj-column>
     </mj-section>
-    <!-- First multi-article -->
+    <!-- Fifth multi-article -->
     <mj-section>
       <mj-column width="180px">
         <mj-image
