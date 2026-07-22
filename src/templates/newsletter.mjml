@@ -35,7 +35,7 @@
           alt=""
         />
         <!-- Main text -->
-        <mj-text padding-top="20px">
+        <mj-text padding="20px">
           Modern management can be miserable. Executive roles are
           <u>becoming less attractive</u>, leadership <u>is lonelier</u>,
           managers are burned out, and AI is allegedly coming for everyone's job
