@@ -93,14 +93,14 @@ Responsive welcome and email verification email featuring personalised content, 
 
 ## Password Reset Email
 
-[![Welcome/Verification email preview](./src/assets/images/screenshots/forgotpassword_preview.png)](https://github.com/AndrewAttemptsCode/email-templates/blob/main/src/assets/images/screenshots/forgotpassword_desktop.png)
+[![Welcome/Verification email preview](./src/assets/images/screenshots/forgotpassword_preview.png)](https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/forgotpassword_desktop.png)
 _Click preview to view full desktop render_
 
 Responsive password reset email featuring a secure reset call-to-action, account support, navigation links, and social media links. Built with MJML and Handlebars.
 
 <div>
-<a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/src/assets/images/screenshots/forgotpassword_desktop.png">🖥️ Desktop full screenshot</a><br>
-<a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/src/assets/images/screenshots/forgotpassword_mobile.png">📱 Mobile full screenshot</a><br>
+<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/forgotpassword_desktop.png">🖥️ Desktop full screenshot</a><br>
+<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/forgotpassword_mobile.png">📱 Mobile full screenshot</a><br>
 <a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/src/templates/forgotpassword.mjml">📄 MJML Source</a><br>
 <a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/handlebars-forgotpassword.html">🌐 HTML Output</a>
 </div>
