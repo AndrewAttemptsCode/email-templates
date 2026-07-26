@@ -51,7 +51,7 @@ Each template was tested for:
 
 ## Promotional Email
 
-[![promotional email preview](./src/assets/images/screenshots/promotional_preview.png)](./src/assets/images/screenshots/promotional_desktop.png)
+[![promotional email preview](./src/assets/images/screenshots/promotional_preview.png)](https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/promotional_desktop.png)
 _Click preview to view full desktop render_
 
 Responsive promotional email featuring a large hero product image, personalised content, and a clear call-to-action. Built with MJML and Handlebars.
@@ -61,4 +61,18 @@ Responsive promotional email featuring a large hero product image, personalised 
 <a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/promotional_mobile.png">📱 Mobile full screenshot</a><br>
 <a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/src/templates/promotional.mjml">📄 MJML Source</a><br>
 <a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/promotional.html">🌐 HTML Output</a>
+</div>
+
+## Newsletter Email
+
+[![Newsletter email preview](./src/assets/images/screenshots/newsletter_preview.png)](https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/newsletter_desktop.png)
+_Click preview to view full desktop render_
+
+Responsive newsletter email featuring a hero article, additional article previews, newsletter sign-up and subscription call-to-actions, and mobile app download links. Built with MJML and Handlebars.
+
+<div>
+<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/newsletter_desktop.png">🖥️ Desktop full screenshot</a><br>
+<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/newsletter_mobile.png">📱 Mobile full screenshot</a><br>
+<a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/src/templates/newsletter.mjml">📄 MJML Source</a><br>
+<a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/handlebars-newsletter.html">🌐 HTML Output</a>
 </div>
