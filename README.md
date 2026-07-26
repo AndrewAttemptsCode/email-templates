@@ -57,8 +57,8 @@ _Click preview to view full desktop render_
 Responsive promotional email featuring a large hero product image, personalised content, and a clear call-to-action. Built with MJML and Handlebars.
 
 <div>
-<a href="./src/assets/images/screenshots/promotional_desktop.png">🖥️ Desktop full screenshot</a><br>
-<a href="./src/assets/images/screenshots/promotional_mobile.png">📱 Mobile full screenshot</a><br>
+<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/promotional_desktop.png">🖥️ Desktop full screenshot</a><br>
+<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/promotional_mobile.png">📱 Mobile full screenshot</a><br>
 <a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/src/templates/promotional.mjml">📄 MJML Source</a><br>
 <a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/promotional.html">🌐 HTML Output</a>
 </div>
