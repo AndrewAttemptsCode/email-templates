@@ -104,3 +104,17 @@ Responsive password reset email featuring a secure reset call-to-action, account
 <a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/src/templates/forgotpassword.mjml">📄 MJML Source</a><br>
 <a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/handlebars-forgotpassword.html">🌐 HTML Output</a>
 </div>
+
+## Order Confirmation Email
+
+[![Order Confirmation email preview](./src/assets/images/screenshots/orderconfirmation_preview.png)](https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/orderconfirmation_desktop.png)
+_Click preview to view full desktop render_
+
+Responsive order confirmation email featuring order and tracking details, payment and delivery summaries, order status, product recommendations, messaging sign-up, customer support, navigation, and social media links. Built with MJML and Handlebars.
+
+<div>
+<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/orderconfirmation_desktop.png">🖥️ Desktop full screenshot</a><br>
+<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/orderconfirmation_mobile.png">📱 Mobile full screenshot</a><br>
+<a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/src/templates/orderconfirmation.mjml">📄 MJML Source</a><br>
+<a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/handlebars-orderconfirmation.html">🌐 HTML Output</a>
+</div>
