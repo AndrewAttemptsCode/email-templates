@@ -76,3 +76,17 @@ Responsive newsletter email featuring a hero article, additional article preview
 <a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/src/templates/newsletter.mjml">📄 MJML Source</a><br>
 <a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/handlebars-newsletter.html">🌐 HTML Output</a>
 </div>
+
+## Welcome/Verification Email
+
+[![Welcome/Verification email preview](./src/assets/images/screenshots/verification_preview.png)](https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/verification_desktop.png)
+_Click preview to view full desktop render_
+
+Responsive welcome and email verification email featuring personalised content, a confirmation call-to-action, social media links, and account management links. Built with MJML and Handlebars.
+
+<div>
+<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/verification_desktop.png">🖥️ Desktop full screenshot</a><br>
+<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/verification_mobile.png">📱 Mobile full screenshot</a><br>
+<a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/src/templates/accountactivation.mjml">📄 MJML Source</a><br>
+<a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/handlebars-accountactivation.html">🌐 HTML Output</a>
+</div>
