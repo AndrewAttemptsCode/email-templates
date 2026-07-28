@@ -25,7 +25,7 @@
         <mj-text font-size="34px">
           <a
             style="color: #ffffff; font-weight: bold; text-decoration: none"
-            href="https://www.bloompoint.com"
+            href="{{siteUrls.homepage}}"
           >
             BloomPoint.com
           </a>
@@ -65,146 +65,55 @@
         />
       </mj-column>
     </mj-section>
-    <!-- Multi article section -->
-    <!-- First multi-article -->
+    <!-- Dynamic Multi article section -->
+    <mj-raw>
+      {{#each articles}}
+    </mj-raw>
     <mj-section padding="20px">
       <mj-column width="200px">
         <mj-image
           fluid-on-mobile="true"
           padding="0"
-          src="https://i.postimg.cc/7btvpnGF/article1.png"
+          src="{{imageUrl}}"
           alt=""
         />
       </mj-column>
       <mj-column width="360px">
         <mj-text padding="0 0 0 15px" css-class="mobile-text-gap">
-          <a href="{{ article1 }}" style="color: #000000; font-weight: bold"
-            >Why Companies Are Cutting Middle Managers In The AI Era</a
-          >
-          <p style="margin: 16px 0 0">What if your boss's job disappears before yours does?</p>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- Multi-article devider -->
-    <mj-section padding="0">
-      <mj-column>
-        <mj-divider padding="10px 20px" border-width="1px" border-color="#a2a2a2" />
-      </mj-column>
-    </mj-section>
-    <!-- Second multi-article -->
-    <mj-section padding="20px">
-      <mj-column width="200px">
-        <mj-image
-          fluid-on-mobile="true"
-          padding="0"
-          src="https://i.postimg.cc/yWpqwy3H/article2.png"
-          alt=""
-        />
-      </mj-column>
-      <mj-column width="360px">
-        <mj-text padding="0 0 0 15px" css-class="mobile-text-gap">
-          <a href="{{ article2 }}" style="color: #000000; font-weight: bold"
-            >Women Are Losing Ground In Corporate Leadership</a
-          >
+          <a href="{{url}}" style="color: #000000; font-weight: bold">
+            {{title}}
+          </a>
           <p style="margin: 16px 0 0">
-            The so-call ambition gap is really a support gap. This comic
-            explains why.
+            {{excerpt}}
           </p>
         </mj-text>
       </mj-column>
     </mj-section>
+    <mj-raw>
+      {{#unless @last}}
+    </mj-raw>
     <!-- Multi-article devider -->
     <mj-section padding="0">
       <mj-column>
-        <mj-divider padding="10px 20px" border-width="1px" border-color="#a2a2a2" />
-      </mj-column>
-    </mj-section>
-    <!-- Third multi-article -->
-    <mj-section padding="20px">
-      <mj-column width="200px">
-        <mj-image
-          fluid-on-mobile="true"
-          padding="0"
-          src="https://i.postimg.cc/JtYw95HC/article3.png"
-          alt=""
+        <mj-divider
+          padding="10px 20px"
+          border-width="1px"
+          border-color="#a2a2a2"
         />
       </mj-column>
-      <mj-column width="360px">
-        <mj-text padding="0 0 0 15px" css-class="mobile-text-gap">
-          <a href="{{ article3 }}" style="color: #000000; font-weight: bold"
-            >Being a CEO Today Stinks (Except for the Salary)</a
-          >
-          <p style="margin: 16px 0 0">
-            It's become a 24/7 endeavor at a time when trust in business and
-            capitalism is creating.
-          </p>
-        </mj-text>
-      </mj-column>
     </mj-section>
-    <!-- Multi-article devider -->
-    <mj-section padding="0">
-      <mj-column>
-        <mj-divider padding="10px 20px" border-width="1px" border-color="#a2a2a2" />
-      </mj-column>
-    </mj-section>
-    <!-- Fourth multi-article -->
-    <mj-section padding="20px">
-      <mj-column width="200px">
-        <mj-image
-          fluid-on-mobile="true"
-          padding="0"
-          src="https://i.postimg.cc/YjDcJzLK/article4.png.png"
-          alt=""
-        />
-      </mj-column>
-      <mj-column width="360px">
-        <mj-text padding="0 0 0 15px" css-class="mobile-text-gap">
-          <a href="{{ article4 }}" style="color: #000000; font-weight: bold"
-            >AI Is Learning To Spot Toxic Bosses</a
-          >
-          <p style="margin: 16px 0 0">
-            Is sacrificing your own privacy worth it to stem your manager's
-            worst tendencies?
-          </p>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- Multi-article devider -->
-    <mj-section padding="0">
-      <mj-column>
-        <mj-divider padding="10px 20px" border-width="1px" border-color="#a2a2a2" />
-      </mj-column>
-    </mj-section>
-    <!-- Fifth multi-article -->
-    <mj-section padding="20px">
-      <mj-column width="200px">
-        <mj-image
-          fluid-on-mobile="true"
-          padding="0"
-          src="https://i.postimg.cc/t7v0LNnb/article5.png"
-          alt=""
-        />
-      </mj-column>
-      <mj-column width="360px">
-        <mj-text padding="0 0 0 15px" css-class="mobile-text-gap">
-          <a href="{{ article5 }}" style="color: #000000; font-weight: bold"
-            >Inside the Leadership Model Behind Successful Co-CEOs</a
-          >
-          <p style="margin: 16px 0 0">
-            Two-leader arrangements have a reputation for sometimes ending
-            badly, but not for these execs.
-          </p>
-        </mj-text>
-      </mj-column>
-    </mj-section>
+    <mj-raw>
+      {{/unless}}
+      {{/each}}
+    </mj-raw>
     <!-- Additional articles -->
     <mj-section padding="20px">
       <mj-column padding="20px" border="1px solid #a2a2a2" border-radius="10px">
         <mj-text padding="0">
-          <h2 style="margin-top: 0;" class="mobile-heading">
+          <h2 style="margin-top: 0" class="mobile-heading">
             What else we're reading:
           </h2>
-          <ul style="margin-bottom: 0; padding-left: 16px;">
+          <ul style="margin-bottom: 0; padding-left: 16px">
             <li style="padding-bottom: 16px">
               An investor who scored a 900% win in the 2008 crisis has a
               <u>new big short bet</u>
@@ -234,7 +143,7 @@
           padding="20px 0 0"
           inner-padding="14px 34px"
           border-radius="5px"
-          href="{{ newsletterSignup }}"
+          href="{{siteUrls.newsletterSignup}}"
         >
           Sign up
         </mj-button>
@@ -244,11 +153,13 @@
     <mj-section padding="20px">
       <mj-column>
         <mj-text padding="0">
-          <h2 style="margin-top: 0;">
+          <h2 style="margin-top: 0">
             Read these stories and more. Take more than 50% off your first year.
           </h2>
           <p>
-            Unlock the full experience; enjoy unlimited reading on BloomPoint.com and the BloomPoint app. Subscribe today for a limited-time rate of <s>£399</s> £180/first year.
+            Unlock the full experience; enjoy unlimited reading on
+            BloomPoint.com and the BloomPoint app. Subscribe today for a
+            limited-time rate of <s>£399</s> £180/first year.
           </p>
         </mj-text>
         <mj-button
@@ -260,16 +171,13 @@
           padding="10px 0"
           inner-padding="14px 34px"
           border-radius="5px"
-          href="{{ bloompointSubscribe }}"
+          href="{{siteUrls.subscribe}}"
         >
           Subscribe & Save
         </mj-button>
-        <mj-text
-          padding="0"
-          color="#a2a2a2"
-          font-style="italic"
-        >
-          Interested in getting access for your team? Start a free team trial today with <u>BloomPoint.com corporate access</u>.
+        <mj-text padding="0" color="#a2a2a2" font-style="italic">
+          Interested in getting access for your team? Start a free team trial
+          today with <u>BloomPoint.com corporate access</u>.
         </mj-text>
       </mj-column>
     </mj-section>
@@ -277,102 +185,113 @@
     <!-- Socials -->
     <mj-section background-color="#000000">
       <mj-column>
-        <mj-text
-          color="#ffffff"
-          font-size="18px"
-        >
-          Follow us:
-        </mj-text>
+        <mj-text color="#ffffff" font-size="18px"> Follow us: </mj-text>
         <mj-social icon-size="32px" align="left">
           <mj-social-element
             name="x-noshare"
             padding="0 5px 0 0"
             background-color="#292929"
-            href="{{ socialX }}"
+            href="{{socialUrls.x}}"
           />
           <mj-social-element
             name="linkedin-noshare"
             padding="0 5px"
             background-color="#292929"
-            href="{{ socialLinkedin }}"
+            href="{{socialUrls.linkedin}}"
           />
           <mj-social-element
             name="instagram-noshare"
             padding="0 5px"
             background-color="#292929"
-            href="{{ socialInstagram }}"
+            href="{{socialUrls.instagram}}"
           />
           <mj-social-element
             name="medium-noshare"
             padding="0 5px"
             background-color="#292929"
             color="#ffffff"
-            href="{{ socialMedium }}"
+            href="{{socialUrls.medium}}"
           />
           <mj-social-element
             name="facebook-noshare"
             padding="0 5px"
             background-color="#292929"
-            href="{{ socialFacebook }}"
+            href="{{socialUrls.facebook}}"
           />
           <mj-social-element
             name="youtube-noshare"
             padding="0 0 0 5px"
             background-color="#292929"
-            href="{{ socialYoutube }}"
+            href="{{socialUrls.youtube}}"
           />
         </mj-social>
         <mj-divider border-color="#ffffff" border-width="1px" />
-        <mj-text
-          color="#ffffff"
-        >
-          <p style="margin: 0; font-size: 18px; font-weight: bold;">
+        <mj-text color="#ffffff">
+          <p style="margin: 0; font-size: 18px; font-weight: bold">
             Context changes everything.
           </p>
-          <h2 style="margin: 10px 0; font-size: 34px;">
-            BloomPoint.com
-          </h2>
+          <h2 style="margin: 10px 0; font-size: 34px">BloomPoint.com</h2>
         </mj-text>
         <!-- App store download links -->
         <mj-text padding="0 25px">
-          <a href="{{ appStoreUrl }}" style="text-decoration: none;">
-            <img 
+          <a href="{{appDownloadUrls.apple}}" style="text-decoration: none">
+            <img
               src="https://i.postimg.cc/30g81d18/applestore.png"
               alt="Download on the app store"
               width="150"
-              style="display: inline-block; border: 1px solid #efefef; border-radius: 8px; vertical-align: middle;"
+              style="
+                display: inline-block;
+                border: 1px solid #efefef;
+                border-radius: 8px;
+                vertical-align: middle;
+              "
             />
           </a>
-          <a href="{{ googlePlayUrl }}" style="text-decoration: none;">
+          <a href="{{appDownloadUrls.google}}" style="text-decoration: none">
             <img
               src="https://i.postimg.cc/SYWSdJdR/googleplay.png"
               alt="Get it on Google play"
               width="150"
-              style="display: inline-block; margin-left: 15px; border: 1px solid #efefef; border-radius: 8px; vertical-align: middle;"
+              style="
+                display: inline-block;
+                margin-left: 15px;
+                border: 1px solid #efefef;
+                border-radius: 8px;
+                vertical-align: middle;
+              "
               class="mobile-img"
             />
           </a>
         </mj-text>
         <mj-text color="#ffffff" padding="25px 25px 0">
-          <u>View in Browser</u><br/><br/>
-          Pricing may vary based on applicable currency. Please do not reply to this message.
-          It was sent from an unmonitored email address. If you receive this message in error, please contact us.<br/><br/>
+          <u>View in Browser</u><br /><br />
+          Pricing may vary based on applicable currency. Please do not reply to
+          this message. It was sent from an unmonitored email address. If you
+          receive this message in error, please contact us.<br /><br />
           <a
-            style="text-decoration: underline; color: #ffffff;"
-            href="{{ contactUrl }}"
-          >Contact Us</a>
+            style="text-decoration: underline; color: #ffffff"
+            href="{{siteUrls.contact}}"
+            >Contact Us</a
+          >
           |
           <a
-            style="text-decoration: underline; color: #ffffff;"
-            href="{{ advertiseUrl }}"
-          >Advertise</a>
+            style="text-decoration: underline; color: #ffffff"
+            href="{{siteUrls.advertise}}"
+            >Advertise</a
+          >
           |
           <a
-            style="text-decoration: underline; color: #ffffff;"
-            href="{{ emailUnsubscribe }}"
-          >Unsubscribe</a><br/><br/>
-          Copyright 2026 | <a style="text-decoration: underline; color: #ffffff;" href="{{ privacyPolicy }}">Privacy Policy</a><br/>
-          123 Roadsmith Avenue, Old York, OY 12345          
+            style="text-decoration: underline; color: #ffffff"
+            href="{{siteUrls.unsubscribe}}"
+            >Unsubscribe</a
+          ><br /><br />
+          Copyright 2026 |
+          <a
+            style="text-decoration: underline; color: #ffffff"
+            href="{{siteUrls.privacyPolicy}}"
+            >Privacy Policy</a
+          ><br />
+          123 Roadsmith Avenue, Old York, OY 12345
         </mj-text>
       </mj-column>
     </mj-section>
