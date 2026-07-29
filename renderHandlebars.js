@@ -2,26 +2,16 @@ import fs from "fs";
 import Handlebars from "handlebars";
 
 const template = Handlebars.compile(
-  fs.readFileSync("dist/newsletter.html", "utf8")
+  fs.readFileSync("dist/transactional.html", "utf8")
 );
 
 const data = JSON.parse(
-  fs.readFileSync("src/data/newsletter.json", "utf-8")
+  fs.readFileSync("src/data/transactional.json", "utf-8")
 );
 
 const html = template(data);
 
-fs.writeFileSync("dist/handlebars-newsletter.html", html);
-
-
-// transactional email
-// const html = template({
-//   guestName: "Andrew",
-//   bookingDay: "Friday",
-//   bookingTime: "7:00 PM",
-//   bookingSeats: 2,
-//   updateBookingUrl: "https://elixir-restaurant.com/update"
-// });
+fs.writeFileSync("dist/handlebars-transactional.html", html);
 
 // forgotpassword email
 // const html = template({
@@ -71,27 +61,3 @@ fs.writeFileSync("dist/handlebars-newsletter.html", html);
 //   viewOnline: "https://www.theoytrust.org/email/viewonline",
 //   userEmail: "andrew@email.com"
 // });
-
-// newsletter email
-// const html = template({
-//   article1: "https://www.bloompoint.com/article/1",
-//   article2: "https://www.bloompoint.com/article/2",
-//   article3: "https://www.bloompoint.com/article/3",
-//   article4: "https://www.bloompoint.com/article/4",
-//   article5: "https://www.bloompoint.com/article/5",
-//   newsletterSignup: "https://www.bloompoint.com/newsletter/signup",
-//   bloompointSubscribe: "https://www.bloompoint.com/subscription/signup",
-//   socialX: "https://www.x.com/bloompoint",
-//   socialLinkedin: "https://www.linkedin.com/bloompoint",
-//   socialInstagram: "https://www.instagra.com/bloompoint",
-//   socialMedium: "https://www.medium.com/bloompoint",
-//   socialFacebook: "https://www.facebook.com/bloompoint",
-//   socialYoutube: "https://www.youtube.com/bloompoint",
-//   appStoreUrl: "https://apps.apple.com/gb/app/bloompoint/1234",
-//   googlePlayUrl: "https://play.google.com/store/apps/details?id=com.bloompoint.android&hl=en_GB",
-//   contactUrl: "https://www.bloompoint.com/contactus",
-//   advertiseUrl: "https://www.bloompoint.com/advertise",
-//   emailUnsubscribe: "https://www.bloompoint.com/email/unsubscribe",
-//   privacyPolicy: "https://www.bloompoint.com/privacypolicy"
-// });
-
