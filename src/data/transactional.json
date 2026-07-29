@@ -1,0 +1,27 @@
+{
+  "guestName": "Andrew",
+  "booking": {
+    "day": "Friday",
+    "time": "7:00 PM",
+    "seats": "2",
+    "updateUrl": "https://elixir-restaurant.com/update-reservation/123"
+  },
+  "socialUrls": [
+    {
+      "icon": "https://www.mailjet.com/images/theme/v1/icons/ico-social/facebook.png",
+      "url": "https://www.facebook.com/elixir-restaurant"
+    },
+    {
+      "icon": "https://www.mailjet.com/images/theme/v1/icons/ico-social/twitter-x.png",
+      "url": "https://x.com/elixir-restaurant"
+    },
+    {
+      "icon": "https://www.mailjet.com/images/theme/v1/icons/ico-social/instagram.png",
+      "url": "https://instagram.com/elixir-restaurant"
+    },
+    {
+      "icon": "https://www.mailjet.com/images/theme/v1/icons/ico-social/web.png",
+      "url": "https://elixir-restaurant.com"
+    }
+  ]
+}
