@@ -43,7 +43,7 @@
         <mj-divider border-width="2px" border-color="#9F1B32" padding="0 10px" />
         <mj-text padding="10px" font-size="16px" line-height="1.5" color="#5D5D5D">
           Hi {{guestName}}, <br /><br />
-          We look forward to welcoming you on {{bookingDay}} at {{bookingTime}}. Your reservation is for {{bookingSeats}} people. <br /><br />
+          We look forward to welcoming you on {{booking.day}} at {{booking.time}}. Your reservation is for {{booking.seats}} people. <br /><br />
           If you have any questions or special requests please feel free to contact us. To cancel or update your booking simply click the button below. <br />
         </mj-text>
         <mj-button
@@ -54,7 +54,7 @@
           inner-padding="12px 24px"
           font-weight="bold"
           font-size="14px"
-          href="{{updateBookingUrl}}"
+          href="{{booking.updateUrl}}"
         >
           Update Booking
         </mj-button>
@@ -88,30 +88,17 @@
         </mj-text>
         <!-- Social icons -->
         <mj-social align="left" icon-size="32px" padding="10px">
+          <mj-raw>
+            {{#each socialUrls}}
+          </mj-raw>
           <mj-social-element
-            name="facebook-noshare"
-            href="https://facebook.com/elixir-restaurant"
+            src="{{icon}}"
+            href="{{url}}"
             background-color="#9F1B32"
-            color="#FFFFFF"
           />
-          <mj-social-element
-            name="x-noshare"
-            href="https://x.com/elixir-restaurant"
-            background-color="#9F1B32"
-            color="#FFFFFF"
-          />
-          <mj-social-element
-            name="instagram-noshare"
-            href="https://instagram.com/elixir-restaurant"
-            background-color="#9F1B32"
-            color="#FFFFFF"
-          />
-          <mj-social-element
-            name="web-noshare"
-            href="https://elixir-restaurant.com"
-            background-color="#9F1B32"
-            color="#FFFFFF"
-          />
+          <mj-raw>
+            {{/each}}
+          </mj-raw>
         </mj-social>
       </mj-column>
       <!-- Map location -->
