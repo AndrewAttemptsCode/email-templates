@@ -1,4 +1,14 @@
 <mjml>
+  <mj-head>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-map {
+          padding: 0px 14px 0px 10px !important;
+          box-sizing: border-box;
+        }
+      }
+    </mj-style>
+  </mj-head>
   <mj-body>
     <!-- Hero section -->
     <mj-hero
@@ -107,6 +117,8 @@
           href="#"
           src="https://img.createsend1.com/resize/ei/y/22/2C1/DCE/csimport/11-marketing.jpg"
           padding="10px 0"
+          fluid-on-mobile="true"
+          css-class="mobile-map"
         />
       </mj-column>
     </mj-section>
