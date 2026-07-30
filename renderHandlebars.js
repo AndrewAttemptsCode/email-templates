@@ -2,25 +2,16 @@ import fs from "fs";
 import Handlebars from "handlebars";
 
 const template = Handlebars.compile(
-  fs.readFileSync("dist/transactional.html", "utf8")
+  fs.readFileSync("dist/forgotpassword.html", "utf8")
 );
 
 const data = JSON.parse(
-  fs.readFileSync("src/data/transactional.json", "utf-8")
+  fs.readFileSync("src/data/forgotpassword.json", "utf-8")
 );
 
 const html = template(data);
 
-fs.writeFileSync("dist/handlebars-transactional.html", html);
-
-// forgotpassword email
-// const html = template({
-//   firstName: "Andrew",
-//   lastName: "Travis",
-//   resetPasswordUrl: "https://streamy.com/resetpassword",
-//   supportUrl: "https://streamy.com/support",
-//   userEmail: "hello@andrew.co.uk"
-// });
+fs.writeFileSync("dist/handlebars-forgotpassword.html", html);
 
 // orderconfirmation email
 // const html = template({
