@@ -14,6 +14,7 @@
             width="150px"
             padding="0"
             src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/logos/account_activation_logo.png"
+            href="{{siteUrls.home}}"
           />
         </mj-column>
         <mj-column>
@@ -22,7 +23,7 @@
             font-size="16px"
             padding="10px 0"
           >
-            {{ currentDate }}
+            {{ newsletter.submissionDate }}
           </mj-text>
         </mj-column>
       </mj-group>
@@ -55,9 +56,15 @@
           color="#ffffff"
           font-size="16px"
         >
-          Dear New Subscriber,<br/><br/>
+          Dear
+          <mj-raw>{{#if user.firstName}}</mj-raw>
+            {{user.firstName}},
+          <mj-raw>{{else}}</mj-raw>
+          New Subscriber,
+          <mj-raw>{{/if}}</mj-raw>
+          <br/><br/>
           Thank you for signing up for news from The Old York Community Trust. Please confirm your subscription below and add us to your contact list to ensure you receive the emails you have requested.<br/><br/>
-          If you have any concerns or questions please do not hesitate to <a href="{{ contactForm }}" style="color: #d3cb3b;">contact us</a>.
+          If you have any concerns or questions please do not hesitate to <a href="{{ siteUrls.contact }}" style="color: #d3cb3b;">contact us</a>.
         </mj-text>
         <mj-button
           padding-top="40px"
@@ -67,7 +74,7 @@
           font-weight="bold"
           font-weight="16px"
           border-radius="20px"
-          href="{{ confirmEmail }}"
+          href="{{ user.confirmEmail }}"
         >
           Confirm Your Email
         </mj-button>
@@ -94,10 +101,10 @@
           Find us on social media.
         </mj-text>
         <mj-social icon-size="32px" padding="0" border-radius="25px" icon-padding="5px">
-          <mj-social-element name="facebook-noshare" href="https://www.facebook.com/theoytrust"/>
-          <mj-social-element name="instagram-noshare" href="https://www.instagram.com/theoytrust"/>
-          <mj-social-element name="linkedin-noshare" href="https://www.linkedin.com/theoytrust"/>
-          <mj-social-element name="youtube-noshare" href="https://www.youtube.com/theoytrust"/>
+          <mj-social-element name="facebook-noshare" href="{{socials.facebook}}"/>
+          <mj-social-element name="instagram-noshare" href="{{socials.instagram}}"/>
+          <mj-social-element name="linkedin-noshare" href="{{socials.linkedin}}"/>
+          <mj-social-element name="youtube-noshare" href="{{socials.youtube}}"/>
         </mj-social>
         <mj-text
           color="#ffffff"
@@ -105,7 +112,7 @@
           font-size="16px"
           align="center"
         >
-          <a href="{{ baseUrl }}" style="color: #d3cb3b; padding-right: 5px;">theoytrust.org</a>
+          <a href="{{ siteUrls.home }}" style="color: #d3cb3b; padding-right: 5px;">theoytrust.org</a>
           |
           <span style="padding-left: 5px;">(000) 111-222</span>
         </mj-text>
@@ -118,11 +125,11 @@
           padding="0 5px"
           color="#8a8a8a"
         >
-          <a href="{{ managePreferences }}">Manage</a> your preferences | <a href="{{ optOut }}">Opt out</a> using TrueRemove &trade;<br/>
-          Got this as a forward? <a href="{{ emailSignup }}">Sign up</a> to receive our future emails.<br/>
-          View this email <a href="{{ viewOnline }}">online</a>.<br/><br/>
+          <a href="{{ user.managePreferences }}">Manage</a> your preferences | <a href="{{ user.optOut }}">Opt out</a> using TrueRemove &trade;<br/>
+          Got this as a forward? <a href="{{ siteUrls.emailSignup }}">Sign up</a> to receive our future emails.<br/>
+          View this email <a href="{{ siteUrls.viewOnline }}">online</a>.<br/><br/>
           100 Third Avenue, 10th Floor | Old York, OY 10000 US<br/><br/>
-          This email was sent to <a href="mailto: {{ userEmail }}" style="color: #8a8a8a; text-decoration: none;">{{ userEmail }}</a><br/>
+          This email was sent to <a href="mailto: {{ user.email }}" style="color: #8a8a8a; text-decoration: none;">{{ user.email }}</a><br/>
           To continue receiving our emails, add us to your address book.
         </mj-text>
       </mj-column>
