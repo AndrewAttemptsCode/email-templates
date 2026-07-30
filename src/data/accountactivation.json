@@ -1,0 +1,25 @@
+{
+  "user": {
+    "firstName": "Andrew",
+    "email": "andrew@email.com",
+    "confirmEmail": "https://www.theoytrust.org/confirm-email-123-321-43",
+    "managePreferences": "https://www.theoytrust.org/settings/email",
+    "optOut": "https://www.theoytrust.org/settings/email/optout,"
+
+  },
+  "newsletter": {
+    "submissionDate": "July 12, 2026"
+  },
+  "siteUrls": {
+    "home": "https://www.theoytrust.org/",
+    "contact": "https://www.theoytrust.org/support-ticket",
+    "emailSignup": "https://www.theoytrust.org/emailsignup",
+    "viewOnline": "https://www.theoytrust.org/email/viewonline"
+  },
+  "socials": {
+    "facebook": "https://www.facebook.com/theoytrust",
+    "instagram": "https://www.instagram.com/theoytrust",
+    "linkedin": "https://www.linkedin.com/theoytrust",
+    "youtube": "https://www.youtube.com/theoytrust"
+  }
+}
