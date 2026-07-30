@@ -2,16 +2,16 @@ import fs from "fs";
 import Handlebars from "handlebars";
 
 const template = Handlebars.compile(
-  fs.readFileSync("dist/forgotpassword.html", "utf8")
+  fs.readFileSync("dist/accountactivation.html", "utf8")
 );
 
 const data = JSON.parse(
-  fs.readFileSync("src/data/forgotpassword.json", "utf-8")
+  fs.readFileSync("src/data/accountactivation.json", "utf-8")
 );
 
 const html = template(data);
 
-fs.writeFileSync("dist/handlebars-forgotpassword.html", html);
+fs.writeFileSync("dist/handlebars-accountactivation.html", html);
 
 // orderconfirmation email
 // const html = template({
@@ -38,17 +38,4 @@ fs.writeFileSync("dist/handlebars-forgotpassword.html", html);
 //   socialTwitter: "https://www.twitter.com/totallynotsquatch",
 //   socialInstagram: "https://www.instagramcom/totallynotsquatch",
 //   socialYoutube: "https://www.youtube.com/totallynotsquatch"
-// });
-
-// account activation email
-// const html = template({
-//   currentDate: "July 12, 2026",
-//   contactForm: "https://www.theoytrust.org/support-ticket",
-//   confirmEmail: "https://www.theoytrust.org/confirm-email-123-321-43",
-//   baseUrl: "https://www.theoytrust.org/",
-//   managePreferences: "https://www.theoytrust.org/settings/email",
-//   optOut: "https://www.theoytrust.org/settings/email/optout",
-//   emailSignup: "https://www.theoytrust.org/emailsignup",
-//   viewOnline: "https://www.theoytrust.org/email/viewonline",
-//   userEmail: "andrew@email.com"
 // });
