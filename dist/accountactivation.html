@@ -120,7 +120,9 @@
                             <tbody>
                               <tr>
                                 <td style="width:150px;">
-                                  <img alt="" src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/logos/account_activation_logo.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="150" height="auto" />
+                                  <a href="{{siteUrls.home}}" target="_blank">
+                                    <img alt="" src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/logos/account_activation_logo.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="150" height="auto" />
+                                  </a>
                                 </td>
                               </tr>
                             </tbody>
@@ -136,7 +138,7 @@
                     <tbody>
                       <tr>
                         <td align="right" style="font-size:0px;padding:10px 0;word-break:break-word;">
-                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:right;color:#000000;">{{ currentDate }}</div>
+                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:right;color:#000000;">{{ newsletter.submissionDate }}</div>
                         </td>
                       </tr>
                     </tbody>
@@ -203,7 +205,11 @@
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:left;color:#ffffff;">Dear New Subscriber,<br /><br /> Thank you for signing up for news from The Old York Community Trust. Please confirm your subscription below and add us to your contact list to ensure you receive the emails you have requested.<br /><br /> If you have any concerns or questions please do not hesitate to <a href="{{ contactForm }}" style="color: #d3cb3b;">contact us</a>.</div>
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:left;color:#ffffff;">Dear <mj-raw>{{#if user.firstName}}</mj-raw>
+                          {{user.firstName}}, <mj-raw>
+                            {{else}}</mj-raw> New Subscriber, <mj-raw>{{/if}}</mj-raw>
+                          <br /><br /> Thank you for signing up for news from The Old York Community Trust. Please confirm your subscription below and add us to your contact list to ensure you receive the emails you have requested.<br /><br /> If you have any concerns or questions please do not hesitate to <a href="{{ siteUrls.contact }}" style="color: #d3cb3b;">contact us</a>.
+                        </div>
                       </td>
                     </tr>
                     <tr>
@@ -212,7 +218,7 @@
                           <tbody>
                             <tr>
                               <td align="center" bgcolor="#ffffff" role="presentation" style="border:none;border-radius:20px;cursor:auto;mso-padding-alt:12px 25px;background:#ffffff;" valign="middle">
-                                <a href="{{ confirmEmail }}" style="display:inline-block;background:#ffffff;color:#008566;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:12px 25px;mso-padding-alt:0px;border-radius:20px;" target="_blank"> Confirm Your Email </a>
+                                <a href="{{ user.confirmEmail }}" style="display:inline-block;background:#ffffff;color:#008566;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:12px 25px;mso-padding-alt:0px;border-radius:20px;" target="_blank"> Confirm Your Email </a>
                               </td>
                             </tr>
                           </tbody>
@@ -290,7 +296,7 @@
                                   <tbody>
                                     <tr>
                                       <td style="padding:5px;font-size:0;height:32px;vertical-align:middle;width:32px;">
-                                        <a href="https://www.facebook.com/theoytrust" target="_blank">
+                                        <a href="{{socials.facebook}}" target="_blank">
                                           <img alt="" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/facebook.png" style="border-radius:25px;display:block;" width="32" />
                                         </a>
                                       </td>
@@ -310,7 +316,7 @@
                                   <tbody>
                                     <tr>
                                       <td style="padding:5px;font-size:0;height:32px;vertical-align:middle;width:32px;">
-                                        <a href="https://www.instagram.com/theoytrust" target="_blank">
+                                        <a href="{{socials.instagram}}" target="_blank">
                                           <img alt="" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/instagram.png" style="border-radius:25px;display:block;" width="32" />
                                         </a>
                                       </td>
@@ -330,7 +336,7 @@
                                   <tbody>
                                     <tr>
                                       <td style="padding:5px;font-size:0;height:32px;vertical-align:middle;width:32px;">
-                                        <a href="https://www.linkedin.com/theoytrust" target="_blank">
+                                        <a href="{{socials.linkedin}}" target="_blank">
                                           <img alt="" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png" style="border-radius:25px;display:block;" width="32" />
                                         </a>
                                       </td>
@@ -350,7 +356,7 @@
                                   <tbody>
                                     <tr>
                                       <td style="padding:5px;font-size:0;height:32px;vertical-align:middle;width:32px;">
-                                        <a href="https://www.youtube.com/theoytrust" target="_blank">
+                                        <a href="{{socials.youtube}}" target="_blank">
                                           <img alt="" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/youtube.png" style="border-radius:25px;display:block;" width="32" />
                                         </a>
                                       </td>
@@ -366,7 +372,7 @@
                     </tr>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-height:1.5;text-align:center;color:#ffffff;"><a href="{{ baseUrl }}" style="color: #d3cb3b; padding-right: 5px;">theoytrust.org</a> | <span style="padding-left: 5px;">(000) 111-222</span></div>
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-height:1.5;text-align:center;color:#ffffff;"><a href="{{ siteUrls.home }}" style="color: #d3cb3b; padding-right: 5px;">theoytrust.org</a> | <span style="padding-left: 5px;">(000) 111-222</span></div>
                       </td>
                     </tr>
                   </tbody>
@@ -392,7 +398,7 @@
                   <tbody>
                     <tr>
                       <td align="left" style="font-size:0px;padding:0 5px;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1.5;text-align:left;color:#8a8a8a;"><a href="{{ managePreferences }}">Manage</a> your preferences | <a href="{{ optOut }}">Opt out</a> using TrueRemove &trade;<br /> Got this as a forward? <a href="{{ emailSignup }}">Sign up</a> to receive our future emails.<br /> View this email <a href="{{ viewOnline }}">online</a>.<br /><br /> 100 Third Avenue, 10th Floor | Old York, OY 10000 US<br /><br /> This email was sent to <a href="mailto: {{ userEmail }}" style="color: #8a8a8a; text-decoration: none;">{{ userEmail }}</a><br /> To continue receiving our emails, add us to your address book.</div>
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1.5;text-align:left;color:#8a8a8a;"><a href="{{ user.managePreferences }}">Manage</a> your preferences | <a href="{{ user.optOut }}">Opt out</a> using TrueRemove &trade;<br /> Got this as a forward? <a href="{{ siteUrls.emailSignup }}">Sign up</a> to receive our future emails.<br /> View this email <a href="{{ siteUrls.viewOnline }}">online</a>.<br /><br /> 100 Third Avenue, 10th Floor | Old York, OY 10000 US<br /><br /> This email was sent to <a href="mailto: {{ user.email }}" style="color: #8a8a8a; text-decoration: none;">{{ user.email }}</a><br /> To continue receiving our emails, add us to your address book.</div>
                       </td>
                     </tr>
                   </tbody>
