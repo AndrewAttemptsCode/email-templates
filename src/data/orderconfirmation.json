@@ -1,0 +1,71 @@
+{
+  "customer": {
+    "firstName": "Andrew",
+    "lastName": "Travis"
+  },
+  "order": {
+    "number": "65005000",
+    "date": "July 18, 2026",
+    "status": "https://www.totallynotsquatch.com/orderstatus/65005000"
+  },
+  "shippingAddress": {
+    "firstName": "Andrew",
+    "lastName": "Travis",
+    "street": "20 Park Lane",
+    "city": "Manchester",
+    "postCode": "M12 4TY",
+    "country": "United Kingdom",
+    "contactNumber": "+447546687752"
+  },
+  "customerAddress": {
+    "firstName": "Andrew",
+    "lastName": "Travis",
+    "street": "20 Park Lane",
+    "city": "Manchester",
+    "postCode": "M12 4TY",
+    "country": "United Kingdom",
+    "email": "andrew@email.com"
+  },
+  "siteUrls": {
+    "smsSignup": "https://www.totallynotsquatch.com/sms-signup",
+    "termsOfService": "https://www.totallynotsquatch.com/tos",
+    "privacyPolicy": "https://www.totallynotsquatch.com/privacy",
+    "careSquad": "https://www.totallynotsquatch.com/support"
+  },
+  "favourites": [
+    {
+      "items": [
+        {
+          "name": "Toothpaste Kit",
+          "image": "https://cdn.shopify.com/s/files/1/0555/4431/5957/files/oldnight-Toothpaste-01-Product-Card-Tenh_3ad94aa3-f908-452e-87dc-753eed60af04.png",
+          "url": "https://www.totallynotsquatch.com/product/toothpaste"
+        },
+        {
+          "name": "Bay Rum",
+          "image": "https://cdn.shopify.com/s/files/1/0555/4431/5957/files/Bay-Rum-Bar-Soap-01-Product-Card-01-llsl_335cb394-352a-4b11-8ac5-51c7c270dc03.png",
+          "url": "https://www.totallynotsquatch.com/product/bayrum"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "name": "Refreshing Hair Care Kit",
+          "image": "https://cdn.shopify.com/s/files/1/0555/4431/5957/files/Coconut-Castaway-Hair-Care-Duo-01-Product-Card-YQaW_6b709126-3529-48b5-a321-7e0ea5abf2c7.png",
+          "url": "https://www.totallynotsquatch.com/product/refreshing-hair-kit"
+        },
+        {
+          "name": "Pine Tar Deodorant",
+          "image": "https://cdn.shopify.com/s/files/1/0555/4431/5957/files/Pine-Tar-Deo-01-Product-Card-bnWH_1b0d5168-926f-4293-8971-6588849f733e.png",
+          "url": "https://www.totallynotsquatch.com/product/pine-tar-deodorant"
+        }
+      ]
+    }
+  ],
+  "socials": {
+    "facebook": "https://www.facebook/com/totallynotsquatch",
+    "twitter": "https://www.twitter.com/totallynotsquatch",
+    "instagram": "https://www.instagramcom/totallynotsquatch",
+    "youtube": "https://www.youtube.com/totallynotsquatch"
+  }
+}
