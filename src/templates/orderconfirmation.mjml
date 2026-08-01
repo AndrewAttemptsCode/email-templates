@@ -61,7 +61,7 @@
           align="center"
           padding-top="30px"
         >
-          Hey {{ firstName }} {{ lastName }},<br/><br/>
+          Hey {{ customer.firstName }} {{ customer.lastName }},<br/><br/>
           We've received your order and have a team surprisingly nimble Sasquatches working to put it together now. In the meantime, feel free to get dirty and rugged — Dr. Squatch is on the way.
           If you have any questions about your order, feel free to reply to this email directly! <br/><br/>
           <strong>Please note that we can only update or cancel orders within 30 minutes of when you originally placed the order.</strong>
@@ -78,13 +78,13 @@
           border-color="#E5E5E5"
         />
         <mj-text align="center">
-          <span style="font-weight: bold; font-size: 26px; color: #223521;" class="mobile-order-heading">ORDER NO. #{{ orderNumber }}</span>
-          <span style="display: block; font-size: 16px; color: #e6a800">{{ orderDate }}</span>
+          <span style="font-weight: bold; font-size: 26px; color: #223521;" class="mobile-order-heading">ORDER NO. #{{ order.number }}</span>
+          <span style="display: block; font-size: 16px; color: #e6a800">{{ order.date }}</span>
         </mj-text>
       </mj-column>
     </mj-section>
     <!-- Items ordered section -->
-    <mj-section>
+    <mj-section padding="0 10px">
       <mj-column>
         <mj-text
           color="#223521"
@@ -101,7 +101,7 @@
         />
       </mj-column>
     </mj-section>
-    <mj-section padding="0">
+    <mj-section padding="0 10px">
       <mj-column>
         <mj-table padding="0">
           <tr>
@@ -131,7 +131,7 @@
       </mj-column>
     </mj-section>
     <!-- Order calculation -->
-    <mj-section padding="0">
+    <mj-section padding="0 10px">
       <mj-column>
         <mj-table padding="0">
           <tr style="font-size: 16px; color: #5a3714; font-weight: 500;">
@@ -154,7 +154,7 @@
       </mj-column>
     </mj-section>
     <!-- Payment info section -->
-    <mj-section>
+    <mj-section padding="0 10px">
       <mj-column>
         <mj-text
           color="#223521"
@@ -172,9 +172,9 @@
       </mj-column>
     </mj-section>
     <!-- Payment info type -->
-    <mj-section padding="0 0 20px">
+    <mj-section padding="0 10px 20px 10px">
       <mj-column>
-        <mj-table padding="0">
+        <mj-table padding="10px 0">
           <td width="50">
             <img
               width="50"
@@ -190,29 +190,29 @@
       </mj-column>
     </mj-section>
     <!-- Shipping and billing info section -->
-    <mj-section padding="20px 0">
+    <mj-section padding="20px 10px">
       <mj-column>
         <mj-text padding="0" color="#5a3714" font-size="16px">
           <span style="color: #223521; font-weight: bold; font-size: 18px;">SHIPPING ADDRESS</span><br />
-          {{ firstName }} {{ lastName }}<br />
-          {{ streetAddress }}<br />
-          {{ cityAddress }}, {{ postCode }}<br />
-          {{ countryAddress }}<br />
-          Tel. {{ contactNumber }}
+          {{ shippingAddress.firstName }} {{ shippingAddress.lastName }}<br />
+          {{ shippingAddress.street }}<br />
+          {{ shippingAddress.city }}, {{ shippingAddress.postCode }}<br />
+          {{ shippingAddress.country }}<br />
+          Tel. {{ shippingAddress.contactNumber }}
         </mj-text>
       </mj-column>
       <mj-column>
         <mj-text padding="0" align="right" color="#5a3714" font-size="16px" css-class="mobile-left-align">
           <span style="color: #223521; font-weight: bold; font-size: 18px;">CUSTOMER</span><br />
-          {{ firstName }} {{ lastName }}<br />
-          {{ streetAddress }}<br />
-          {{ cityAddress }}, {{ postCode }}<br />
-          {{ countryAddress }}<br />
-          <a href="mailto:{{ userEmail }}" style="color: #e6a800; text-decoration: none;">{{ userEmail }}</a>
+          {{ customerAddress.firstName }} {{ customerAddress.lastName }}<br />
+          {{ customerAddress.street }}<br />
+          {{ customerAddress.city }}, {{ customerAddress.postCode }}<br />
+          {{ customerAddress.country }}<br />
+          <a href="mailto:{{ customerAddress.email }}" style="color: #e6a800; text-decoration: none;">{{ customerAddress.email }}</a>
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding="0">
+    <mj-section padding="0 10px">
       <mj-column>
         <mj-divider
           padding="20px 0"
@@ -222,7 +222,7 @@
       </mj-column>
     </mj-section>
     <!-- Order status -->
-    <mj-section padding="20px 0 0">
+    <mj-section padding="20px 10px 0 10px">
       <mj-column>
         <mj-text
           align="center"
@@ -234,7 +234,7 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section padding="0 10px">
       <mj-column>
         <mj-button
           inner-padding="15px 25px"
@@ -242,14 +242,14 @@
           color="#ffffff"
           font-weight="bold"
           font-size="16px"
-          href="{{ orderStatus }}"
+          href="{{ order.status }}"
         >
           VIEW ORDER STATUS <span style="padding-left: 5px;">&#9654;</span>
         </mj-button>
       </mj-column>
     </mj-section>
     <!-- SMS promo section -->
-    <mj-section padding="25px 0">
+    <mj-section padding="25px 10px">
       <mj-column padding="20px 25px" background-color="#223521" border-radius="25px">
         <mj-image width="100px" src="https://i.postimg.cc/MKkzGPcH/speech-bubble-talk-bubble-chat-bubble-icon-transparent-free-png.png" alt="" />
         <mj-text
@@ -278,14 +278,14 @@
           color="#ffffff"
           font-weight="bold"
           font-size="20px"
-          href="{{ smsSignup }}"
+          href="{{ siteUrls.smsSignup }}"
           css-class="full-width-link"
         >
           SIGN UP
         </mj-button>
       </mj-column>
     </mj-section>
-    <mj-section padding="0 0 25px">
+    <mj-section padding="0 10px 25px 10px">
       <mj-column>
         <mj-text
           align="center"
@@ -293,7 +293,7 @@
         >
           I agree to receive recurring automated marketing text messages (e.g. cart reminders) at the phone number provided.
           Consent is not a condition to purchase. Msg and data rates may apply. Msg frequency varies. Reply HELP for help and STOP to cancel.<br/>
-          View our <a style="color: #e6a800; text-decoration: none;" href="{{ termsOfService }}">Terms of Service</a> and <a style="color: #e6a800; text-decoration: none;" href="{{ privacyPolicy }}">Privacy Policy</a>.
+          View our <a style="color: #e6a800; text-decoration: none;" href="{{ siteUrls.termsOfService }}">Terms of Service</a> and <a style="color: #e6a800; text-decoration: none;" href="{{ siteUrls.privacyPolicy }}">Privacy Policy</a>.
         </mj-text>
         <mj-text
           align="center"
@@ -319,106 +319,39 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    <!-- First row -->
-    <mj-section>
+    <!-- Favourite items -->
+    <mj-raw>{{#each favourites}}</mj-raw>
+    <mj-section padding="10px">
+    <mj-raw>{{#each items}}</mj-raw>
       <mj-column
         width="48%"
         background-color="#f6f6f6"
       >
-        <mj-image src="https://cdn.shopify.com/s/files/1/0555/4431/5957/files/oldnight-Toothpaste-01-Product-Card-Tenh_3ad94aa3-f908-452e-87dc-753eed60af04.png" alt="" />
+        <mj-image src="{{image}}" alt="" />
         <mj-text
           align="center"
           padding="0"
           color="#223521"
           font-size="16px"
         >
-          Toothpaste Kit
+          {{name}}
         </mj-text>
         <mj-button
           background-color="transparent"
           color="#cc6328"
           font-size="16px"
           padding-top="0"
-          href="{{ favouriteItem1Url }}"
+          href="{{url}}"
         >
           SHOP NOW <span style="padding-left: 5px;">&#9654;</span>
         </mj-button>
       </mj-column>
+      <mj-raw>{{#unless @last}}</mj-raw>
       <mj-column width="4%" css-class="mobile-height-spacer" />
-      <mj-column
-        width="48%"
-        background-color="#f6f6f6"
-      >
-        <mj-image src="https://cdn.shopify.com/s/files/1/0555/4431/5957/files/Bay-Rum-Bar-Soap-01-Product-Card-01-llsl_335cb394-352a-4b11-8ac5-51c7c270dc03.png" alt="" />
-        <mj-text
-          align="center"
-          padding="0"
-          color="#223521"
-          font-size="16px"
-        >
-          Bay Rum
-        </mj-text>
-        <mj-button
-          background-color="transparent"
-          color="#cc6328"
-          font-size="16px"
-          padding-top="0"
-          href="{{ favouriteItem2Url }}"
-        >
-          SHOP NOW <span style="padding-left: 5px;">&#9654;</span>
-        </mj-button>
-      </mj-column>
+      <mj-raw>{{/unless}}</mj-raw>
+    <mj-raw>{{/each}}</mj-raw>
     </mj-section>
-    <!-- Second row -->
-    <mj-section padding-top="4px">
-      <mj-column
-        width="48%"
-        background-color="#f6f6f6"
-      >
-        <mj-image src="https://cdn.shopify.com/s/files/1/0555/4431/5957/files/Coconut-Castaway-Hair-Care-Duo-01-Product-Card-YQaW_6b709126-3529-48b5-a321-7e0ea5abf2c7.png" alt="" />
-        <mj-text
-          align="center"
-          padding="0"
-          color="#223521"
-          font-size="16px"
-        >
-          Refreshing Hair Care Kit
-        </mj-text>
-        <mj-button
-          background-color="transparent"
-          color="#cc6328"
-          font-size="16px"
-          padding-top="0"
-          href="{{ favouriteItem3Url }}"
-        >
-          SHOP NOW <span style="padding-left: 5px;">&#9654;</span>
-        </mj-button>
-      </mj-column>
-      <mj-column width="4%" css-class="mobile-height-spacer" />
-      <mj-column
-        width="48%"
-        background-color="#f6f6f6"
-      >
-        <mj-image src="https://cdn.shopify.com/s/files/1/0555/4431/5957/files/Pine-Tar-Deo-01-Product-Card-bnWH_1b0d5168-926f-4293-8971-6588849f733e.png" alt="" />
-        <mj-text
-          align="center"
-          padding="0"
-          color="#223521"
-          font-size="16px"
-        >
-          Pine Tar Deodorant
-        </mj-text>
-        <mj-button
-          background-color="transparent"
-          color="#cc6328"
-          font-size="16px"
-          padding-top="0"
-          href="{{ favouriteItem4Url }}"
-        >
-          SHOP NOW <span style="padding-left: 5px;">&#9654;</span>
-        </mj-button>
-      </mj-column>
-    </mj-section>
+    <mj-raw>{{/each}}</mj-raw>
     <!-- Footer section -->
     <mj-section background-color="#352e2e">
       <mj-column>
@@ -433,7 +366,7 @@
           align="center"
           color="#ffffff"
         >
-          Questions? Contact <a href="{{ careSquadUrl }}" style="color: #e6a800; text-decoration: none">Squatch Care Squad</a>
+          Questions? Contact <a href="{{ siteUrls.careSquad }}" style="color: #e6a800; text-decoration: none">Squatch Care Squad</a>
         </mj-text>
         <!-- Navigation section -->
         <mj-navbar base-url="https://www.totallynotsquatch.com">
@@ -473,28 +406,28 @@
             padding="10px"
             icon-padding="5px"
             border-radius="25px"
-            href="{{ socialFacebook }}"
+            href="{{ socials.facebook }}"
           />
           <mj-social-element
             name="twitter-noshare"
             padding="10px"
             icon-padding="5px"
             border-radius="25px"
-            href="{{ socialTwitter }}"
+            href="{{ socials.twitter }}"
           />
           <mj-social-element
             name="instagram-noshare"
             padding="10px"
             icon-padding="5px"
             border-radius="25px"
-            href="{{ socialInstagram }}"
+            href="{{ socials.instagram }}"
           />
           <mj-social-element
             name="youtube-noshare"
             padding="10px"
             icon-padding="5px"
             border-radius="25px"
-            href="{{ socialYoutube }}"
+            href="{{ socials.youtube }}"
           />
         </mj-social>
       </mj-column>
