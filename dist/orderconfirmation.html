@@ -240,7 +240,7 @@
                     </tr>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;padding-top:30px;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:center;color:#5a3714;">Hey {{ firstName }} {{ lastName }},<br /><br /> We've received your order and have a team surprisingly nimble Sasquatches working to put it together now. In the meantime, feel free to get dirty and rugged — Dr. Squatch is on the way. If you have any questions about your order, feel free to reply to this email directly! <br /><br />
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:center;color:#5a3714;">Hey {{ customer.firstName }} {{ customer.lastName }},<br /><br /> We've received your order and have a team surprisingly nimble Sasquatches working to put it together now. In the meantime, feel free to get dirty and rugged — Dr. Squatch is on the way. If you have any questions about your order, feel free to reply to this email directly! <br /><br />
                           <strong>Please note that we can only update or cancel orders within 30 minutes of when you originally placed the order.</strong>
                         </div>
                       </td>
@@ -276,8 +276,8 @@
                     </tr>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1.5;text-align:center;color:#000000;"><span style="font-weight: bold; font-size: 26px; color: #223521;" class="mobile-order-heading">ORDER NO. #{{ orderNumber }}</span>
-                          <span style="display: block; font-size: 16px; color: #e6a800">{{ orderDate }}</span>
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1.5;text-align:center;color:#000000;"><span style="font-weight: bold; font-size: 26px; color: #223521;" class="mobile-order-heading">ORDER NO. #{{ order.number }}</span>
+                          <span style="display: block; font-size: 16px; color: #e6a800">{{ order.date }}</span>
                         </div>
                       </td>
                     </tr>
@@ -297,8 +297,8 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+            <td style="direction:ltr;font-size:0px;padding:0 10px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:580px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
@@ -311,7 +311,7 @@
                       <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
                         <p style="border-top:solid 1px #E5E5E5;font-size:1px;margin:0px auto;width:100%;">
                         </p>
-                        <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #E5E5E5;font-size:1px;margin:0px auto;width:600px;" role="presentation" width="600px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+                        <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #E5E5E5;font-size:1px;margin:0px auto;width:580px;" role="presentation" width="580px" ><tr><td style="height:0;line-height:0;"> &nbsp;
 </td></tr></table><![endif]-->
                       </td>
                     </tr>
@@ -329,8 +329,8 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+            <td style="direction:ltr;font-size:0px;padding:0 10px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:580px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
@@ -357,7 +357,7 @@
                       <td align="center" style="font-size:0px;padding:20px 0;word-break:break-word;">
                         <p style="border-top:solid 1px #E5E5E5;font-size:1px;margin:0px auto;width:100%;">
                         </p>
-                        <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #E5E5E5;font-size:1px;margin:0px auto;width:600px;" role="presentation" width="600px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+                        <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #E5E5E5;font-size:1px;margin:0px auto;width:580px;" role="presentation" width="580px" ><tr><td style="height:0;line-height:0;"> &nbsp;
 </td></tr></table><![endif]-->
                       </td>
                     </tr>
@@ -377,8 +377,8 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+            <td style="direction:ltr;font-size:0px;padding:0 10px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:580px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
@@ -420,8 +420,8 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+            <td style="direction:ltr;font-size:0px;padding:0 10px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:580px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
@@ -434,7 +434,7 @@
                       <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
                         <p style="border-top:solid 1px #E5E5E5;font-size:1px;margin:0px auto;width:100%;">
                         </p>
-                        <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #E5E5E5;font-size:1px;margin:0px auto;width:600px;" role="presentation" width="600px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+                        <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #E5E5E5;font-size:1px;margin:0px auto;width:580px;" role="presentation" width="580px" ><tr><td style="height:0;line-height:0;"> &nbsp;
 </td></tr></table><![endif]-->
                       </td>
                     </tr>
@@ -454,13 +454,13 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:0 0 20px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+            <td style="direction:ltr;font-size:0px;padding:0 10px 20px 10px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:580px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
-                      <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
+                      <td align="left" style="font-size:0px;padding:10px 0;word-break:break-word;">
                         <table cellpadding="0" cellspacing="0" width="100%" border="0" style="color:#000000;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:100%;border:none;">
                           <td width="50">
                             <img width="50" style="display: block; border: 0; width: 50px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/960px-Mastercard-logo.svg.png" alt="mastercard payment type" />
@@ -487,36 +487,36 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:300px;" ><![endif]-->
+            <td style="direction:ltr;font-size:0px;padding:20px 10px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:290px;" ><![endif]-->
               <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
                       <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
                         <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:left;color:#5a3714;"><span style="color: #223521; font-weight: bold; font-size: 18px;">SHIPPING ADDRESS</span><br />
-                          {{ firstName }} {{ lastName }}<br />
-                          {{ streetAddress }}<br />
-                          {{ cityAddress }}, {{ postCode }}<br />
-                          {{ countryAddress }}<br /> Tel. {{ contactNumber }}
+                          {{ shippingAddress.firstName }} {{ shippingAddress.lastName }}<br />
+                          {{ shippingAddress.street }}<br />
+                          {{ shippingAddress.city }}, {{ shippingAddress.postCode }}<br />
+                          {{ shippingAddress.country }}<br /> Tel. {{ shippingAddress.contactNumber }}
                         </div>
                       </td>
                     </tr>
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:300px;" ><![endif]-->
+              <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:290px;" ><![endif]-->
               <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
                       <td align="right" class="mobile-left-align" style="font-size:0px;padding:0;word-break:break-word;">
                         <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:right;color:#5a3714;"><span style="color: #223521; font-weight: bold; font-size: 18px;">CUSTOMER</span><br />
-                          {{ firstName }} {{ lastName }}<br />
-                          {{ streetAddress }}<br />
-                          {{ cityAddress }}, {{ postCode }}<br />
-                          {{ countryAddress }}<br />
-                          <a href="mailto:{{ userEmail }}" style="color: #e6a800; text-decoration: none;">{{ userEmail }}</a>
+                          {{ customerAddress.firstName }} {{ customerAddress.lastName }}<br />
+                          {{ customerAddress.street }}<br />
+                          {{ customerAddress.city }}, {{ customerAddress.postCode }}<br />
+                          {{ customerAddress.country }}<br />
+                          <a href="mailto:{{ customerAddress.email }}" style="color: #e6a800; text-decoration: none;">{{ customerAddress.email }}</a>
                         </div>
                       </td>
                     </tr>
@@ -534,8 +534,8 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+            <td style="direction:ltr;font-size:0px;padding:0 10px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:580px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
@@ -543,7 +543,7 @@
                       <td align="center" style="font-size:0px;padding:20px 0;word-break:break-word;">
                         <p style="border-top:solid 1px #E5E5E5;font-size:1px;margin:0px auto;width:100%;">
                         </p>
-                        <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #E5E5E5;font-size:1px;margin:0px auto;width:600px;" role="presentation" width="600px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+                        <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #E5E5E5;font-size:1px;margin:0px auto;width:580px;" role="presentation" width="580px" ><tr><td style="height:0;line-height:0;"> &nbsp;
 </td></tr></table><![endif]-->
                       </td>
                     </tr>
@@ -563,8 +563,8 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 0 0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+            <td style="direction:ltr;font-size:0px;padding:20px 10px 0 10px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:580px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
@@ -587,8 +587,8 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+            <td style="direction:ltr;font-size:0px;padding:0 10px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:580px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
@@ -598,7 +598,7 @@
                           <tbody>
                             <tr>
                               <td align="center" bgcolor="#cc6328" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:15px 25px;background:#cc6328;" valign="middle">
-                                <a href="{{ orderStatus }}" style="display:inline-block;background:#cc6328;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:15px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> VIEW ORDER STATUS <span style="padding-left: 5px;">&#9654;</span>
+                                <a href="{{ order.status }}" style="display:inline-block;background:#cc6328;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:15px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> VIEW ORDER STATUS <span style="padding-left: 5px;">&#9654;</span>
                                 </a>
                               </td>
                             </tr>
@@ -622,8 +622,8 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:25px 0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+            <td style="direction:ltr;font-size:0px;padding:25px 10px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:580px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:separate;">
                   <tbody>
@@ -660,7 +660,7 @@
                                   <tbody>
                                     <tr>
                                       <td align="center" bgcolor="#cc6328" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:15px 0;background:#cc6328;" valign="middle">
-                                        <a href="{{ smsSignup }}" style="display:inline-block;background:#cc6328;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:20px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:15px 0;mso-padding-alt:0px;border-radius:3px;" target="_blank"> SIGN UP </a>
+                                        <a href="{{ siteUrls.smsSignup }}" style="display:inline-block;background:#cc6328;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:20px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:15px 0;mso-padding-alt:0px;border-radius:3px;" target="_blank"> SIGN UP </a>
                                       </td>
                                     </tr>
                                   </tbody>
@@ -685,14 +685,14 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:0 0 25px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+            <td style="direction:ltr;font-size:0px;padding:0 10px 25px 10px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:580px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1.5;text-align:center;color:#223521;">I agree to receive recurring automated marketing text messages (e.g. cart reminders) at the phone number provided. Consent is not a condition to purchase. Msg and data rates may apply. Msg frequency varies. Reply HELP for help and STOP to cancel.<br /> View our <a style="color: #e6a800; text-decoration: none;" href="{{ termsOfService }}">Terms of Service</a> and <a style="color: #e6a800; text-decoration: none;" href="{{ privacyPolicy }}">Privacy Policy</a>.</div>
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1.5;text-align:center;color:#223521;">I agree to receive recurring automated marketing text messages (e.g. cart reminders) at the phone number provided. Consent is not a condition to purchase. Msg and data rates may apply. Msg frequency varies. Reply HELP for help and STOP to cancel.<br /> View our <a style="color: #e6a800; text-decoration: none;" href="{{ siteUrls.termsOfService }}">Terms of Service</a> and <a style="color: #e6a800; text-decoration: none;" href="{{ siteUrls.privacyPolicy }}">Privacy Policy</a>.</div>
                       </td>
                     </tr>
                     <tr>
@@ -736,205 +736,74 @@
       </table>
     </div>
     <!--[if mso | IE]></td></tr></table><![endif]-->
-    <!-- First row -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:288px;" ><![endif]-->
-              <div class="mj-column-per-48 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#f6f6f6;vertical-align:top;" width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
-                          <tbody>
-                            <tr>
-                              <td style="width:238px;">
-                                <img alt="" src="https://cdn.shopify.com/s/files/1/0555/4431/5957/files/oldnight-Toothpaste-01-Product-Card-Tenh_3ad94aa3-f908-452e-87dc-753eed60af04.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="238" height="auto" />
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:center;color:#223521;">Toothpaste Kit</div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center" style="font-size:0px;padding:10px 25px;padding-top:0;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
-                          <tbody>
-                            <tr>
-                              <td align="center" bgcolor="transparent" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:transparent;" valign="middle">
-                                <a href="{{ favouriteItem1Url }}" style="display:inline-block;background:transparent;color:#cc6328;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> SHOP NOW <span style="padding-left: 5px;">&#9654;</span>
-                                </a>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td><td class="mobile-height-spacer-outlook" style="vertical-align:top;width:24px;" ><![endif]-->
-              <div class="mj-column-per-4 mj-outlook-group-fix mobile-height-spacer" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
-                  <tbody>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:288px;" ><![endif]-->
-              <div class="mj-column-per-48 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#f6f6f6;vertical-align:top;" width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
-                          <tbody>
-                            <tr>
-                              <td style="width:238px;">
-                                <img alt="" src="https://cdn.shopify.com/s/files/1/0555/4431/5957/files/Bay-Rum-Bar-Soap-01-Product-Card-01-llsl_335cb394-352a-4b11-8ac5-51c7c270dc03.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="238" height="auto" />
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:center;color:#223521;">Bay Rum</div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center" style="font-size:0px;padding:10px 25px;padding-top:0;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
-                          <tbody>
-                            <tr>
-                              <td align="center" bgcolor="transparent" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:transparent;" valign="middle">
-                                <a href="{{ favouriteItem2Url }}" style="display:inline-block;background:transparent;color:#cc6328;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> SHOP NOW <span style="padding-left: 5px;">&#9654;</span>
-                                </a>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><![endif]-->
-    <!-- Second row -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 0;padding-top:4px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:288px;" ><![endif]-->
-              <div class="mj-column-per-48 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#f6f6f6;vertical-align:top;" width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
-                          <tbody>
-                            <tr>
-                              <td style="width:238px;">
-                                <img alt="" src="https://cdn.shopify.com/s/files/1/0555/4431/5957/files/Coconut-Castaway-Hair-Care-Duo-01-Product-Card-YQaW_6b709126-3529-48b5-a321-7e0ea5abf2c7.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="238" height="auto" />
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:center;color:#223521;">Refreshing Hair Care Kit</div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center" style="font-size:0px;padding:10px 25px;padding-top:0;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
-                          <tbody>
-                            <tr>
-                              <td align="center" bgcolor="transparent" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:transparent;" valign="middle">
-                                <a href="{{ favouriteItem3Url }}" style="display:inline-block;background:transparent;color:#cc6328;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> SHOP NOW <span style="padding-left: 5px;">&#9654;</span>
-                                </a>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td><td class="mobile-height-spacer-outlook" style="vertical-align:top;width:24px;" ><![endif]-->
-              <div class="mj-column-per-4 mj-outlook-group-fix mobile-height-spacer" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
-                  <tbody>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:288px;" ><![endif]-->
-              <div class="mj-column-per-48 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#f6f6f6;vertical-align:top;" width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
-                          <tbody>
-                            <tr>
-                              <td style="width:238px;">
-                                <img alt="" src="https://cdn.shopify.com/s/files/1/0555/4431/5957/files/Pine-Tar-Deo-01-Product-Card-bnWH_1b0d5168-926f-4293-8971-6588849f733e.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="238" height="auto" />
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:center;color:#223521;">Pine Tar Deodorant</div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center" style="font-size:0px;padding:10px 25px;padding-top:0;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
-                          <tbody>
-                            <tr>
-                              <td align="center" bgcolor="transparent" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:transparent;" valign="middle">
-                                <a href="{{ favouriteItem4Url }}" style="display:inline-block;background:transparent;color:#cc6328;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> SHOP NOW <span style="padding-left: 5px;">&#9654;</span>
-                                </a>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><![endif]-->
-    <!-- Footer section -->
+    <!-- Favourite items -->{{#each favourites}}
+      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      <div style="margin:0px auto;max-width:600px;">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:10px;text-align:center;">
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
+                {{#each items}}
+                  <!--[if mso | IE]><td class="" style="vertical-align:top;width:278.4px;" ><![endif]-->
+                  <div class="mj-column-per-48 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#f6f6f6;vertical-align:top;" width="100%">
+                      <tbody>
+                        <tr>
+                          <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                              <tbody>
+                                <tr>
+                                  <td style="width:228px;">
+                                    <img alt="" src="{{image}}" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="228" height="auto" />
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                            <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:center;color:#223521;">{{name}}</div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="center" style="font-size:0px;padding:10px 25px;padding-top:0;word-break:break-word;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="transparent" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:transparent;" valign="middle">
+                                    <a href="{{url}}" style="display:inline-block;background:transparent;color:#cc6328;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> SHOP NOW <span style="padding-left: 5px;">&#9654;</span>
+                                    </a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <!--[if mso | IE]></td><![endif]-->
+                  {{#unless @last}}
+                    <!--[if mso | IE]><td class="mobile-height-spacer-outlook" style="vertical-align:top;width:23.2px;" ><![endif]-->
+                    <div class="mj-column-per-4 mj-outlook-group-fix mobile-height-spacer" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                        <tbody>
+                        </tbody>
+                      </table>
+                    </div>
+                    <!--[if mso | IE]></td><![endif]-->
+                  {{/unless}}
+                {{/each}}
+                <!--[if mso | IE]></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    {{/each}}<!-- Footer section -->
     <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#352e2e" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     <div style="background:#352e2e;background-color:#352e2e;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#352e2e;background-color:#352e2e;width:100%;">
@@ -962,7 +831,7 @@
                     <!-- Questions section -->
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1.5;text-align:center;color:#ffffff;">Questions? Contact <a href="{{ careSquadUrl }}" style="color: #e6a800; text-decoration: none">Squatch Care Squad</a></div>
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1.5;text-align:center;color:#ffffff;">Questions? Contact <a href="{{ siteUrls.careSquad }}" style="color: #e6a800; text-decoration: none">Squatch Care Squad</a></div>
                       </td>
                     </tr>
                     <!-- Navigation section -->
@@ -993,7 +862,7 @@
                                   <tbody>
                                     <tr>
                                       <td style="padding:5px;font-size:0;height:32px;vertical-align:middle;width:32px;">
-                                        <a href="{{ socialFacebook }}" target="_blank">
+                                        <a href="{{ socials.facebook }}" target="_blank">
                                           <img alt="" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/facebook.png" style="border-radius:25px;display:block;" width="32" />
                                         </a>
                                       </td>
@@ -1013,7 +882,7 @@
                                   <tbody>
                                     <tr>
                                       <td style="padding:5px;font-size:0;height:32px;vertical-align:middle;width:32px;">
-                                        <a href="{{ socialTwitter }}" target="_blank">
+                                        <a href="{{ socials.twitter }}" target="_blank">
                                           <img alt="" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/twitter.png" style="border-radius:25px;display:block;" width="32" />
                                         </a>
                                       </td>
@@ -1033,7 +902,7 @@
                                   <tbody>
                                     <tr>
                                       <td style="padding:5px;font-size:0;height:32px;vertical-align:middle;width:32px;">
-                                        <a href="{{ socialInstagram }}" target="_blank">
+                                        <a href="{{ socials.instagram }}" target="_blank">
                                           <img alt="" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/instagram.png" style="border-radius:25px;display:block;" width="32" />
                                         </a>
                                       </td>
@@ -1053,7 +922,7 @@
                                   <tbody>
                                     <tr>
                                       <td style="padding:5px;font-size:0;height:32px;vertical-align:middle;width:32px;">
-                                        <a href="{{ socialYoutube }}" target="_blank">
+                                        <a href="{{ socials.youtube }}" target="_blank">
                                           <img alt="" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/youtube.png" style="border-radius:25px;display:block;" width="32" />
                                         </a>
                                       </td>
