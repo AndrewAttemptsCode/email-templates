@@ -61,7 +61,7 @@ Responsive promotional email featuring a large hero product image, personalised 
 <a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/promotional_desktop.png">🖥️ Desktop full screenshot</a><br>
 <a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/promotional_mobile.png">📱 Mobile full screenshot</a><br>
 <a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/src/templates/promotional.mjml">📄 MJML Source</a><br>
-<a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/promotional.html">🌐 HTML Output</a>
+<a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/handlebars-promotional.html">🌐 HTML Output</a>
 </div>
 
 ## Newsletter Email
@@ -96,7 +96,7 @@ Responsive welcome and email verification email featuring personalised content, 
 
 ## Password Reset Email
 
-[![Welcome/Verification email preview](./src/assets/images/screenshots/forgotpassword_preview.png)](https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/forgotpassword_desktop.png)
+[![Password reset email preview](./src/assets/images/screenshots/forgotpassword_preview.png)](https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/forgotpassword_desktop.png)
 
 _Click preview to view full desktop render_
 
@@ -111,15 +111,15 @@ Responsive password reset email featuring a secure reset call-to-action, account
 
 ## Order Confirmation Email
 
-[![Order Confirmation email preview](./src/assets/images/screenshots/orderconfirmation_preview.png)](https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/orderconfirmation_desktop.png)
+[![Order Confirmation email preview](./src/assets/images/screenshots/orderconfirmation_preview.png)](https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/44845121f545b597074a4e0d5d7b813e7dfe26d4/src/assets/images/screenshots/orderconfirmation_desktop.png)
 
 _Click preview to view full desktop render_
 
 Responsive order confirmation email featuring order and tracking details, payment and delivery summaries, order status, product recommendations, messaging sign-up, customer support, navigation, and social media links. Built with MJML and Handlebars.
 
 <div>
-<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/orderconfirmation_desktop.png">🖥️ Desktop full screenshot</a><br>
-<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/orderconfirmation_mobile.png">📱 Mobile full screenshot</a><br>
+<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/44845121f545b597074a4e0d5d7b813e7dfe26d4/src/assets/images/screenshots/orderconfirmation_desktop.png">🖥️ Desktop full screenshot</a><br>
+<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/44845121f545b597074a4e0d5d7b813e7dfe26d4/src/assets/images/screenshots/orderconfirmation_mobile.png">📱 Mobile full screenshot</a><br>
 <a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/src/templates/orderconfirmation.mjml">📄 MJML Source</a><br>
 <a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/handlebars-orderconfirmation.html">🌐 HTML Output</a>
 </div>
