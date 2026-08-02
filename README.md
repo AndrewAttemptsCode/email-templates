@@ -126,15 +126,15 @@ Responsive order confirmation email featuring order and tracking details, paymen
 
 ## Booking Confirmation Email
 
-[![Booking Confirmation email preview](./src/assets/images/screenshots/bookingconfirmation_preview.png)](https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/bookingconfirmation_desktop.png)
+[![Booking Confirmation email preview](./src/assets/images/screenshots/bookingconfirmation_preview.png)](https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/ac0b0406a1286d1246207d19283a91fa7ba9214e/src/assets/images/screenshots/bookingconfirmation_desktop.png)
 
 _Click preview to view full desktop render_
 
 Responsive booking confirmation email featuring reservation details, guest count, date and time, a booking management call-to-action, venue map and address, contact information, and social media links. Built with MJML and Handlebars.
 
 <div>
-<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/bookingconfirmation_desktop.png">🖥️ Desktop full screenshot</a><br>
-<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/bookingconfirmation_mobile.png">📱 Mobile full screenshot</a><br>
+<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/ac0b0406a1286d1246207d19283a91fa7ba9214e/src/assets/images/screenshots/bookingconfirmation_desktop.png">🖥️ Desktop full screenshot</a><br>
+<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/ac0b0406a1286d1246207d19283a91fa7ba9214e/src/assets/images/screenshots/bookingconfirmation_mobile.png">📱 Mobile full screenshot</a><br>
 <a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/src/templates/transactional.mjml">📄 MJML Source</a><br>
 <a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/handlebars-transactional.html">🌐 HTML Output</a>
 </div>
