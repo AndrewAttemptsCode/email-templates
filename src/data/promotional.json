@@ -1,0 +1,13 @@
+{
+  "siteUrls": {
+    "home": "https://www.milkyco.com/",
+    "location": "https://www.milkyco.com/locations",
+    "shop": "https://www.milkyco.com/shop",
+    "faq": "https://www.milkyco.com/faq"
+  },
+  "socials": {
+    "instagram": "https://instagram.com/milkyco",
+    "youtube": "https://youtube.com/milkco",
+    "facebook": "https://facebook.com/milkyco"
+  }
+}
