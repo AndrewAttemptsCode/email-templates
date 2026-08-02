@@ -17,6 +17,7 @@
           src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/logos/milky_logo.png"
           width="120px"
           padding="0"
+          href="{{siteUrls.home}}"
         />
       </mj-column>
     </mj-section>
@@ -58,7 +59,7 @@
           font-size="20px"
           background-color="#e90090"
           border-radius="25px"
-          href="#"
+          href="{{siteUrls.location}}"
         >
           FIND A BAKERY
         </mj-button>
@@ -83,6 +84,7 @@
           font-size="20px"
           background-color="#c5ba9c"
           color="#000000"
+          href="{{siteUrls.home}}"
         >
           Milky Co.
         </mj-button>
@@ -96,11 +98,11 @@
           color="#c5ba9c"
           font-weight="bold"
         >
-          <a href="#" style="color:#c5ba9c; font-weight:bold;">SHOP ONLINE</a>
+          <a href="{{siteUrls.shop}}" style="color:#c5ba9c; font-weight:bold;">SHOP ONLINE</a>
           |
-          <a href="#" style="color:#c5ba9c; font-weight:bold;">FAQ</a>
+          <a href="{{siteUrls.faq}}" style="color:#c5ba9c; font-weight:bold;">FAQ</a>
           |
-          <a href="#" style="color:#c5ba9c; font-weight:bold;">LOCATIONS</a>
+          <a href="{{siteUrls.location}}" style="color:#c5ba9c; font-weight:bold;">LOCATIONS</a>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -109,20 +111,20 @@
       <mj-column>
         <mj-social align="center" icon-size="32px">
           <mj-social-element
-            name="instagram"
-            href="https://instagram.com/milkyco"
+            name="instagram-noshare"
+            href="{{socials.instagram}}"
             padding="0 5px"
             border-radius="5%"
           />
           <mj-social-element
-            name="youtube"
-            href="https://youtube.com/milkco"
+            name="youtube-noshare"
+            href="{{socials.youtube}}"
             padding="0 5px"
             border-radius="5%"
           />
           <mj-social-element
-            name="facebook"
-            href="https://facebook.com/milkyco"
+            name="facebook-noshare"
+            href="{{socials.facebook}}"
             padding="0 5px"
             border-radius="5%"
           />
