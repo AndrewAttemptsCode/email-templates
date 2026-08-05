@@ -1,0 +1,11 @@
+<mj-section background-color="#808080">
+  <mj-column>
+    <mj-image
+      padding="0"
+      width="140px"
+      href="https://www.stormtech.co.uk"
+      src="https://i.postimg.cc/j2mktFhv/storm-tech-logo.png"
+      alt="Storm Tech website"
+    />
+  </mj-column>
+</mj-section>
