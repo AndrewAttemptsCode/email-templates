@@ -1,0 +1,57 @@
+<mj-section background-color="#794800">
+  <mj-column>
+    <mj-social icon-size="32px">
+      <mj-social-element
+        name="instagram-noshare"
+        border-radius="20px"
+        icon-padding="4px"
+        padding="0 8px"
+        href="{{social.instagram}}"
+      />
+      <mj-social-element
+        name="x-noshare"
+        border-radius="20px"
+        icon-padding="4px"
+        padding="0 8px"
+        href="{{social.x}}"
+      />
+      <mj-social-element
+        name="youtube-noshare"
+        border-radius="20px"
+        icon-padding="4px"
+        padding="0 8px"
+        href="{{social.youtube}}"
+      />
+    </mj-social>
+    <mj-image
+      width="80px"
+      href="https://www.stormtech.co.uk"
+      src="https://i.postimg.cc/nc40NYzp/storm-tech-logo.png"
+      alt="Storm Tech website"
+    />
+    <mj-text
+      align="center"
+      color="#ffbd31"
+    >
+      &copy; Storm Tech
+    </mj-text>
+    <mj-text
+      align="center"
+      color="#ffbd31"
+    >
+      Storm Tech Ltd, Park Lane, Manchester, United Kingdom, M12 3AE
+    </mj-text>
+    <mj-text
+      align="center"
+      color="#ffbd31"
+    >
+      This email was sent to <a href="mailto:{{customer.email}}" style="color: #fff5e1; text-decoration: none;">{{customer.email}}</a> because you've subscribed on our site or made a purchase.
+    </mj-text>
+    <mj-text
+      align="center"
+      color="#ffbd31"
+    >
+      <a href="{{preferences}}" style="color: #fff5e1; text-decoration: none;">Edit Preferences</a> | <a href="{{unsubscribe}}" style="color: #fff5e1; text-decoration: none;">Unsubscribe</a>
+    </mj-text>
+  </mj-column>
+</mj-section>
