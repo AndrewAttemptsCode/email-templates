@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "mjml -w src/templates/*.mjml -o dist",
+    "watch": "mjml -w src/ecommerce/journeys/**/*.mjml -o src/ecommerce/dist --config.allowIncludes true --config.includePath src/ecommerce",
     "build": "mjml src/templates/*.mjml -o dist && node renderHandlebars.js"
   },
   "repository": {
