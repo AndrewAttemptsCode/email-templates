@@ -11,6 +11,42 @@
         />
       </mj-column>
     </mj-section>
+    <mj-section background-color="#fff5e1">
+      <mj-column>
+        <mj-text
+          color="#794800"
+          line-height="1.5"
+          font-size="16px"
+        >
+          <strong>Hey {{customer.firstName}}</strong>,<br/><br/>
+
+          Thanks for joining <strong>Storm Tech</strong> — we're glad to have you
+          with us.<br/><br/>
+
+          Whether you're building a new PC, upgrading your current setup, or just
+          looking for the latest hardware, we've got you covered. Explore our range
+          of PC components, peripherals and accessories from some of the biggest
+          names in tech.<br/><br/>
+
+          As a member of the Storm Tech community, you'll also be the first to hear
+          about new products, special offers and the latest arrivals.<br/><br/>
+
+          <strong>Ready to start exploring?</strong>
+        </mj-text>
+        <mj-button
+          background-color="#794800"
+          color="#fff5e1"
+          border-radius="25px"
+          font-weight="bold"
+          font-size="16px"
+          border-bottom="3px solid #ffbd31"
+          inner-padding="15px 25px"
+          href="{{store}}"
+        >
+          START SHOPPING
+        </mj-button>
+      </mj-column>
+    </mj-section>
     <mj-include path="../../components/footer.mjml" />
   </mj-body>
 </mjml>
