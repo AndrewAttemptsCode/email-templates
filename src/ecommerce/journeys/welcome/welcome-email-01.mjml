@@ -1,11 +1,16 @@
 <mjml>
+  <mj-head>
+    <mj-preview>
+      Welcome to Storm Tech — explore our latest PC components, hardware and accessories.
+    </mj-preview>
+  </mj-head>
   <mj-body>
     <mj-include path="../../components/header.mjml" />
     <mj-section padding="0">
       <mj-column>
         <mj-image
           src="https://i.postimg.cc/FRMgvCyQ/welcome-hero.png"
-          alt=""
+          alt="Welcome to Storm Tech — explore our latest PC components, hardware and accessories."
           padding="0"
           width="600px"
         />
