@@ -1,6 +1,16 @@
 <mjml>
   <mj-body>
     <mj-include path="../../components/header.mjml" />
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image
+          src="https://i.postimg.cc/FRMgvCyQ/welcome-hero.png"
+          alt=""
+          padding="0"
+          width="600px"
+        />
+      </mj-column>
+    </mj-section>
     <mj-include path="../../components/footer.mjml" />
   </mj-body>
 </mjml>
