@@ -1,8 +1,8 @@
-<mj-section background-color="#794800">
+<mj-section background-color="#794800" padding="10px">
   <mj-column>
     <mj-image
       padding="0"
-      width="140px"
+      width="100px"
       href="https://www.stormtech.co.uk"
       src="https://i.postimg.cc/nc40NYzp/storm-tech-logo.png"
       alt="Storm Tech website"
