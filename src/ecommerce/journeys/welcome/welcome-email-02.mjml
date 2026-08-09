@@ -3,6 +3,12 @@
     <mj-preview>
       Storm Tech — Components picked for your setup
     </mj-preview>
+    <mj-style>
+      .product-image img {
+        height: 200px !important;
+        object-fit: contain !important;
+      }
+    </mj-style>
   </mj-head>
   <mj-body>
     <mj-include path="../../components/header.mjml" />
@@ -19,6 +25,56 @@
         </mj-text>
       </mj-column>
     </mj-section>
+    <mj-section
+      background-color="#794800"
+      padding="10px 0"
+    >
+      <mj-column>
+        <mj-text
+          font-weight="bold"
+          font-size="20px"
+          color="#ffbd31"
+        >
+          Recommendations for you:
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+    {{#each products}}
+    </mj-raw>
+    <mj-section padding-top="0" background-color="#fff5e1">
+      <mj-raw>
+      {{#each items}}
+      </mj-raw>
+      <mj-column width="50%">
+        <mj-image
+          src="{{image}}"
+          alt=""
+          css-class="product-image" 
+        />
+        <mj-text
+          color="#794800"
+          font-size="16px"
+          font-weight="bold"
+          height="32px"
+        >
+          {{name}}
+        </mj-text>
+        <mj-text
+          color="#794800"
+          font-size="16px"
+          padding="0 25px"
+        >
+          {{price}}
+        </mj-text>
+      </mj-column>
+      <mj-raw>
+      {{/each}}  
+      </mj-raw>
+    </mj-section>
+    <mj-raw>
+    {{/each}}
+    </mj-raw>
     <mj-include path="../../components/footer.mjml" />
   </mj-body>
 </mjml>
