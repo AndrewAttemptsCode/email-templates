@@ -1,0 +1,24 @@
+<mjml>
+  <mj-head>
+    <mj-preview>
+      Storm Tech — Components picked for your setup
+    </mj-preview>
+  </mj-head>
+  <mj-body>
+    <mj-include path="../../components/header.mjml" />
+    <mj-section background-color="#fff5e1">
+      <mj-column>
+        <mj-text
+          color="#794800"
+          line-height="1.5"
+          font-size="16px"
+        >
+          <strong>Hey {{customer.firstName}}</strong>,<br/><br/>
+          We've picked out a few products we think you'll love.<br/>
+          Take a look and see if anything catches your eye!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="../../components/footer.mjml" />
+  </mj-body>
+</mjml>
