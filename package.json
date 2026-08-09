@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "mjml -w src/ecommerce/journeys/**/*.mjml -o src/ecommerce/dist --config.allowIncludes true --config.includePath src/ecommerce",
-    "build": "mjml src/templates/*.mjml -o dist && node renderHandlebars.js"
+    "build": "mjml src/templates/*.mjml -o dist && node renderHandlebars.js",
+    "build:ecommerce": "mjml src/ecommerce/journeys/welcome/welcome-email-02.mjml -o src/ecommerce/dist --config.allowIncludes true --config.includePath src/ecommerce && node renderHandlebars.js"
   },
   "repository": {
     "type": "git",
