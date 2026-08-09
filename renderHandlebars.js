@@ -1,14 +1,36 @@
 import fs from "fs";
 import Handlebars from "handlebars";
 
+// const template = Handlebars.compile(
+//   fs.readFileSync("dist/promotional.html", "utf8")
+// );
+
+// const data = JSON.parse(
+//   fs.readFileSync("src/data/promotional.json", "utf-8")
+// );
+
+// const html = template(data);
+
+// fs.writeFileSync("dist/handlebars-promotional.html", html);
+
 const template = Handlebars.compile(
-  fs.readFileSync("dist/orderconfirmation.html", "utf8")
+  fs.readFileSync("src/ecommerce/dist/welcome-email-02.html", "utf8")
 );
 
-const data = JSON.parse(
-  fs.readFileSync("src/data/orderconfirmation.json", "utf-8")
+const customer = JSON.parse(
+  fs.readFileSync("src/ecommerce/data/customer.json", "utf-8")
 );
+
+const products = JSON.parse(
+  fs.readFileSync("src/ecommerce/data/products.json", "utf-8")
+);
+
+
+const data = {
+  customer,
+  products
+};
 
 const html = template(data);
 
-fs.writeFileSync("dist/handlebars-orderconfirmation.html", html);
+fs.writeFileSync("src/ecommerce/dist/handlebars-welcome-email-02.html", html);
