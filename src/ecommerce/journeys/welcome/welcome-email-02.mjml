@@ -60,6 +60,7 @@
         <mj-image
           src="{{image}}"
           alt=""
+          href="{{url}}"
           css-class="product-image" 
         />
         <mj-text
@@ -68,7 +69,7 @@
           font-weight="bold"
           height="32px"
         >
-          {{name}}
+          <a href="{{url}}" style="text-decoration: none; color: #ffbd31;">{{name}}</a>
         </mj-text>
         <mj-text
           color="#ffbd31"
