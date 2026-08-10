@@ -25,8 +25,13 @@
           font-size="16px"
         >
           <strong>Hey {{customer.firstName}}</strong>,<br/><br/>
-          We've picked out a few products we think you'll love.<br/>
-          Take a look and see if anything catches your eye!
+          We've picked out a few products we think you'll love based on
+          what you've been browsing.<br/><br/>
+          Whether you're looking for something new or just fancy treating
+          yourself, take a look through our latest picks and see if anything
+          catches your eye.<br/><br/>
+
+          Happy shopping!
         </mj-text>
       </mj-column>
     </mj-section>
