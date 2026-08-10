@@ -6,21 +6,21 @@
         border-radius="20px"
         icon-padding="4px"
         padding="0 8px"
-        href="{{social.instagram}}"
+        href="{{emailConfig.socials.instagram}}"
       />
       <mj-social-element
         name="x-noshare"
         border-radius="20px"
         icon-padding="4px"
         padding="0 8px"
-        href="{{social.x}}"
+        href="{{emailConfig.socials.x}}"
       />
       <mj-social-element
         name="youtube-noshare"
         border-radius="20px"
         icon-padding="4px"
         padding="0 8px"
-        href="{{social.youtube}}"
+        href="{{emailConfig.socials.youtube}}"
       />
     </mj-social>
     <mj-image
@@ -51,7 +51,7 @@
       align="center"
       color="#ffbd31"
     >
-      <a href="{{preferences}}" style="color: #fff5e1; text-decoration: none;">Edit Preferences</a> | <a href="{{unsubscribe}}" style="color: #fff5e1; text-decoration: none;">Unsubscribe</a>
+      <a href="{{emailConfig.footer.preferences}}" style="color: #fff5e1; text-decoration: none;">Edit Preferences</a> | <a href="{{emailConfig.footer.unsubscribe}}" style="color: #fff5e1; text-decoration: none;">Unsubscribe</a>
     </mj-text>
   </mj-column>
 </mj-section>
