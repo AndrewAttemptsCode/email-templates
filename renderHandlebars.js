@@ -18,17 +18,21 @@ const template = Handlebars.compile(
 );
 
 const customer = JSON.parse(
-  fs.readFileSync("src/ecommerce/data/customer.json", "utf-8")
+  fs.readFileSync("src/ecommerce/data/customer.json", "utf8")
 );
 
 const products = JSON.parse(
-  fs.readFileSync("src/ecommerce/data/products.json", "utf-8")
+  fs.readFileSync("src/ecommerce/data/products.json", "utf8")
 );
 
+const emailConfig = JSON.parse(
+  fs.readFileSync("src/ecommerce/data/email-config.json", "utf8")
+);
 
 const data = {
   customer,
-  products
+  products,
+  emailConfig
 };
 
 const html = template(data);
