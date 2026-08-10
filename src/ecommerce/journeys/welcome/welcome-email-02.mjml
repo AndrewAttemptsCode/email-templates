@@ -42,18 +42,18 @@
     <mj-raw>
     {{#each products}}
     </mj-raw>
-    <mj-section padding-top="0" background-color="#fff5e1">
+    <mj-section padding="20px 20px 0 20px" background-color="#fff5e1">
       <mj-raw>
       {{#each items}}
       </mj-raw>
-      <mj-column width="50%">
+      <mj-column width="48%" background-color="#794800" border-radius="14px">
         <mj-image
           src="{{image}}"
           alt=""
           css-class="product-image" 
         />
         <mj-text
-          color="#794800"
+          color="#ffbd31"
           font-size="16px"
           font-weight="bold"
           height="32px"
@@ -61,13 +61,20 @@
           {{name}}
         </mj-text>
         <mj-text
-          color="#794800"
+          color="#ffbd31"
           font-size="16px"
-          padding="0 25px"
+          padding="0 25px 25px"
         >
           {{price}}
         </mj-text>
       </mj-column>
+      <mj-raw>
+      {{#if @first}}
+      </mj-raw>
+      <mj-column width="4%" />
+      <mj-raw>
+      {{/if}}
+      </mj-raw>
       <mj-raw>
       {{/each}}  
       </mj-raw>
@@ -75,6 +82,10 @@
     <mj-raw>
     {{/each}}
     </mj-raw>
+    <!-- Recommendations bottom padding -->
+    <mj-section padding="0 20px 20px 20px" background-color="#fff5e1">
+      <mj-column padding="0" />
+    </mj-section>
     <mj-include path="../../components/footer.mjml" />
   </mj-body>
 </mjml>
