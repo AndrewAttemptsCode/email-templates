@@ -1,0 +1,15 @@
+{
+  "company": {
+    "name": "Storm Tech",
+    "website": "https://www.stormtech.co.uk"
+  },
+  "socials": {
+    "instagram": "https://www.instagram.com/stormtech",
+    "x": "https://www.x.com/stormtech",
+    "youtube": "https://www.youtube.com/stormtech"
+  },
+  "footer": {
+    "preferences": "https://www.stormtech.co.uk/preferences",
+    "unsubscribe": "https://www.stormtech.co.uk/unsubscribe"
+  }
+}
