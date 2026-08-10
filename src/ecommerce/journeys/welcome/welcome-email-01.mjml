@@ -46,7 +46,7 @@
           font-size="16px"
           border-bottom="3px solid #ffbd31"
           inner-padding="15px 25px"
-          href="{{store}}"
+          href="{{emailConfig.company.website}}"
         >
           START SHOPPING
         </mj-button>
