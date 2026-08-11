@@ -1,0 +1,21 @@
+<mjml>
+  <mj-head>
+    <mj-preview>
+      Storm Tech — Enjoy 10% off on your first order.
+    </mj-preview>
+  </mj-head>
+  <mj-body>
+    <mj-include path="../../components/header.mjml" />
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image
+          src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/hero/discount_hero.png"
+          alt="Discount on your first order"
+          width="600px"
+          padding="0"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-include path="../../components/footer.mjml" />
+  </mj-body>  
+</mjml>
