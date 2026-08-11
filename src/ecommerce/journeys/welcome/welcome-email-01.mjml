@@ -9,7 +9,7 @@
     <mj-section padding="0">
       <mj-column>
         <mj-image
-          src="https://i.postimg.cc/FRMgvCyQ/welcome-hero.png"
+          src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/hero/welcome_hero.png"
           alt="Welcome to Storm Tech — explore our latest PC components, hardware and accessories."
           padding="0"
           width="600px"

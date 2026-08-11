@@ -4,13 +4,13 @@
       {
         "name": "Lenovo G1 T14 Laptop",
         "price": "£199.95",
-        "image": "https://i.postimg.cc/8Cp8KY2Q/lenovo-laptop.png",
+        "image": "https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/products/lenovo_laptop.png",
         "url": "https://www.stormtech.co.uk/store/laptops/lenovo"
       },
       {
         "name": "Llano V12 Ultra Laptop Cooling Pad",
         "price": "£118.53",
-        "image": "https://i.postimg.cc/mrLxXnvh/llano-v12-ultra.png",
+        "image": "https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/products/llano_v12_ultra.png",
         "url": "https://www.stormtech.co.uk/store/accessories/cooling"
       }
     ]
@@ -20,13 +20,13 @@
       {
         "name": "Logitech G502 HERO Mouse",
         "price": "£37.79",
-        "image": "https://i.postimg.cc/mrLxXnvZ/logitech-g502.png",
+        "image": "https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/products/logitech_g502.png",
         "url": "https://www.stormtech.co.uk/store/peripherals/mouse"
       },
       {
         "name": "Steelseries 6GV2 Keyboard",
         "price": "£49.99",
-        "image": "https://i.postimg.cc/bvyXC57N/steelseries-6gv2.png",
+        "image": "https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/products/steelseries_6gv2.png",
         "url": "https://www.stormtech.co.uk/store/peripheral/keyboard"
       }
     ]
