@@ -16,6 +16,68 @@
         />
       </mj-column>
     </mj-section>
+    <mj-section background-color="#fff5e1">
+      <mj-column>
+        <mj-text
+          font-size="16px"
+          color="#794800"
+        >
+          <strong>Hey {{customer.firstName}}</strong>,
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          color="#794800"
+          line-height="1.5"
+        >
+          Welcome aboard. <strong>Take 10% off your first order</strong> and find the hardware you need to build, upgrade, and power your setup.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff5e1">
+      <mj-column>
+        <mj-button
+          font-family="monospace"
+          font-size="20px"
+          color="#ffbd31"
+          background-color="#794800"
+          border-radius="10px"
+          font-weight="bold"
+          letter-spacing="4px"
+          align="center"
+          inner-padding="15px 25px"
+        >
+          WELCOME10
+        </mj-button>
+        <mj-text
+          color="#794800"
+          align="center"
+        >
+          Apply code at checkout. Code is only valid for your first purchase.
+        </mj-text>
+        <mj-divider border-width="1px" width="50%" padding="20px 0" border-color="#794800" />
+        <mj-text
+          font-weight="bold"
+          font-size="20px"
+          color="#ffbd31"
+          align="center"
+        >
+          Ready to take advantage of your discount?
+        </mj-text>
+        <mj-button
+          background-color="#794800"
+          color="#fff5e1"
+          border-radius="25px"
+          font-weight="bold"
+          font-size="16px"
+          border-bottom="3px solid #ffbd31"
+          inner-padding="15px 25px"
+          padding-bottom="0"
+          href="{{emailConfig.company.website}}"
+        >
+          START SHOPPING
+        </mj-button>
+      </mj-column>
+    </mj-section>
     <mj-include path="../../components/footer.mjml" />
   </mj-body>  
 </mjml>
