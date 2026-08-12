@@ -1,4 +1,9 @@
 <mjml>
+  <mj-head>
+    <mj-preview>
+      Storm Tech — Ready to finish your order?
+    </mj-preview>
+  </mj-head>
   <mj-body>
     <mj-include path="../../components/header.mjml" />
     <mj-section background-color="#fff5e1">
