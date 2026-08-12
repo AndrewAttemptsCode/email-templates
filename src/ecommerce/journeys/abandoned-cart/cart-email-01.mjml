@@ -16,9 +16,10 @@
         >
           Pick up where you left off.
         </mj-text>
+        <mj-divider border-width="1px" border-color="#794800" width="80%" />
       </mj-column>
     </mj-section>
-    <mj-section background-color="#fff5e1" padding="20px 0 40px 0">
+    <mj-section background-color="#fff5e1" padding="0 0 20px 0">
       <mj-column>
         <mj-text
           font-size="16px"
