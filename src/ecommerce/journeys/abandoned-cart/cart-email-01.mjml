@@ -21,8 +21,8 @@
           line-height="1.5"
         >
           <strong>Hey {{customer.firstName}}</strong>,<br/><br/>
-          It looks like you did not complete your checkout.<br/>
-          Fancy taking another look?
+          It looks like you did not complete your checkout.<br/><br/>
+          <em>Fancy taking another look?</em>
         </mj-text>
       </mj-column>
     </mj-section>
