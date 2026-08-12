@@ -14,7 +14,7 @@ import Handlebars from "handlebars";
 // fs.writeFileSync("dist/handlebars-promotional.html", html);
 
 const template = Handlebars.compile(
-  fs.readFileSync("src/ecommerce/dist/welcome-email-02.html", "utf8")
+  fs.readFileSync("src/ecommerce/dist/cart-email-01.html", "utf8")
 );
 
 const customer = JSON.parse(
@@ -29,12 +29,17 @@ const emailConfig = JSON.parse(
   fs.readFileSync("src/ecommerce/data/email-config.json", "utf8")
 );
 
+const cart = JSON.parse(
+  fs.readFileSync("src/ecommerce/data/cart.json", "utf8")
+);
+
 const data = {
   customer,
   products,
-  emailConfig
+  emailConfig,
+  cart
 };
 
 const html = template(data);
 
-fs.writeFileSync("src/ecommerce/dist/handlebars-welcome-email-02.html", html);
+fs.writeFileSync("src/ecommerce/dist/handlebars-cart-email-01.html", html);
