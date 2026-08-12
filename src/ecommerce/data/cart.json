@@ -19,5 +19,6 @@
       "image": "https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/products/steelseries_6gv2.png"
     }
   ],
-  "total": "£575.46"
+  "total": "£575.46",
+  "checkoutUrl": "https://www.stormtech.co.uk/checkout/cart-123"
 }
