@@ -77,7 +77,7 @@
         {{/each}}
       </mj-raw>
     </mj-section>
-    <mj-section background-color="#fff5e1" padding-top="0">
+    <mj-section background-color="#fff5e1" padding="0">
       <mj-column>
         <mj-divider border-width="1px" border-color="#794800" width="80%" />
         <mj-text
@@ -99,6 +99,39 @@
           href="{{cart.checkoutUrl}}"
         >
           Check out now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff5e1" padding-top="0">
+      <mj-column>
+        <mj-divider border-width="1px" border-color="#794800" width="80%" />
+        <mj-text
+          font-size="20px"
+          font-weight="bold"
+          color="#794800"
+          align="center"
+        >
+          <em>Need a hand?</em>
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="1.5"
+          color="#794800"
+          align="center"
+        >
+          Our team is here if you have any questions about your order or need help choosing the right items.
+        </mj-text>
+        <mj-button
+          background-color="#794800"
+          color="#fff5e1"
+          border-radius="25px"
+          font-weight="bold"
+          font-size="16px"
+          border-bottom="3px solid #ffbd31"
+          inner-padding="15px 25px"
+          href="{{emailConfig.company.supportUrl}}"
+        >
+          Get Support
         </mj-button>
       </mj-column>
     </mj-section>
