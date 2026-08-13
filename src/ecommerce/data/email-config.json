@@ -1,7 +1,8 @@
 {
   "company": {
     "name": "Storm Tech",
-    "website": "https://www.stormtech.co.uk"
+    "website": "https://www.stormtech.co.uk",
+    "supportUrl": "https://www.stormtech.co.uk/support"
   },
   "socials": {
     "instagram": "https://www.instagram.com/stormtech",
