@@ -1,0 +1,37 @@
+{
+  "orderNumber": "ST-10482",
+  "orderDate": "13/08/2026",
+  "items": [
+    {
+      "name": "Lenovo G1 T14 Laptop",
+      "price": 199.95,
+      "quantity": 2,
+      "itemTotal": 399.90,
+      "image": "https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/products/lenovo_laptop.png"
+    },
+    {
+      "name": "Logitech G502 HERO Mouse",
+      "price": 37.79,
+      "quantity": 2,
+      "itemTotal": 75.58,
+      "image": "https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/products/logitech_g502.png"
+    },
+    {
+      "name": "Steelseries 6GV2 Keyboard",
+      "price": 49.99,
+      "quantity": 2,
+      "itemTotal": 99.98,
+      "image": "https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/products/steelseries_6gv2.png"
+    }
+  ],
+  "shippingAddress": {
+    "name": "Andrew Travis",
+    "line1": "123 Example Street",
+    "city": "Manchester",
+    "postcode": "M26 1AB",
+    "country": "United Kingdom"
+  },
+  "subtotal": 575.46,
+  "shipping": 0,
+  "total": 575.46
+}
