@@ -3,6 +3,17 @@
     <mj-preview>
       Your Storm Tech order #{{order.orderNumber}} is confirmed.
     </mj-preview>
+    <mj-style>
+      .order-default-layout {
+        padding: 4px 8px !important;
+      }
+    @media only screen and (max-width: 480px) {
+      .mobile-table th,
+      .mobile-table td {
+        font-size: 10px !important;
+      }
+    }
+    </mj-style>
   </mj-head>
   <mj-body>
     <mj-include path="../../components/header.mjml" />
@@ -17,6 +28,93 @@
           Thank you for placing your order at Storm Tech.<br/><br/>
           Please check the details below to make sure everything is correct.
         </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff5e1" padding-bottom="0">
+      <mj-column>
+        <mj-text
+          font-weight="bold"
+          font-size="20px"
+          color="#794800"
+        >
+          Your Details
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff5e1" padding-top="0">
+      <mj-column>
+        <mj-table border="1px solid #794800" css-class="mobile-table">
+          <tr style="color: #794800;">
+            <th style="text-align: left;" class="order-default-layout">
+              Delivery Address:
+            </th>
+            <td class="order-default-layout">
+              {{order.shippingAddress.line1}}, 
+              {{order.shippingAddress.city}}, 
+              {{order.shippingAddress.postcode}}, 
+              {{order.shippingAddress.country}}
+            </td>
+          </tr>
+          <tr style="color: #794800;">
+            <th style="text-align: left;" class="order-default-layout">
+              Order Reference:
+            </th>
+            <td class="order-default-layout">
+              #{{order.orderNumber}}
+            </td>
+          </tr>
+          <tr style="color: #794800;">
+            <th style="text-align: left;" class="order-default-layout">
+              Order Date:
+            </th>
+            <td class="order-default-layout">
+              {{order.orderDate}}
+            </td>
+          </tr>
+          <tr style="color: #794800;">
+            <th style="text-align: left;" class="order-default-layout">
+              Payment Method:
+            </th>
+            <td class="order-default-layout">
+              {{order.paymentMethod}}
+            </td>
+          </tr>
+          <tr style="border: 1px solid #794800; color: #794800;">
+            <th style="text-align: left;" class="order-default-layout">
+              Subtotal
+            </th>
+            <td
+              style="text-align: right;"
+              class="order-default-layout"
+            >
+              £{{order.subtotal}}
+            </td>
+          </tr>
+          <tr style="border: 1px solid #794800; color: #794800;">
+            <th style="text-align: left;" class="order-default-layout">
+              Delivery fee
+            </th>
+            <td
+              style="text-align: right;"
+              class="order-default-layout"
+            >
+              £{{order.shipping}}
+            </td>
+          </tr>
+          <tr
+            style="background-color: #794800; color: #fff5e1;"
+          >
+            <th style="text-align: left;" class="order-default-layout">
+              Total
+            </th>
+            <td
+              style="text-align: right; font-weight: bold;"
+              class="order-default-layout"
+            >
+              £{{order.total}}
+            </td>
+          </tr>
+        </mj-table>
       </mj-column>
     </mj-section>
     <mj-include path="../../components/footer.mjml" />
