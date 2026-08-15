@@ -6,6 +6,19 @@
   </mj-head>
   <mj-body>
     <mj-include path="../../components/header.mjml" />
+    <mj-section background-color="#fff5e1">
+      <mj-column>
+        <mj-text
+          line-height="1.5"
+          font-size="16px"
+          color="#794800"
+        >
+          <strong>Hello {{customer.firstName}}</strong>,<br/><br/>
+          Thank you for placing your order at Storm Tech.<br/><br/>
+          Please check the details below to make sure everything is correct.
+        </mj-text>
+      </mj-column>
+    </mj-section>
     <mj-include path="../../components/footer.mjml" />
   </mj-body>  
 </mjml>
