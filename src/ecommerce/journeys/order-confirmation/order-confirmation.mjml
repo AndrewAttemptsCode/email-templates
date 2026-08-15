@@ -12,12 +12,15 @@
       .mobile-table td {
         font-size: 10px !important;
       }
+      .mobile-title div {
+        font-size: 18px !important;
+      }
     }
     </mj-style>
   </mj-head>
   <mj-body>
     <mj-include path="../../components/header.mjml" />
-    <mj-section background-color="#fff5e1">
+    <mj-section background-color="#fff5e1" padding-bottom="0">
       <mj-column>
         <mj-text
           line-height="1.5"
@@ -28,14 +31,17 @@
           Thank you for placing your order at Storm Tech.<br/><br/>
           Please check the details below to make sure everything is correct.
         </mj-text>
+        <mj-divider padding="25px" border-width="1px" border-color="#794800" width="80%" />
       </mj-column>
     </mj-section>
-    <mj-section background-color="#fff5e1" padding-bottom="0">
+    <!-- Details -->
+    <mj-section background-color="#fff5e1" padding="0">
       <mj-column>
         <mj-text
           font-weight="bold"
           font-size="20px"
           color="#794800"
+          css-class="mobile-title"
         >
           Your Details
         </mj-text>
@@ -114,6 +120,77 @@
               £{{order.total}}
             </td>
           </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <!-- Items -->
+    <mj-section background-color="#fff5e1" padding="0">
+      <mj-column>
+        <mj-text
+          font-weight="bold"
+          font-size="20px"
+          color="#794800"
+          css-class="mobile-title"
+        >
+          Your Items
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff5e1" padding-top="0">
+      <mj-column>
+        <mj-table border="1px solid #794800" css-class="mobile-table">
+          <tr
+            style="background-color: #794800;
+            color: #fff5e1;"
+          >
+            <th
+              width="60%"
+              style="text-align: left;"
+              class="order-default-layout"
+            >
+              Items
+            </th>
+            <th
+              width="20%"
+              style="text-align: right;"
+              class="order-default-layout"
+            >
+              Quantity
+            </th>
+            <th
+              width="20%"
+              style="text-align: right;"
+              class="order-default-layout"
+            >
+              Price
+            </th>
+          </tr>
+          <mj-raw>
+            {{#each order.items}}
+          </mj-raw>
+          <tr style="border: 1px solid #794800; color: #794800;">
+            <td
+              class="order-default-layout"
+            >
+              {{name}}<br/>
+              (£{{price}}/each)
+            </td>
+            <td
+              class="order-default-layout"
+              style="text-align: right;"
+            >
+              {{quantity}}
+            </td>
+            <td
+              class="order-default-layout"
+              style="text-align: right;"
+            >
+              £{{itemTotal}}
+            </td>
+          </tr>
+          <mj-raw>
+            {{/each}}
+          </mj-raw>
         </mj-table>
       </mj-column>
     </mj-section>
