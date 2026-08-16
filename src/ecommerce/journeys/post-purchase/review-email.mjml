@@ -32,6 +32,16 @@
         >
           ★★★★★
         </mj-text>
+        <mj-text
+          font-size="16px"
+          color="#794800"
+          align="center"
+          line-height="1.5"
+        >
+          We'd love to hear your feedback on your recent items. 
+          Please share your experience in a review to help other people like you.
+        </mj-text>
+        <mj-divider border-width="1px" border-color="#794800" width="80%" />
       </mj-column>
     </mj-section>
     <mj-include path="../../components/footer.mjml" />
