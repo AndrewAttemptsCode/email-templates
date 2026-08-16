@@ -1,0 +1,130 @@
+<mjml>
+  <mj-head>
+    <mj-preview>
+      Your Storm Tech order #{{order.orderNumber}} has arrived.
+    </mj-preview>
+    <mj-style>
+      .order-default-layout {
+        padding: 4px 8px !important;
+      }
+    @media only screen and (max-width: 480px) {
+      .mobile-table th,
+      .mobile-table td {
+        font-size: 10px !important;
+      }
+      .mobile-title div {
+        font-size: 18px !important;
+      }
+    }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-include path="../../components/header.mjml" />
+    <mj-section background-color="#fff5e1" padding-bottom="0">
+      <mj-column>
+        <mj-text
+          font-weight="bold"
+          font-size="20px"
+          color="#794800"
+          align="center"
+          css-class="mobile-title"
+        >
+          Your package was delivered!
+        </mj-text>
+        <mj-divider padding="20px" border-width="1px" border-color="#794800" width="80%" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff5e1" padding-top="0">
+      <mj-column>
+        <mj-text
+          font-size="16px"
+          color="#794800"
+          line-height="1.5"
+        >
+          <strong>Delivered today</strong>,<br/>
+          {{order.deliveryDate}}
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          color="#794800"
+          line-height="1.5"
+        >
+          <strong>{{customer.firstName}} — {{order.shippingAddress.city}}</strong><br/>
+          Order # {{order.orderNumber}}
+        </mj-text>
+        <mj-button
+          background-color="#794800"
+          color="#fff5e1"
+          border-radius="25px"
+          font-weight="bold"
+          font-size="16px"
+          border-bottom="3px solid #ffbd31"
+          inner-padding="15px 25px"
+          href="{{order.trackingUrl}}"
+          align="left"
+        >
+          Track Package
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff5e1" padding-top="0">
+      <mj-column>
+        <mj-table border="1px solid #794800" css-class="mobile-table">
+          <tr
+            style="background-color: #794800;
+            color: #fff5e1;"
+          >
+            <th
+              width="60%"
+              style="text-align: left;"
+              class="order-default-layout"
+            >
+              Items
+            </th>
+            <th
+              width="20%"
+              style="text-align: right;"
+              class="order-default-layout"
+            >
+              Quantity
+            </th>
+            <th
+              width="20%"
+              style="text-align: right;"
+              class="order-default-layout"
+            >
+              Price
+            </th>
+          </tr>
+          <mj-raw>
+            {{#each order.items}}
+          </mj-raw>
+          <tr style="border: 1px solid #794800; color: #794800;">
+            <td
+              class="order-default-layout"
+            >
+              {{name}}<br/>
+              (£{{price}}/each)
+            </td>
+            <td
+              class="order-default-layout"
+              style="text-align: right;"
+            >
+              {{quantity}}
+            </td>
+            <td
+              class="order-default-layout"
+              style="text-align: right;"
+            >
+              £{{itemTotal}}
+            </td>
+          </tr>
+          <mj-raw>
+            {{/each}}
+          </mj-raw>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-include path="../../components/footer.mjml" />
+  </mj-body>
+</mjml>
