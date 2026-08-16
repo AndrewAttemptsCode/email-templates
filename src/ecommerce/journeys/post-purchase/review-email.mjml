@@ -44,6 +44,42 @@
         <mj-divider border-width="1px" border-color="#794800" width="80%" />
       </mj-column>
     </mj-section>
+    <mj-section background-color="#fff5e1" padding="0 20px 20px">
+      <mj-raw>
+        {{#each order.items}}
+      </mj-raw>
+      <mj-group>
+        <mj-column width="20%" padding-bottom="10px">
+          <mj-image
+            src="{{image}}"
+            alt=""
+            padding="10px 0 0 0"
+          />
+        </mj-column>
+        <mj-column width="80%" padding-bottom="10px">
+          <mj-text
+            font-size="16px"
+            font-weight="bold"
+            color="#794800"
+          >
+            {{name}}
+          </mj-text>
+          <mj-button
+            font-size="16px"
+            font-weight="bold"
+            color="#fff5e1"
+            background-color="#794800"
+            align="left"
+            border-radius="5px"
+            href="{{reviewUrl}}"
+          >
+            WRITE A REVIEW <span style="position: relative; bottom: 2px;">❯</span>
+          </mj-button>
+      </mj-group>
+      <mj-raw>
+        {{/each}}
+      </mj-raw>
+    </mj-section>
     <mj-include path="../../components/footer.mjml" />
   </mj-body>  
 </mjml>
