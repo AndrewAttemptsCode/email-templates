@@ -1,0 +1,39 @@
+<mjml>
+  <mj-head>
+    <mj-preview>
+      Regarding your recent purchase at Storm Tech.
+    </mj-preview>
+    <mj-style>
+    @media only screen and (max-width: 480px) {
+      .mobile-title div {
+        font-size: 18px !important;
+      }
+    }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-include path="../../components/header.mjml" />
+    <mj-section background-color="#fff5e1">
+      <mj-column>
+        <mj-text
+          font-weight="bold"
+          font-size="20px"
+          color="#794800"
+          align="center"
+          css-class="mobile-title"
+        >
+          How was your order?
+        </mj-text>
+        <mj-text
+          align="center"
+          color="#f5b301"
+          font-size="30px"
+          padding-top="0"
+        >
+          ★★★★★
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="../../components/footer.mjml" />
+  </mj-body>  
+</mjml>
