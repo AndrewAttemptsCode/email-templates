@@ -8,6 +8,9 @@
       .mobile-title div {
         font-size: 18px !important;
       }
+      .mobile-btn-text a {
+        font-size: 14px !important;
+      }
     }
     </mj-style>
   </mj-head>
@@ -72,6 +75,7 @@
             align="left"
             border-radius="5px"
             href="{{reviewUrl}}"
+            css-class="mobile-btn-text"
           >
             WRITE A REVIEW <span style="position: relative; bottom: 2px;">❯</span>
           </mj-button>
