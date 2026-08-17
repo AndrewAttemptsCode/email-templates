@@ -109,6 +109,40 @@
       {{/each}}
       </mj-raw>
     </mj-section>
+    <mj-section background-color="#fff5e1" padding-top="0">
+      <mj-column>
+        <mj-divider padding="20px" border-width="1px" border-color="#794800" width="80%" />
+        <mj-text
+          font-weight="bold"
+          font-size="20px"
+          color="#794800"
+          align="center"
+          css-class="mobile-title"
+        >
+          Not quite what you're looking for?
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          color="#794800"
+          align="center"
+          line-height="1.5"
+        >
+          <em>Explore more products and find something that's right for you.</em>
+        </mj-text>
+        <mj-button
+          background-color="#794800"
+          color="#fff5e1"
+          border-radius="25px"
+          font-weight="bold"
+          font-size="16px"
+          border-bottom="3px solid #ffbd31"
+          inner-padding="15px 25px"
+          href="{{emailConfig.company.website}}"
+        >
+          SHOP NOW
+        </mj-button>
+      </mj-column>
+    </mj-section>
     <mj-include path="../../components/footer.mjml" />
   </mj-body>  
 </mjml>
