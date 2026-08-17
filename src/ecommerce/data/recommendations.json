@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "name": "Llano V12 Ultra Laptop Cooling Pad",
+      "price": "£118.53",
+      "image": "https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/products/llano_v12_ultra.png",
+      "url": "https://www.stormtech.co.uk/store/accessories/cooling"
+    },
+    {
+      "name": "Logitech G502 HERO Mouse",
+      "price": "£37.79",
+      "image": "https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/products/logitech_g502.png",
+      "url": "https://www.stormtech.co.uk/store/peripherals/mouse"
+    }
+  ]
+}
