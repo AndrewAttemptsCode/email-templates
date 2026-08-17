@@ -8,6 +8,13 @@
         .mobile-title div {
           font-size: 18px !important;
         }
+        .mobile-spacer {
+          height: 20px !important;
+        }
+      }
+      .product-image img {
+        height: 200px !important;
+        object-fit: contain !important;
       }
     </mj-style>
   </mj-head>
@@ -59,10 +66,48 @@
         <mj-divider padding="0" border-width="2px" border-color="#794800" />
       </mj-column>
     </mj-section>
-    <mj-section background-color="#fff5e1">
-      <mj-column>
-        
+    <mj-section background-color="#fff5e1" padding="20px">
+      <mj-raw>
+      {{#each recommendations.items}}
+      </mj-raw>
+      <mj-column width="48%" border="1px solid #794800" border-radius="14px">
+        <mj-image
+          src="{{image}}"
+          href="{{url}}"
+          alt=""
+          css-class="product-image"
+        />
+        <mj-text
+          align="center"
+          font-weight="bold"
+          height="26px"
+          padding="0"
+        >
+          <a
+            href="{{url}}"
+            style="
+              display: block;
+              text-decoration: none;
+              color: #fff5e1;
+              background-color: #794800;
+              border-radius: 0 0 14px 14px;
+              padding: 8px 0;
+            "
+          >
+            {{name}}
+          </a>
+        </mj-text>
       </mj-column>
+      <mj-raw>
+      {{#if @first}}
+      </mj-raw>
+      <mj-column width="4%" css-class="mobile-spacer" />
+      <mj-raw>
+      {{/if}}
+      </mj-raw>
+      <mj-raw>
+      {{/each}}
+      </mj-raw>
     </mj-section>
     <mj-include path="../../components/footer.mjml" />
   </mj-body>  
