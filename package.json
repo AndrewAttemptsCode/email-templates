@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "mjml -w src/ecommerce/journeys/**/*.mjml -o src/ecommerce/dist --config.allowIncludes true --config.includePath src/ecommerce",
     "build": "mjml src/templates/*.mjml -o dist && node renderHandlebars.js",
-    "build:ecommerce": "mjml src/ecommerce/journeys/welcome/welcome-email-02.mjml -o src/ecommerce/dist --config.allowIncludes true --config.includePath src/ecommerce && node renderHandlebars.js"
+    "build:ecommerce": "mjml src/ecommerce/journeys/post-purchase/recommendation-email.mjml -o src/ecommerce/dist --config.allowIncludes true --config.includePath src/ecommerce && node renderHandlebars.js"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
   "dependencies": {
     "dotenv": "^17.4.2",
     "handlebars": "^4.7.9",
-    "mjml": "^5.3.0",
+    "mjml": "^5.4.0",
     "nodemailer": "^9.0.1"
   }
 }
