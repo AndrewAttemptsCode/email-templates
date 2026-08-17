@@ -1,0 +1,69 @@
+<mjml>
+  <mj-head>
+    <mj-preview>
+      Keep your setup going - Storm Tech
+    </mj-preview>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-title div {
+          font-size: 18px !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-include path="../../components/header.mjml" />
+    <mj-section background-color="#fff5e1">
+      <mj-column>
+        <mj-text
+          font-weight="bold"
+          font-size="20px"
+          color="#794800"
+          align="center"
+          css-class="mobile-title"
+        >
+          Make the most of your new setup!
+        </mj-text>
+        <mj-divider padding="20px" border-width="1px" border-color="#794800" width="80%" />
+        <mj-text
+          font-size="16px"
+          color="#794800"
+          line-height="1.5"
+        >
+          <strong>Hey {{customer.firstName}}</strong>,<br/><br/>
+          Based on your recent order, I've picked out a couple of items you might be interested in. 
+          I hope you like them!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff5e1" padding="0 25px">
+      <mj-column>
+        <mj-text
+          color="#ffbd31"
+          font-size="20px"
+          font-weight="bold"
+          css-class="mobile-title"
+          padding="0"
+        >
+          <span
+            style="
+              display: inline-block;
+              background-color: #794800;
+              padding: 8px 16px;
+              border-radius: 0 8px 0 0;
+            "
+          >
+            Picked for your setup
+          </span>
+        </mj-text>
+        <mj-divider padding="0" border-width="2px" border-color="#794800" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff5e1">
+      <mj-column>
+        
+      </mj-column>
+    </mj-section>
+    <mj-include path="../../components/footer.mjml" />
+  </mj-body>  
+</mjml>
