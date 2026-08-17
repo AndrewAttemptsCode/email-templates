@@ -28,6 +28,7 @@
           color="#794800"
           align="center"
           css-class="mobile-title"
+          line-height="1.2"
         >
           Make the most of your new setup!
         </mj-text>
@@ -118,6 +119,7 @@
           color="#794800"
           align="center"
           css-class="mobile-title"
+          line-height="1.2"
         >
           Not quite what you're looking for?
         </mj-text>
