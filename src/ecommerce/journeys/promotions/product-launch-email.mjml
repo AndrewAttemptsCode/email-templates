@@ -1,0 +1,90 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .hero-center-text div {
+          text-align: center !important;
+        }
+        .hero-center-btn table {
+          margin: 0 auto !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-include path="../../components/header.mjml" />
+    <mj-section
+      background-color="#fff5e1"
+      background-url="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/backgrounds/promotion_hero_bg.png"
+      padding="20px"
+    >
+      <mj-column>
+        <mj-text
+          color="#fff5e1"
+          font-size="16px"
+          font-weight="bold"
+          line-height="1.5"
+          css-class="hero-center-text"
+        >
+          <span
+            style="
+              displaying: inline-block;
+              background-color: #794800;
+              padding: 8px 16px;
+              border-radius: 5px;
+            "
+          >
+            NEW
+          </span>
+        </mj-text>
+        <mj-text
+          color="#794800"
+          font-size="20px"
+          font-weight="bold"
+          line-height="1.5"
+          css-class="hero-center-text"
+        >
+          Meet the {{promotion.name}}
+        </mj-text>
+        <mj-text
+          color="#794800"
+          font-size="16px"
+          line-height="1.5"
+          css-class="hero-center-text"
+        >
+          {{promotion.tagline1}}<br/>
+          {{promotion.tagline2}}
+        </mj-text>
+        <mj-text
+          color="#794800"
+          font-size="18px"
+          font-weight="bold"
+          line-height="1.5"
+          css-class="hero-center-text"
+        >
+          {{promotion.price}}
+        </mj-text>
+        <mj-button
+          align="left"
+          color="#fff5e1"
+          background-color="#794800"
+          font-size="16px"
+          font-weight="bold"
+          border-radius="5px"
+          href="{{promotion.url}}"
+          css-class="hero-center-btn"
+        >
+          Shop the {{promotion.name}}
+        </mj-button>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image
+          src="{{promotion.image}}"
+          alt=""
+          padding="0"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-include path="../../components/footer.mjml" />
+  </mj-body>  
+</mjml>
