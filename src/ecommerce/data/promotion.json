@@ -12,6 +12,24 @@
     "display": "16-inch 3.2K OLED",
     "refreshRate": "240Hz"
   },
+  "introduction": {
+    "title": "Built without compromise",
+    "body": "Built for those who refuse to compromise, the Apex Pro X16 combines flagship performance with a stunning 16-inch OLED display and next-generation graphics.",
+    "benefits": [
+      {
+        "title": "Flagship Performance",
+        "description": "Power through demanding workloads."
+      },
+      {
+        "title": "3.2K OLED Display",
+        "description": "Exceptional colour and clarity."
+      },
+      {
+        "title": "RTX Graphics",
+        "description": "Desktop-class creative and gaming performance."
+      }
+    ]
+  },
   "cta": "Shop Now",
   "url": "https://www.stormtech.co.uk/store/laptops/apex-pro-x16"
 }
