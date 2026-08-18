@@ -85,6 +85,47 @@
         />
       </mj-column>
     </mj-section>
+    <mj-section background-color="#fff5e1">
+      <mj-column>
+        <mj-text
+          font-weight="bold"
+          font-size="20px"
+          align="center"
+          color="#794800"
+        >
+          {{promotion.introduction.title}}
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          color="#794800"
+          line-height="1.5"
+        >
+          {{promotion.introduction.body}}
+        </mj-text>
+        <mj-divider border-width="1px" border-color="#794800" width="80%" />
+        <mj-raw>
+        {{#each promotion.introduction.benefits}}
+        </mj-raw>
+        <mj-text
+          color="#794800"
+          font-size="20px"
+          font-weight="bold"
+        >
+          {{title}}
+        </mj-text>
+        <mj-text
+          color="#794800"
+          font-size="16px"
+          padding-top="0"
+          line-height="1.5"
+        >
+          {{description}}
+        </mj-text>
+        <mj-raw>
+        {{/each}}
+        </mj-raw>
+      </mj-column>
+    </mj-section>
     <mj-include path="../../components/footer.mjml" />
   </mj-body>  
 </mjml>
