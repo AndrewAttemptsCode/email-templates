@@ -1,0 +1,17 @@
+{
+  "name": "Apex Pro X16",
+  "tagline1": "Uncompromising power.",
+  "tagline2": "Built for creators.",
+  "price": "£2,499.99",
+  "image": "https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/products/apex-laptop.png",
+  "specifications": {
+    "processor": "Intel Core Ultra 9",
+    "graphics": "NVIDIA GeForce RTX 5080",
+    "memory": "32GB DDR5",
+    "storage": "2TB NVMe SSD",
+    "display": "16-inch 3.2K OLED",
+    "refreshRate": "240Hz"
+  },
+  "cta": "Shop Now",
+  "url": "https://www.stormtech.co.uk/store/laptops/apex-pro-x16"
+}
