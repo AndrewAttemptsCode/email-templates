@@ -8,6 +8,13 @@
         .hero-center-btn table {
           margin: 0 auto !important;
         }
+        .mobile-spec-text {
+          font-size: 14px !important;
+        }
+      }
+      .spec-layout th,
+      .spec-layout td {
+        padding: 4px 8px !important;
       }
     </mj-style>
   </mj-head>
@@ -124,6 +131,51 @@
         <mj-raw>
         {{/each}}
         </mj-raw>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#794800">
+      <mj-column>
+        <mj-table>
+          <tr
+            class="spec-layout mobile-spec-text"
+            style="
+              background-color: #fff5e1;
+              border: 1px solid #fff5e1;
+              color: #794800;
+              text-align: left;
+              font-size: 16px;
+            "
+          >
+            <th>
+              Specification
+            </th>
+            <th>
+              Details
+            </th>
+          </tr>
+          <mj-raw>
+            {{#each promotion.specifications}}
+          </mj-raw>
+          <tr
+            class="spec-layout mobile-spec-text"
+            style="
+              color: #ffbd31;
+              text-align: left;
+              border: 1px solid #fff5e1;
+              font-size: 16px;
+            "
+          >
+            <td>
+              {{@key}}
+            </td>
+            <td>
+              {{this}}
+            </td>
+          </tr>
+          <mj-raw>
+            {{/each}}
+          </mj-raw>
+        </mj-table>
       </mj-column>
     </mj-section>
     <mj-include path="../../components/footer.mjml" />
