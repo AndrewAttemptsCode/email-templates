@@ -1,5 +1,8 @@
 <mjml>
   <mj-head>
+    <mj-preview>
+      {{promotion.preview}}
+    </mj-preview>
     <mj-style>
       @media only screen and (max-width: 480px) {
         .hero-center-text div {
