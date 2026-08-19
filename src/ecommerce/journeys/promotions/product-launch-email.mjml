@@ -178,6 +178,45 @@
         </mj-table>
       </mj-column>
     </mj-section>
+    <mj-section background-color="#fff5e1">
+      <mj-column>
+        <mj-text
+          line-height="1.5"
+          color="#794800"
+          font-size="20px"
+          font-weight="bold"
+          align="center"
+        >
+          Exclusive launch offer
+        </mj-text>
+        <mj-text
+          line-height="1.5"
+          color="#794800"
+          font-size="16px"
+          align="center"
+        >
+          Be among the first to experience the new <strong>{{promotion.name}}</strong>.
+        </mj-text>
+        <mj-text
+          line-height="1.5"
+          color="#794800"
+          font-size="16px"
+          align="center"
+        >
+          Save 10%, available for a limited time.
+        </mj-text>
+        <mj-button
+          color="#fff5e1"
+          background-color="#794800"
+          font-size="16px"
+          font-weight="bold"
+          border-radius="5px"
+          href="{{promotion.url}}"
+        >
+          Take advantage
+        </mj-button>
+      </mj-column>
+    </mj-section>
     <mj-include path="../../components/footer.mjml" />
   </mj-body>  
 </mjml>
