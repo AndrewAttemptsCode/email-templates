@@ -5,12 +5,12 @@
   "price": "£2,499.99",
   "image": "https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/products/apex-laptop.png",
   "specifications": {
-    "processor": "Intel Core Ultra 9",
-    "graphics": "NVIDIA GeForce RTX 5080",
-    "memory": "32GB DDR5",
-    "storage": "2TB NVMe SSD",
-    "display": "16-inch 3.2K OLED",
-    "refreshRate": "240Hz"
+    "Processor": "Intel Core Ultra 9",
+    "Graphics": "NVIDIA GeForce RTX 5080",
+    "Memory": "32GB DDR5",
+    "Storage": "2TB NVMe SSD",
+    "Display": "16-inch 3.2K OLED",
+    "Refresh Rate": "240Hz"
   },
   "introduction": {
     "title": "Built without compromise",
