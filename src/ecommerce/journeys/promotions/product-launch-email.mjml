@@ -14,6 +14,9 @@
         .mobile-spec-text {
           font-size: 14px !important;
         }
+        .mobile-title div {
+          font-size: 24px !important;
+        }
       }
       .spec-layout th,
       .spec-layout td {
@@ -104,9 +107,11 @@
       <mj-column>
         <mj-text
           font-weight="bold"
-          font-size="20px"
           align="center"
           color="#794800"
+          font-size="34px"
+          line-height="1.1"
+          css-class="mobile-title"
         >
           {{promotion.introduction.title}}
         </mj-text>
@@ -150,11 +155,12 @@
         <mj-text
           color="#794800"
           align="center"
-          font-size="20px"
           font-weight="bold"
-          padding="0 0 10px 0"
+          font-size="34px"
+          line-height="1.1"
+          css-class="mobile-title"
         >
-          {{promotion.name}} Technical Specifications
+          {{promotion.name}}<br/>Technical Specifications
         </mj-text>
         <mj-table>
           <tr
@@ -206,9 +212,11 @@
         <mj-text
           line-height="1.5"
           color="#794800"
-          font-size="20px"
           font-weight="bold"
           align="center"
+          font-size="34px"
+          line-height="1.1"
+          css-class="mobile-title"
         >
           Exclusive launch offer
         </mj-text>
@@ -218,7 +226,8 @@
           font-size="16px"
           align="center"
         >
-          Be among the first to experience the new <strong>{{promotion.name}}</strong>.
+          Be among the first to experience the new...<br/>
+          <strong style="font-size: 24px;">{{promotion.name}}</strong>
         </mj-text>
         <mj-text
           line-height="1.5"
