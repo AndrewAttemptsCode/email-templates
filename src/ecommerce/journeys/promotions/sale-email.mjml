@@ -10,6 +10,28 @@
         />
       </mj-column>
     </mj-section>
+    <mj-section background-color="#fff5e1">
+      <mj-column>
+        <mj-text
+          align="center"
+          font-size="34px"
+          font-weight="bold"
+          color="#794800"
+        >
+          50% off all stock
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          line-height="1.5"
+          color="#794800"
+        >
+          <p>That's right. It's that time of year again.</p>
+          <p>For a limited time, we're giving you 50% off everything in our store. Whether you're upgrading your setup, replacing an old favourite, or finally picking up something you've had your eye on, now's the time.</p>
+          <p>Don't miss out on our biggest sale of the year — once it's gone, it's gone.</p>
+          <p>Sale ends August 30 at 11:59 PM.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
     <mj-include path="../../components/footer.mjml" />
   </mj-body>
 </mjml>
