@@ -3,6 +3,13 @@
     <mj-preview>
       50% off sale at Storm Tech
     </mj-preview>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-title div {
+          font-size: 28px !important;
+        }
+      }
+    </mj-style>
   </mj-head>
   <mj-body background-color="#96886d">
     <mj-include path="../../components/header.mjml" />
@@ -22,6 +29,7 @@
           font-size="34px"
           font-weight="bold"
           color="#794800"
+          css-class="mobile-title"
         >
           50% off all stock
         </mj-text>
