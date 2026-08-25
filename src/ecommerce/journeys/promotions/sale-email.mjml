@@ -8,6 +8,9 @@
         .mobile-title div {
           font-size: 28px !important;
         }
+        .mobile-subtitle div {
+          font-size: 20px !important;
+        }
       }
     </mj-style>
   </mj-head>
@@ -43,6 +46,45 @@
           <p>Don't miss out on our biggest sale of the year — once it's gone, it's gone.</p>
           <p>Sale ends August 30 at 11:59 PM.</p>
         </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff5e1" padding="0 20px 20px 20px">
+      <mj-column
+        border="2px solid #794800"
+        border-right="4px solid #794800"
+        border-bottom="4px solid #794800"
+        border-radius="8px"
+        padding="15px 0"
+      >
+        <mj-text
+          align="center"
+          font-size="34px"
+          font-weight="bold"
+          color="#794800"
+          css-class="mobile-title"
+        >
+          But wait, there's more...
+        </mj-text>
+        <mj-text
+          align="center"
+          font-size="24px"
+          font-weight="bold"
+          color="#794800"
+          line-height="1.1"
+          css-class="mobile-subtitle"
+        >
+          GET FREE SHIPPING ON ALL ORDERS, TOO!
+        </mj-text>
+        <mj-button
+          color="#fff5e1"
+          background-color="#794800"
+          font-size="16px"
+          font-weight="bold"
+          border-radius="8px"
+          href="{{emailConfig.company.website}}"
+        >
+          Beat the rush
+        </mj-button>
       </mj-column>
     </mj-section>
     <mj-include path="../../components/footer.mjml" />
