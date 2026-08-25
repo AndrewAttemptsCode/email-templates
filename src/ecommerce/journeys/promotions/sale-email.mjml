@@ -1,0 +1,15 @@
+<mjml>
+  <mj-body background-color="#96886d">
+    <mj-include path="../../components/header.mjml" />
+    <mj-section padding="0" background-color="#fff5e1">
+      <mj-column>
+        <mj-image
+          src="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/hero/sale_hero.png"
+          alt="Enjoy 50% off all Storm Tech stock"
+          padding="0"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-include path="../../components/footer.mjml" />
+  </mj-body>
+</mjml>
