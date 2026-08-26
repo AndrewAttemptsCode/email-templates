@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:assorted": "mjml src/assorted/journeys/promotional/promotional.mjml -o dist/assorted/personalised --config.allowIncludes true --config.includePath src/assorted && node renderAssortedHandlebars.js",
+    "build:assorted": "mjml src/assorted/journeys/promotional/promotional.mjml -o dist/assorted/compiled --config.allowIncludes true --config.includePath src/assorted && node renderAssortedHandlebars.js",
     "build:ecommerce": "mjml src/ecommerce/journeys/promotions/sale-email.mjml -o dist/ecommerce/compiled/promotions --config.allowIncludes true --config.includePath src/ecommerce && node renderEcommerceHandlebars.js"
   },
   "repository": {
