@@ -26,17 +26,6 @@ MJML templates are compiled into HTML and personalised using Handlebars before d
 - Dark mode optimised
 - Accessible alt text
 
-## Email Template Overview
-
-| Email Type              | MJML | Handlebars | Tested On                  |
-|-------------------------|:----:|:----------:|----------------------------|
-| Promotional             |  ✅  |     ✅     | Gmail Chrome + Android App    |
-| Newsletter              |  ✅  |     ✅     | Gmail Chrome + Android App    |
-| Welcome / Verification  |  ✅  |     ✅     | Gmail Chrome + Android App    |
-| Password Reset          |  ✅  |     ✅     | Gmail Chrome + Android App    |
-| Order Confirmation      |  ✅  |     ✅     | Gmail Chrome + Android App    |
-| Booking Confirmation    |  ✅  |     ✅     | Gmail Chrome + Android App    |
-
 ## Testing
 > Templates were tested using real email clients (Gmail in Chrome and Gmail Android App) rather than commercial rendering services.
 
