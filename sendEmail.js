@@ -13,12 +13,12 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-const html = fs.readFileSync("./dist/promotional.html", "utf8");
+const html = fs.readFileSync("./dist/ecommerce/personalised/promotions/handlebars-sale-email.html", "utf8");
 
 await transporter.sendMail({
   from: user,
   to: user,
-  subject: "MJML Test",
+  subject: "MJML Handlebars Test",
   html,
 });
 
