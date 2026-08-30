@@ -14,7 +14,7 @@
       }
     </mj-style>
   </mj-head>
-  <mj-body background-color="#96886d">
+  <mj-body>
     <mj-include path="../../components/header.mjml" />
     <mj-section padding="0" background-color="#fff5e1">
       <mj-column>
