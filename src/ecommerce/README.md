@@ -67,3 +67,17 @@ _Click preview to view full desktop render_
 <a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/ecommerce/compiled/welcome/welcome-email-02.html">🌐 HTML Compiled Output</a><br>
 <a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/ecommerce/personalised/welcome/handlebars-welcome-email-02.html">🌐 HTML Personalised Output</a>
 </div>
+
+### welcome-email-03
+
+[![welcome-03 email preview](../assets/images/screenshots/ecommerce/welcome/welcome-email-03_preview.png)](https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/ecommerce/welcome/welcome-email-03_desktop.png)
+
+_Click preview to view full desktop render_
+
+<div>
+<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/ecommerce/welcome/welcome-email-03_desktop.png">🖥️ Desktop full screenshot</a><br>
+<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/ecommerce/welcome/welcome-email-03_mobile.png">📱 Mobile full screenshot</a><br>
+<a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/src/ecommerce/journeys/welcome/welcome-email-03.mjml">📄 MJML Source</a><br>
+<a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/ecommerce/compiled/welcome/welcome-email-03.html">🌐 HTML Compiled Output</a><br>
+<a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/ecommerce/personalised/welcome/handlebars-welcome-email-03.html">🌐 HTML Personalised Output</a>
+</div>
