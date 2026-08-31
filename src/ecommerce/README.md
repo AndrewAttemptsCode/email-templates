@@ -81,3 +81,19 @@ _Click preview to view full desktop render_
 <a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/ecommerce/compiled/welcome/welcome-email-03.html">🌐 HTML Compiled Output</a><br>
 <a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/ecommerce/personalised/welcome/handlebars-welcome-email-03.html">🌐 HTML Personalised Output</a>
 </div>
+
+## Abandoned Cart Journey
+
+### cart-email-01
+
+[![cart-01 email preview](../assets/images/screenshots/ecommerce/abandoned-cart/cart-email-01_preview.png)](https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/ecommerce/abandoned-cart/cart-email-01_desktop.png)
+
+_Click preview to view full desktop render_
+
+<div>
+<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/ecommerce/abandoned-cart/cart-email-01_desktop.png">🖥️ Desktop full screenshot</a><br>
+<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/ecommerce/abandoned-cart/cart-email-01_mobile.png">📱 Mobile full screenshot</a><br>
+<a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/src/ecommerce/journeys/abandoned-cart/cart-email-01.mjml">📄 MJML Source</a><br>
+<a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/ecommerce/compiled/abandoned-cart/cart-email-01.html">🌐 HTML Compiled Output</a><br>
+<a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/ecommerce/personalised/abandoned-cart/handlebars-cart-email-01.html">🌐 HTML Personalised Output</a>
+</div>
