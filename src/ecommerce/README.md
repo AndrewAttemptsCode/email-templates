@@ -142,3 +142,20 @@ _Click preview to view full desktop render_
 <a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/ecommerce/personalised/order-confirmation/handlebars-order-confirmation.html">🌐 HTML Personalised Output</a>
 </div>
 
+## Post Purchase Journey
+
+### delivered-email
+
+[![delivered email preview](../assets/images/screenshots/ecommerce/post-purchase/delivered-email_preview.png)](https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/ecommerce/post-purchase/delivered-email_desktop.png)
+
+_Click preview to view full desktop render_
+
+<div>
+<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/ecommerce/post-purchase/delivered-email_desktop.png">🖥️ Desktop full screenshot</a><br>
+<a href="https://raw.githubusercontent.com/AndrewAttemptsCode/email-templates/refs/heads/main/src/assets/images/screenshots/ecommerce/post-purchase/delivered-email_mobile.png">📱 Mobile full screenshot</a><br>
+<a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/src/ecommerce/journeys/post-purchase/delivered-email.mjml">📄 MJML Source</a><br>
+<a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/ecommerce/compiled/post-purchase/delivered-email.html">🌐 HTML Compiled Output</a><br>
+<a href="https://github.com/AndrewAttemptsCode/email-templates/blob/main/dist/ecommerce/personalised/post-purchase/handlebars-delivered-email.html">🌐 HTML Personalised Output</a>
+</div>
+
+
